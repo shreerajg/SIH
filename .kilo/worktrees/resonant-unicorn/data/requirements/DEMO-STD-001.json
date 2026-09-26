@@ -1,0 +1,177 @@
+{
+  "standard_id": "DEMO-STD-001",
+  "note": "Structured requirements curated from the demo standard document. Every entry cites the clause it was derived from.",
+  "requirements": [
+    {
+      "requirement_code": "D1-R01",
+      "clause": "4.1.1",
+      "category": "material",
+      "requirement_text": "The inner container shall be of corrosion resistant material, or mild steel protected on all wetted surfaces by vitreous enamel, epoxy or an equivalent system.",
+      "evidence_type": "material_certificate",
+      "severity": "major",
+      "match_keywords": ["inner container", "corrosion", "enamel", "epoxy", "material certificate", "tank material"],
+      "check_rule": {"attribute": "inner_container_material", "operator": "not_empty"}
+    },
+    {
+      "requirement_code": "D1-R02",
+      "clause": "4.1.2",
+      "category": "construction",
+      "requirement_text": "Where a sacrificial anode is provided it shall be accessible for inspection and replacement without destroying any part of the appliance, and the inspection interval shall be declared.",
+      "evidence_type": "declared_value",
+      "severity": "minor",
+      "match_keywords": ["anode", "sacrificial", "inspection interval"],
+      "check_rule": {"attribute": "anode_inspection_interval_months", "operator": "not_empty"}
+    },
+    {
+      "requirement_code": "D1-R03",
+      "clause": "4.2.1",
+      "category": "material",
+      "requirement_text": "Thermal insulation between the inner container and the outer body shall be non-hygroscopic and free from chlorides at a concentration that could promote stress corrosion.",
+      "evidence_type": "material_certificate",
+      "severity": "major",
+      "match_keywords": ["insulation", "puf", "polyurethane", "chloride", "non-hygroscopic"]
+    },
+    {
+      "requirement_code": "D1-R04",
+      "clause": "4.5.1",
+      "category": "safety",
+      "requirement_text": "A dedicated earthing terminal shall be provided, permanently marked with the earth symbol and bonded to all accessible metal parts.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": ["earth", "earthing terminal", "bonding"],
+      "check_rule": {"attribute": "earthing_terminal_provided", "operator": "is_true"}
+    },
+    {
+      "requirement_code": "D1-R05",
+      "clause": "4.5.2",
+      "category": "testing",
+      "requirement_text": "Earth continuity resistance between the earthing terminal and any accessible metal part shall not exceed 0.1 ohm, measured per DEMO-STD-003 Clause 5.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["earth continuity", "earth resistance", "continuity test"],
+      "check_rule": {"attribute": "earth_continuity_ohm", "operator": "lte", "value": 0.1, "unit": "ohm"}
+    },
+    {
+      "requirement_code": "D1-R06",
+      "clause": "5.1.1",
+      "category": "performance",
+      "requirement_text": "The maximum thermostat setting shall not permit the mean stored water temperature to exceed 75 degC.",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": ["thermostat", "water temperature", "max temperature"],
+      "check_rule": {"attribute": "max_water_temperature_c", "operator": "lte", "value": 75, "unit": "degC"}
+    },
+    {
+      "requirement_code": "D1-R07",
+      "clause": "5.2.1",
+      "category": "safety",
+      "requirement_text": "A thermal cut-out independent of the thermostat shall interrupt supply to the heating element if the stored water temperature exceeds 90 degC.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": ["thermal cut-out", "cutout", "over temperature", "safety cut out"],
+      "check_rule": {"attribute": "thermal_cutout_fitted", "operator": "is_true"}
+    },
+    {
+      "requirement_code": "D1-R08",
+      "clause": "5.2.2",
+      "category": "safety",
+      "requirement_text": "The thermal cut-out shall be manually resettable or require a tool to reset; an automatically resetting device shall not be the sole protective device.",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": ["cut-out reset", "manual reset", "resettable"],
+      "check_rule": {"attribute": "thermal_cutout_reset_type", "operator": "in", "value": ["manual", "tool"]}
+    },
+    {
+      "requirement_code": "D1-R09",
+      "clause": "5.4.1",
+      "category": "testing",
+      "requirement_text": "The inner container shall withstand a hydrostatic pressure of twice the declared working pressure for 10 minutes without leakage or permanent deformation.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["hydrostatic", "pressure test", "burst", "leak test"]
+    },
+    {
+      "requirement_code": "D1-R10",
+      "clause": "5.4.2",
+      "category": "safety",
+      "requirement_text": "A pressure relief device set to operate at not more than 1.5 times the declared working pressure shall be fitted or supplied with appliances for pressurised supply.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": ["pressure relief", "safety valve", "relief valve", "multifunction valve"],
+      "check_rule": {"attribute": "pressure_relief_device_fitted", "operator": "is_true"}
+    },
+    {
+      "requirement_code": "D1-R11",
+      "clause": "6.2.1",
+      "category": "testing",
+      "requirement_text": "A temperature rise type test at 1.06 times rated voltage shall be performed and the limits of DEMO-STD-002 Table 2 shall not be exceeded.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["temperature rise", "heating test", "thermal test"]
+    },
+    {
+      "requirement_code": "D1-R12",
+      "clause": "6.3.1",
+      "category": "testing",
+      "requirement_text": "The 24 hour standing loss shall be measured and shall not exceed the value declared by the manufacturer.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": ["standing loss", "standby loss", "energy consumption"]
+    },
+    {
+      "requirement_code": "D1-R13",
+      "clause": "6.5.1",
+      "category": "testing",
+      "requirement_text": "Insulation resistance between live parts and accessible metal parts shall be not less than 2 megohms after humidity treatment.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["insulation resistance", "megohm", "humidity"],
+      "check_rule": {"attribute": "insulation_resistance_mohm", "operator": "gte", "value": 2, "unit": "megohm"}
+    },
+    {
+      "requirement_code": "D1-R14",
+      "clause": "6.5.2",
+      "category": "testing",
+      "requirement_text": "The appliance shall withstand the electric strength test of DEMO-STD-003 Clause 7 without flashover or breakdown.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["electric strength", "dielectric", "high voltage test", "hipot"]
+    },
+    {
+      "requirement_code": "D1-R15",
+      "clause": "7.1",
+      "category": "marking",
+      "requirement_text": "The rating label shall carry manufacturer name or trade mark, model, rated voltage, rated power, rated capacity, working pressure, standing loss, country of origin and year of manufacture.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": ["rating label", "rating plate", "nameplate", "marking artwork", "label"]
+    },
+    {
+      "requirement_code": "D1-R16",
+      "clause": "7.2",
+      "category": "marking",
+      "requirement_text": "The rating label shall remain legible after the water and petroleum spirit rub test.",
+      "evidence_type": "test_report",
+      "severity": "minor",
+      "match_keywords": ["marking durability", "rub test", "label adhesion"]
+    },
+    {
+      "requirement_code": "D1-R17",
+      "clause": "8.1",
+      "category": "documentation",
+      "requirement_text": "Installation and user instructions shall be supplied in English and Hindi covering supply requirements, supply pressure limits, earthed circuit requirement and anode inspection interval.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": ["instruction manual", "user manual", "installation instructions", "hindi"]
+    },
+    {
+      "requirement_code": "D1-R18",
+      "clause": "8.2",
+      "category": "documentation",
+      "requirement_text": "A technical construction file containing the bill of materials, material certificates, type test reports and a declaration of conformity shall be maintained.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": ["technical file", "declaration of conformity", "bill of materials", "construction file"]
+    }
+  ]
+}

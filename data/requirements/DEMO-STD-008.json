@@ -1,0 +1,106 @@
+{
+  "standard_id": "DEMO-STD-008",
+  "note": "Horizontal marking, labelling and instruction requirements called up by product standards.",
+  "requirements": [
+    {
+      "requirement_code": "D8-R01",
+      "clause": "2.1",
+      "category": "marking",
+      "requirement_text": "The product shall be marked with the name and address of the manufacturer or importer, or with an identifying registered trade mark.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "manufacturer name",
+        "trade mark",
+        "marking",
+        "label"
+      ]
+    },
+    {
+      "requirement_code": "D8-R02",
+      "clause": "2.2",
+      "category": "marking",
+      "requirement_text": "The product shall carry a model designation and a batch, lot or serial identification permitting the production batch to be traced.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "batch number",
+        "serial number",
+        "traceability",
+        "lot code",
+        "marking artwork",
+        "rating label"
+      ]
+    },
+    {
+      "requirement_code": "D8-R03",
+      "clause": "2.3",
+      "category": "marking",
+      "requirement_text": "The product shall be marked with the country of origin.",
+      "evidence_type": "marking_artwork",
+      "severity": "minor",
+      "match_keywords": [
+        "country of origin",
+        "made in",
+        "marking artwork",
+        "rating label"
+      ]
+    },
+    {
+      "requirement_code": "D8-R04",
+      "clause": "3.2",
+      "category": "testing",
+      "requirement_text": "Marking durability shall be verified by rubbing 15 seconds with water and 15 seconds with petroleum spirit; the marking shall remain legible.",
+      "evidence_type": "test_report",
+      "severity": "minor",
+      "match_keywords": [
+        "marking durability",
+        "rub test",
+        "legibility"
+      ]
+    },
+    {
+      "requirement_code": "D8-R05",
+      "clause": "3.3",
+      "category": "marking",
+      "requirement_text": "Required markings shall not be applied to screws, washers, removable name plates or parts detachable without a tool.",
+      "evidence_type": "marking_artwork",
+      "severity": "minor",
+      "match_keywords": [
+        "removable part",
+        "marking placement",
+        "marking artwork",
+        "rating label"
+      ]
+    },
+    {
+      "requirement_code": "D8-R06",
+      "clause": "5.2",
+      "category": "documentation",
+      "requirement_text": "Instructions shall be provided in English and in Hindi at minimum.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": [
+        "instructions",
+        "manual",
+        "hindi",
+        "language"
+      ]
+    },
+    {
+      "requirement_code": "D8-R07",
+      "clause": "6.1",
+      "category": "documentation",
+      "requirement_text": "A conformity mark shall be applied only where a valid licence has been granted by the certifying authority for that product, factory and standard.",
+      "evidence_type": "document",
+      "severity": "critical",
+      "match_keywords": [
+        "licence",
+        "conformity mark",
+        "certification",
+        "bis licence"
+      ],
+      "official_verification_required": true
+    }
+  ]
+}

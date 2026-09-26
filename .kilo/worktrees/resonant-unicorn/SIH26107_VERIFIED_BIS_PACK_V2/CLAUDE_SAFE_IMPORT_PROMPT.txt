@@ -1,0 +1,67 @@
+I have placed a cross-checked official BIS source bootstrap pack in this repository.
+
+IMPORTANT SAFETY RULES:
+- Do NOT reset/revert Git.
+- Do NOT delete the DEMO corpus.
+- Do NOT overwrite the existing data/source_manifest.json immediately.
+- Do NOT mark a record VERIFIED merely because a filename or JSON says so.
+- Do NOT treat Product Manuals or QCOs as the full Indian Standard text.
+- Do NOT infer current mandatory/voluntary status from absence of a QCO.
+- Do NOT fabricate clauses, standard IDs, tests, amendments, dates, or regulatory status.
+
+STEP 1 — INSPECT ONLY / NO MUTATION
+1. Run git status and record the current clean/dirty state.
+2. Read source_manifest_verified_v2.json.
+3. Locate data/raw/verified_bis_2026_09_03/download_validation_report.json.
+4. Confirm every downloaded source has status=OK, non-zero size, SHA-256, official BIS host, and expected PDF/HTML type.
+5. If ANY validation entry failed or the report is missing, STOP and report the problem. Do not ingest anything.
+
+STEP 2 — RECONCILE WITH CURRENT PROJECT
+6. Compare these sources with the existing source manifest/database; do not create duplicate logical standards/documents.
+7. Create a dry-run mapping report BEFORE writing DB changes. Show:
+   - source file -> document type
+   - source file -> standard/QCO identity
+   - existing record reused vs new record proposed
+   - version conflicts
+   - current regulatory caveats
+8. Preserve DEMO / VERIFIED / MIXED separation.
+
+CRITICAL VERSION RULES
+9. Water heater:
+   - IS 2082:2018 remains a current mandatory-certification standard in BIS metadata.
+   - The September 2024 IS 2082 Product Manual explicitly references IS 302 (Part 2/Sec 21):2024 / IEC 60335-2-21:2022 and says compliance under IS 2082 certification deems those requirements complied.
+   - The 2025 domestic-water-heating QCO and the 2026 Transition Facilitation QCO must both be modeled. The 2026 order is a special facilitation mechanism; do NOT present it as a blanket rescission/postponement.
+10. Pressure cooker:
+   - The principal 2020 QCO text names IS 2347:2017.
+   - The QCO says the latest BIS-notified version/amendments apply.
+   - The current Product Manual is PM/IS 2347/9/February 2025 for IS 2347:2023.
+   - Preserve the version transition explicitly; do not silently rewrite the historical QCO text.
+   - Do not claim this pack contains all 2024/2025 amendments to IS 2347:2023; current BIS metadata shows later amendments beyond the Product Manual date.
+11. Helmet:
+   - Product Manual is for IS 4151:2015 and the current Scheme-I page continues to list the 2020 Helmet QCO.
+12. Toys (only if downloaded with -IncludeToys):
+   - Use November 2023 Product Manual, not the old 2021 manual.
+   - Include 2020 QCO, 2020 amendments, 2024 amendment, and 2026 Transition Facilitation Order.
+   - The 2026 order is not a blanket cancellation of the Toys QCO.
+
+STEP 3 — INGEST SAFELY
+13. Only after the dry-run mapping is internally consistent, register official documents into the existing provenance system.
+14. Set is_verified=true only for actual downloaded/validated official source documents.
+15. Keep source_type/document_type/source_url/retrieved_at/is_demo/is_verified fields accurate.
+16. Ingest through the existing structure-aware PDF/table pipeline.
+17. Rebuild/update vector indexes only for new/changed verified documents; do not destroy the existing index unless the project architecture requires a safe rebuild.
+18. Use Product Manuals/QCOs for supported requirements, testing, sampling, marking, scope and regulatory facts; do not create full-standard clause text that is not present in these documents.
+
+STEP 4 — TEST BEFORE SWITCHING DEMO
+19. Run backend tests and frontend build.
+20. Test these golden scenarios end-to-end:
+   A. 15 L domestic stationary storage electric water heater
+   B. domestic pressure cooker
+   C. two-wheeler protective helmet
+   D. toy only if IncludeToys was downloaded
+21. Verify Product -> Standard Discovery, Why This Standard, RAG citations, QCO status, Gap Analyzer, Compliance Twin, Test Planner and Consumer lookup.
+22. Verify every material claim links back to a validated source document/chunk.
+23. Keep the system in MIXED mode until all golden scenarios pass. Do not switch globally to VERIFIED if any answer still depends on DEMO data.
+24. Report exact counts: validated documents, ingested documents, verified standards represented, QCO/regulatory docs, chunks, tests passed, and unresolved conflicts.
+
+Make a Git checkpoint before any broad corpus/schema/index changes.

@@ -1,0 +1,14 @@
+{
+  "note": "Standard-to-standard relationships. Every edge cites the clause in the source document that states the relationship, so the knowledge graph is derived from text rather than asserted.",
+  "records": [
+    {"source": "DEMO-STD-001", "target": "DEMO-STD-002", "type": "references_safety_standard", "evidence": "DEMO-STD-001 Clause 2.1 lists DEMO-STD-002 as a normative reference for general electrical safety."},
+    {"source": "DEMO-STD-001", "target": "DEMO-STD-003", "type": "references_test_method", "evidence": "DEMO-STD-001 Clause 2.2 lists DEMO-STD-003 for temperature rise, insulation resistance and electric strength methods."},
+    {"source": "DEMO-STD-001", "target": "DEMO-STD-008", "type": "references_marking_standard", "evidence": "DEMO-STD-001 Clause 2.3 lists DEMO-STD-008 for marking, labelling and instructions."},
+    {"source": "DEMO-STD-002", "target": "DEMO-STD-003", "type": "references_test_method", "evidence": "DEMO-STD-002 Clause 9 test methods correspond to the procedures detailed in DEMO-STD-003 Clause 7."},
+    {"source": "DEMO-STD-004", "target": "DEMO-STD-008", "type": "references_marking_standard", "evidence": "DEMO-STD-004 Clause 2.1 lists DEMO-STD-008 for marking, labelling and instructions."},
+    {"source": "DEMO-STD-005", "target": "DEMO-STD-006", "type": "companion_part", "evidence": "DEMO-STD-005 Clause 2.1 lists DEMO-STD-006 as the chemical migration part of the same toy safety series."},
+    {"source": "DEMO-STD-005", "target": "DEMO-STD-008", "type": "references_marking_standard", "evidence": "DEMO-STD-005 Clause 2.2 lists DEMO-STD-008 for marking, labelling and instructions."},
+    {"source": "DEMO-STD-006", "target": "DEMO-STD-005", "type": "companion_part", "evidence": "DEMO-STD-006 is Part 2 of the toy safety series of which DEMO-STD-005 is Part 1."},
+    {"source": "DEMO-STD-007", "target": "DEMO-STD-008", "type": "references_marking_standard", "evidence": "DEMO-STD-007 Clause 2.1 lists DEMO-STD-008 for marking, labelling and instructions."}
+  ]
+}

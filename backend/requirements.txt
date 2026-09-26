@@ -1,0 +1,37 @@
+# --- Web framework -------------------------------------------------------
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+
+# --- Database ------------------------------------------------------------
+# MongoDB. The synchronous driver, not Motor: the application is synchronous
+# throughout (FastAPI runs `def` handlers in a threadpool), so an async driver
+# would buy nothing and force every service to be rewritten.
+# dnspython is required to resolve mongodb+srv:// (Atlas) connection strings.
+pymongo==4.6.0
+dnspython==2.6.1
+
+# --- Retrieval -----------------------------------------------------------
+# Vectors live in MongoDB (Atlas Vector Search, brute-force cosine fallback);
+# numpy does the fallback maths. No separate vector database.
+sentence-transformers==3.0.1
+rank-bm25==0.2.2
+numpy>=1.26,<3
+
+# --- Document processing -------------------------------------------------
+PyMuPDF==1.24.9
+
+# --- OCR (consumer label scanning) ----------------------------------------
+# Wraps the Tesseract OCR engine, which is a separate system install (not a
+# pip package). When it is not present, app/services/ocr.py degrades to
+# "OCR unavailable" rather than failing - see that module's docstring.
+pytesseract==0.3.13
+
+# --- LLM providers (plain HTTP, no vendor SDKs) --------------------------
+httpx==0.27.0
+
+# --- Testing -------------------------------------------------------------
+pytest==8.4.2
+pytest-asyncio==1.2.0

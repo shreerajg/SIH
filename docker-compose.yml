@@ -1,0 +1,30 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: sih26107-backend
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      # MongoDB is the only database. Supply the connection string from the
+      # environment (or a .env file beside this one) - never commit it.
+      # There is no local fallback: if MongoDB is unreachable the API reports
+      # 503 rather than quietly answering from a different corpus.
+      MONGO_URI: ${MONGO_URI:?MONGO_URI must be set}
+      MONGO_DB_NAME: ${MONGO_DB_NAME:-sih26107}
+      MONGO_TIMEOUT_MS: ${MONGO_TIMEOUT_MS:-8000}
+      FRONTEND_URL: http://localhost:5173
+      CORS_ORIGINS: http://localhost:5173,http://localhost:4173
+      LLM_PROVIDER: ${LLM_PROVIDER:-auto}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data:ro
+      - backend_storage:/app/storage
+    profiles: ["full"]
+
+volumes:
+  backend_storage:

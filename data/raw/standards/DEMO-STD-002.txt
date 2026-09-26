@@ -1,0 +1,68 @@
+Standard-Id: DEMO-STD-002
+IS-Number: DEMO-STD-002
+Title: Safety of Household and Similar Electrical Appliances - General Requirements
+Year: 2023
+Version: 2023 (Demo Corpus Rev. 1)
+Category: electrical-appliance
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: electrical safety, household appliance, general requirements, electric shock, insulation, earthing, creepage, clearance, supply cord, stability, mechanical strength, protection against access to live parts, abnormal operation, 230 v, class i, class ii
+Covered-Areas: Protection against electric shock, Insulation coordination, Mechanical strength, Abnormal operation, Supply connection, Temperature limits
+Plain-Summary: A demonstration horizontal safety standard that applies to household electrical appliances generally. It covers protection against electric shock, insulation, cords and plugs, mechanical strength and behaviour under fault conditions. Product specific standards such as DEMO-STD-001 call up its requirements.
+
+1 Scope
+1.1 This standard deals with the safety of electrical appliances for household and similar purposes, having a rated voltage not exceeding 250 V for single phase appliances and 440 V for other appliances.
+1.2 This standard is a horizontal standard. Where a product specific standard exists, the requirements of this standard apply in addition to, and are modified by, that product specific standard.
+1.3 This standard does not deal with appliances intended exclusively for industrial purposes, or with appliances intended for use in locations where special conditions prevail such as corrosive or explosive atmospheres.
+1.4 This is a demonstration document authored for the SIH26107 prototype. It is not an official Indian Standard.
+
+2 Classification
+2.1 Appliances shall be classified as Class I, in which protection against electric shock relies on basic insulation together with a protective earthing connection, or Class II, in which protection relies on double or reinforced insulation with no reliance on protective earthing.
+2.2 Appliances shall be classified according to the degree of protection against ingress of moisture appropriate to their intended location of use, and the declared IP classification shall be stated by the manufacturer.
+
+3 Protection Against Access to Live Parts
+3.1 Appliances shall be constructed and enclosed so that there is adequate protection against accidental contact with live parts in normal use.
+3.2 Compliance is checked by inspection and by application of the standard test finger with a force of 10 N applied to every opening in the enclosure. The test finger shall not touch any live part.
+3.3 Parts providing protection against access to live parts shall have adequate mechanical strength and shall not be removable without the aid of a tool.
+3.4 Capacitors shall not remain charged to a voltage exceeding 34 V one second after disconnection of the supply, where the capacitor is connected to accessible pins of a plug.
+
+4 Protection Against Electric Shock in Class I Appliances
+4.1 Accessible metal parts of Class I appliances which may become live in the event of an insulation fault shall be permanently and reliably connected to an earthing terminal within the appliance.
+4.2 Earthing terminals shall not serve any other clamping function and shall be secured against accidental loosening. The connection shall not be capable of being loosened without the aid of a tool.
+4.3 The resistance between the earthing terminal and any accessible metal part shall not exceed 0.1 ohm, measured with a current of at least 25 A derived from a supply of not more than 12 V for a period of one minute.
+
+5 Insulation Coordination
+5.1 Creepage distances and clearances shall be adequate for the working voltage and the pollution degree of the micro-environment, and shall not be less than the values given in Table 1.
+5.2 Basic insulation shall withstand the electric strength test of Clause 9 at 1250 V a.c. for one minute. Reinforced insulation shall withstand 3750 V a.c. for one minute.
+5.3 Insulation resistance measured between live parts and accessible surfaces after humidity conditioning shall be not less than 2 megohms for basic insulation and 7 megohms for reinforced insulation.
+
+6 Temperature Limits in Normal Operation
+6.1 Appliances shall not attain excessive temperatures in normal use. Temperature rises measured under the conditions of Clause 6.2 shall not exceed the limits given in Table 2.
+6.2 Table 2 limits: handles held continuously in normal use, 30 K for metal and 50 K for moulded material; handles held only briefly, 35 K for metal and 60 K for moulded material; external enclosure surfaces liable to be touched, 45 K for metal and 60 K for moulded material; supply cord rubber insulation, 50 K; internal wiring insulation, 50 K.
+6.3 Winding temperature rises shall not exceed 75 K for Class A insulation, 95 K for Class E insulation and 100 K for Class B insulation, determined by the resistance method.
+
+7 Abnormal Operation
+7.1 Appliances shall be constructed so that the risk of fire, mechanical damage impairing safety, or electric shock as a result of abnormal or careless operation is obviated as far as practicable.
+7.2 Appliances incorporating heating elements shall be tested with the thermostat short circuited and with the cooling system obstructed. During and after the test no flame, molten metal or ignition of the surroundings shall occur, and accessible parts shall not become live.
+7.3 After the abnormal operation tests the appliance shall withstand an electric strength test at 75 percent of the voltage specified in Clause 5.2.
+
+8 Mechanical Strength
+8.1 Appliances shall have adequate mechanical strength and shall be constructed to withstand the rough handling that may be expected in normal use.
+8.2 Compliance is checked by applying three blows of 0.5 J impact energy to every point of the enclosure that is likely to be weak, using a spring operated impact hammer. After the test the appliance shall show no damage that impairs compliance with this standard.
+8.3 Appliances shall be stable when placed in every position of normal use on a surface inclined at 10 degrees to the horizontal.
+
+9 Electric Strength Test Method
+9.1 The insulation shall be subjected for one minute to a substantially sinusoidal voltage of the value given in Clause 5.2, applied between live parts and accessible parts. No flashover or breakdown shall occur.
+9.2 The test voltage shall be raised from zero to the full value over a period of not less than five seconds and shall be maintained for one minute.
+
+10 Supply Connection and External Flexible Cords
+10.1 Appliances shall be provided with means for connection to the supply by a flexible cord fitted with a plug, by terminals for fixed wiring, or by an appliance inlet.
+10.2 Flexible cords shall have a nominal cross sectional area not less than 0.75 square millimetres for appliances rated above 6 A and up to and including 10 A, and not less than 1.0 square millimetres for appliances rated above 10 A and up to and including 16 A.
+10.3 Cord anchorages shall relieve conductors from strain and from twisting where they are connected to terminals, and shall protect the conductor insulation from abrasion. The cord shall not be displaced by more than 2 mm when subjected to 25 pulls of the force declared for the appliance mass.
+10.4 The earthing conductor of a supply cord shall be longer than the current carrying conductors so that, if the cord slips out of its anchorage, the current carrying conductors become taut before the earthing conductor.
+
+11 Marking Requirements Called Up by This Standard
+11.1 Appliances shall be marked with rated voltage in volts, rated power input in watts or rated current in amperes, manufacturer name or trade mark, model reference and, for Class II appliances, the double insulation symbol.
+11.2 Markings required by this standard shall be durable and legible and shall not be placed on screws, washers or other removable parts.

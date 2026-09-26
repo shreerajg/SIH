@@ -1,0 +1,181 @@
+{
+  "note": "Certification process stage template. A stage describes something the manufacturer or BIS actually does; the supporting text is NOT stored here. At query time each stage is resolved against the clauses of the documents held for the specific standard (BIS Product Manual, Quality Control Order), and the clause that matched becomes the stage's citation. A stage that matches no clause is still shown, marked as having no supporting document in the corpus - it is never backed by invented prose. Stages marked external describe BIS application mechanics whose source document this platform does not hold; they carry the official BIS URL instead of a clause.",
+  "processes": [
+    {
+      "scheme_id": "SCHEME-I",
+      "title": "Scheme-I (ISI Mark) certification journey",
+      "summary": "The route from confirming that a Quality Control Order covers your product to operating a BIS licence and applying the ISI Mark.",
+      "process_url": "https://www.bis.gov.in/product-certification/product-certification-process/?lang=en",
+      "stages": [
+        {
+          "id": "confirm-applicability",
+          "order": 1,
+          "title": "Confirm the order that covers your product",
+          "actor": "manufacturer",
+          "summary": "Establish which Quality Control Order applies, from what date, and that the Bureau is the certifying authority for it.",
+          "what_you_do": [
+            "Identify the Quality Control Order covering your product and the Indian Standard it names.",
+            "Note the implementation date that applies to your enterprise size - micro, small, and other enterprises are given different dates.",
+            "Note that contravention is punishable under the Bureau of Indian Standards Act, 2016."
+          ],
+          "documents": [],
+          "clause_keywords": [
+            "compulsory use of standard mark",
+            "certification and enforcement authority",
+            "date of implementation",
+            "shall come into force"
+          ],
+          "prefer_document_types": ["qco", "regulatory", "gazette"],
+          "external": false
+        },
+        {
+          "id": "declare-models",
+          "order": 2,
+          "title": "Declare your models and how they group",
+          "actor": "manufacturer",
+          "summary": "A licence is granted against declared models. The Product Manual sets out how varieties are grouped and which models must be tested.",
+          "what_you_do": [
+            "List every variety and model you intend to cover.",
+            "Apply the grouping guidelines in the Product Manual to work out which models must be tested.",
+            "Note that a change in scope of licence also requires testing."
+          ],
+          "documents": ["Declared list of models and varieties"],
+          "clause_keywords": [
+            "grouping guidelines",
+            "grant of licnce",
+            "grant of licence",
+            "change in scope of licence",
+            "shall declare the varieties",
+            "grouping"
+          ],
+          "prefer_document_types": ["product_manual"],
+          "external": false
+        },
+        {
+          "id": "quality-assurance-plan",
+          "order": 3,
+          "title": "Define and submit a Quality Assurance Plan",
+          "actor": "manufacturer",
+          "summary": "The manufacturer defines the control unit and levels of control, and submits the plan to the BIS Branch Office.",
+          "what_you_do": [
+            "Define the control unit (lot or batch) and the levels of control.",
+            "Submit the Quality Assurance Plan to the BIS Branch Office for information.",
+            "Comply with the plan and keep test records against it."
+          ],
+          "documents": ["Quality Assurance Plan"],
+          "clause_keywords": [
+            "quality assurance plan",
+            "levels of control",
+            "control unit"
+          ],
+          "prefer_document_types": ["product_manual"],
+          "external": false
+        },
+        {
+          "id": "testing-capability",
+          "order": 4,
+          "title": "Put the required testing capability in place",
+          "actor": "manufacturer",
+          "summary": "What testing facilities you must maintain, which differs for MSME and large-scale manufacturers.",
+          "what_you_do": [
+            "Check which tests are marked as routine tests for your product.",
+            "Large-scale manufacturers: maintain an in-house laboratory for routine tests and a calibration plan.",
+            "MSMEs: in-house facilities for routine tests may be optional, and common cluster-based facilities may be used."
+          ],
+          "documents": ["Calibration plan for in-house test equipment"],
+          "clause_keywords": [
+            "in-house laboratory",
+            "in-house testing",
+            "msme manufacturers",
+            "common cluster",
+            "calibration plan",
+            "ensuring compliance through testing"
+          ],
+          "prefer_document_types": ["product_manual"],
+          "external": false
+        },
+        {
+          "id": "test-records",
+          "order": 5,
+          "title": "Obtain and retain test records",
+          "actor": "manufacturer",
+          "summary": "Evidence of conformity must be kept, whether testing is in-house or subcontracted.",
+          "what_you_do": [
+            "Keep test records for every test carried out to establish conformity.",
+            "For subcontracted testing, use a BIS recognised or empanelled laboratory, or one with valid NABL accreditation to IS/ISO/IEC 17025.",
+            "Retain the issued test reports."
+          ],
+          "documents": ["Test records", "Laboratory test reports"],
+          "clause_keywords": [
+            "test records",
+            "nabl",
+            "17025",
+            "recognized",
+            "recognised",
+            "empanelled"
+          ],
+          "prefer_document_types": ["product_manual"],
+          "external": false
+        },
+        {
+          "id": "apply-to-bis",
+          "order": 6,
+          "title": "Apply to BIS for a licence",
+          "actor": "bis",
+          "summary": "Submit the application through the BIS portal. The application mechanics, fees and forms are published by BIS and are not held in this platform's corpus.",
+          "what_you_do": [
+            "Apply online through the BIS product certification portal.",
+            "Follow the published fee schedule and application requirements.",
+            "BIS assesses the application, which may include a factory evaluation and sample testing."
+          ],
+          "documents": [],
+          "clause_keywords": [],
+          "prefer_document_types": [],
+          "external": true,
+          "external_url": "https://www.bis.gov.in/product-certification/product-certification-process/?lang=en",
+          "external_note": "This platform does not hold the BIS application procedure document, so this stage is not clause-cited. Follow the official BIS page."
+        },
+        {
+          "id": "apply-standard-mark",
+          "order": 7,
+          "title": "Apply the Standard Mark",
+          "actor": "manufacturer",
+          "summary": "Once licensed, the Standard Mark is applied as set out in the Schedule of the licence and the standard's marking clause.",
+          "what_you_do": [
+            "Apply the Standard Mark legibly and indelibly, as given in the Schedule of the licence.",
+            "Mark only product that conforms to every requirement of the specification.",
+            "Follow any additional marking requirements in the Product Manual."
+          ],
+          "documents": ["Marking / Standard Mark artwork"],
+          "clause_keywords": [
+            "standard mark",
+            "marking",
+            "legibly and indelibly"
+          ],
+          "prefer_document_types": ["product_manual"],
+          "external": false
+        },
+        {
+          "id": "operate-licence",
+          "order": 8,
+          "title": "Operate and maintain the licence",
+          "actor": "both",
+          "summary": "Ongoing obligations once the licence is granted, including rotation of models under test.",
+          "what_you_do": [
+            "Continue inspection and testing in line with the Quality Assurance Plan.",
+            "Expect models covered by the licence to be tested in rotation during its operation.",
+            "Keep records current for surveillance."
+          ],
+          "documents": [],
+          "clause_keywords": [
+            "during the operation of the licence",
+            "tested in rotation",
+            "operation of the licence"
+          ],
+          "prefer_document_types": ["product_manual"],
+          "external": false
+        }
+      ]
+    }
+  ]
+}

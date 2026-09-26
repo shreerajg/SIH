@@ -1,0 +1,47 @@
+{
+  "note": "DEMO amendment records for the synthetic corpus. old_text and new_text are the literal clause wordings before and after the amendment, so the platform can compute a deterministic diff rather than asking a model what changed.",
+  "records": [
+    {
+      "id": "AMD-DEMO-001",
+      "standard_id": "DEMO-STD-001",
+      "amendment_number": "Amendment No. 1",
+      "publication_date": "2025-04-01",
+      "effective_date": "2025-10-01",
+      "affected_clause": "5.1.1",
+      "summary": "Maximum permitted mean stored water temperature reduced, and a scald-risk statement added to the instructions requirement.",
+      "old_text": "The appliance shall incorporate an adjustable thermostat which controls the stored water temperature. The maximum thermostat setting shall not permit the mean stored water temperature to exceed 75 degC.",
+      "new_text": "The appliance shall incorporate an adjustable thermostat which controls the stored water temperature. The maximum thermostat setting shall not permit the mean stored water temperature to exceed 70 degC. A scald risk statement shall be included in the user instructions where the appliance can deliver water above 60 degC.",
+      "source_url": "",
+      "is_verified": false,
+      "is_mock": true
+    },
+    {
+      "id": "AMD-DEMO-002",
+      "standard_id": "DEMO-STD-005",
+      "amendment_number": "Amendment No. 2",
+      "publication_date": "2025-02-15",
+      "effective_date": "2025-08-15",
+      "affected_clause": "6.1",
+      "summary": "Cord length limit tightened and the age threshold at which it applies raised from 18 months to 24 months.",
+      "old_text": "Cords and elastics on toys intended for children under 18 months shall not exceed 220 mm in length when measured under a tension of 25 N.",
+      "new_text": "Cords and elastics on toys intended for children under 24 months shall not exceed 200 mm in length when measured under a tension of 25 N.",
+      "source_url": "",
+      "is_verified": false,
+      "is_mock": true
+    },
+    {
+      "id": "AMD-DEMO-003",
+      "standard_id": "DEMO-STD-004",
+      "amendment_number": "Amendment No. 1",
+      "publication_date": "2025-05-20",
+      "effective_date": "2026-01-01",
+      "affected_clause": "5.2.2",
+      "summary": "Secondary safety device release pressure limit reduced from 1.6 to 1.5 times the declared operating pressure.",
+      "old_text": "The secondary safety device shall begin to release at a pressure not exceeding 1.6 times the declared operating pressure and shall be capable of discharging the full steam generation rate without the vessel pressure exceeding 2.0 times the declared operating pressure.",
+      "new_text": "The secondary safety device shall begin to release at a pressure not exceeding 1.5 times the declared operating pressure and shall be capable of discharging the full steam generation rate without the vessel pressure exceeding 1.8 times the declared operating pressure.",
+      "source_url": "",
+      "is_verified": false,
+      "is_mock": true
+    }
+  ]
+}

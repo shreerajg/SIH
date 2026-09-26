@@ -1,0 +1,229 @@
+{
+  "standard_id": "DEMO-STD-007",
+  "note": "Structured requirements curated from the demo protective helmet specification.",
+  "requirements": [
+    {
+      "requirement_code": "D7-R01",
+      "clause": "4.1.1",
+      "category": "material",
+      "requirement_text": "The shell shall be of thermoplastic or thermoset composite that does not degrade under ultraviolet radiation, temperature variation or contact with petrol, oil and cleaning agents.",
+      "evidence_type": "material_certificate",
+      "severity": "major",
+      "match_keywords": [
+        "shell material",
+        "abs",
+        "polycarbonate",
+        "composite",
+        "material certificate"
+      ],
+      "check_rule": {
+        "attribute": "shell_material",
+        "operator": "not_empty"
+      }
+    },
+    {
+      "requirement_code": "D7-R02",
+      "clause": "4.2.2",
+      "category": "material",
+      "requirement_text": "The density and thickness of the protective padding shall be declared and a material certificate held for each batch.",
+      "evidence_type": "material_certificate",
+      "severity": "major",
+      "match_keywords": [
+        "eps",
+        "padding",
+        "liner density",
+        "expanded polystyrene"
+      ],
+      "check_rule": {
+        "attribute": "liner_density_kg_m3",
+        "operator": "not_empty"
+      }
+    },
+    {
+      "requirement_code": "D7-R03",
+      "clause": "4.4.1",
+      "category": "performance",
+      "requirement_text": "Full face helmet mass shall not exceed 1.5 kg; open face or half coverage helmet mass shall not exceed 1.2 kg.",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": [
+        "helmet mass",
+        "weight",
+        "kg"
+      ],
+      "check_rule": {
+        "attribute": "mass_kg",
+        "operator": "lte",
+        "value": 1.5,
+        "unit": "kg"
+      }
+    },
+    {
+      "requirement_code": "D7-R04",
+      "clause": "5.1.1",
+      "category": "testing",
+      "requirement_text": "Peak acceleration transmitted to the headform shall not exceed 300 g and shall not exceed 150 g for more than 5 milliseconds cumulatively.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "impact absorption",
+        "peak acceleration",
+        "300 g",
+        "shock absorption"
+      ]
+    },
+    {
+      "requirement_code": "D7-R05",
+      "clause": "5.2.1",
+      "category": "testing",
+      "requirement_text": "In the penetration test the striker shall not contact the surface of the headform.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "penetration",
+        "striker",
+        "puncture"
+      ]
+    },
+    {
+      "requirement_code": "D7-R06",
+      "clause": "5.3.1",
+      "category": "testing",
+      "requirement_text": "Retention system dynamic displacement shall not exceed 35 mm and residual displacement shall not exceed 25 mm, without failure.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "retention system",
+        "chin strap",
+        "strap strength",
+        "displacement"
+      ]
+    },
+    {
+      "requirement_code": "D7-R07",
+      "clause": "5.4.1",
+      "category": "testing",
+      "requirement_text": "The helmet shall not roll off the headform in the roll-off test.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "roll off",
+        "roll-off",
+        "retention"
+      ]
+    },
+    {
+      "requirement_code": "D7-R08",
+      "clause": "5.5.1",
+      "category": "performance",
+      "requirement_text": "Horizontal peripheral field of vision shall be at least 105 degrees each side, upward at least 7 degrees and downward at least 45 degrees.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "field of vision",
+        "peripheral vision",
+        "105 degrees"
+      ],
+      "check_rule": {
+        "attribute": "peripheral_vision_deg",
+        "operator": "gte",
+        "value": 105,
+        "unit": "degrees"
+      }
+    },
+    {
+      "requirement_code": "D7-R09",
+      "clause": "5.6.1",
+      "category": "performance",
+      "requirement_text": "A visor intended for night use shall have luminous transmittance of not less than 80 percent and shall not shatter into sharp fragments.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "visor",
+        "luminous transmittance",
+        "transmittance",
+        "shield",
+        "visor transmittance",
+        "luminous"
+      ],
+      "check_rule": {
+        "attribute": "visor_transmittance_percent",
+        "operator": "gte",
+        "value": 80,
+        "unit": "percent"
+      }
+    },
+    {
+      "requirement_code": "D7-R10",
+      "clause": "6.1.1",
+      "category": "testing",
+      "requirement_text": "Helmets shall be conditioned for at least 4 hours in each of the four states: ambient, high temperature, low temperature and water immersion.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "conditioning",
+        "high temperature",
+        "low temperature",
+        "water immersion"
+      ]
+    },
+    {
+      "requirement_code": "D7-R11",
+      "clause": "6.6",
+      "category": "documentation",
+      "requirement_text": "A type test report covering impact, penetration, retention and roll-off for all four conditioning states shall be retained.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "type test report",
+        "type approval",
+        "full test report",
+        "type test"
+      ]
+    },
+    {
+      "requirement_code": "D7-R12",
+      "clause": "7.1",
+      "category": "marking",
+      "requirement_text": "A permanent label inside the helmet shall carry manufacturer identification, model, size or size range, month and year of manufacture and helmet mass.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "label",
+        "marking",
+        "inner label",
+        "size marking"
+      ]
+    },
+    {
+      "requirement_code": "D7-R13",
+      "clause": "7.2",
+      "category": "marking",
+      "requirement_text": "The label shall instruct that the helmet must be replaced after any significant impact even where no damage is visible.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "replacement warning",
+        "after impact",
+        "replace helmet",
+        "marking artwork",
+        "label artwork",
+        "inner label"
+      ]
+    },
+    {
+      "requirement_code": "D7-R14",
+      "clause": "8.1",
+      "category": "documentation",
+      "requirement_text": "Instructions in English and Hindi shall cover fitting, fastening, cleaning, storage and the replacement policy.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": [
+        "instructions",
+        "user manual",
+        "hindi",
+        "fitting guide"
+      ]
+    }
+  ]
+}

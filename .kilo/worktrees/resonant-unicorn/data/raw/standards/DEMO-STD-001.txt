@@ -1,0 +1,90 @@
+Standard-Id: DEMO-STD-001
+IS-Number: DEMO-STD-001
+Title: Domestic Electric Storage Water Heaters - Specification
+Year: 2024
+Version: 2024 (Demo Corpus Rev. 1)
+Category: electrical-appliance
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: water heater, storage water heater, geyser, storage type, domestic, household, electric, electrical appliance, heating element, thermostat, immersion, hot water, 230 v, single phase, inner container, thermal cut-out, capacity
+Covered-Areas: Electrical safety, Thermal performance, Pressure integrity, Material requirements, Marking and labelling, Type testing
+Plain-Summary: A demonstration specification for household electric storage water heaters (commonly called geysers). It sets out how the appliance must be built, how hot and how safe it must run, what tests it must pass, and what must be printed on the rating label.
+
+1 Scope
+1.1 This standard specifies constructional, performance, safety and marking requirements for electrically heated storage water heaters intended for domestic and similar household use, having a rated storage capacity not exceeding 200 litres and a rated voltage not exceeding 250 V single phase.
+1.2 This standard applies to storage type appliances in which water is heated and retained within an insulated inner container until drawn off. It applies to vertically and horizontally mounted appliances, whether wall mounted or floor standing.
+1.3 This standard does not apply to instantaneous water heaters in which water is heated only during flow, to immersion rods without an integral container, to solar water heating systems, or to appliances intended for industrial process heating.
+1.4 This is a demonstration document authored for the SIH26107 prototype. It is not an official Indian Standard and carries no regulatory force.
+
+2 References
+2.1 DEMO-STD-002 Safety of Household and Similar Electrical Appliances - General Requirements.
+2.2 DEMO-STD-003 Electrical Appliances - Standard Test Methods for Temperature Rise, Insulation Resistance and Electric Strength.
+2.3 DEMO-STD-008 Consumer Products - General Requirements for Marking, Labelling and Instructions.
+
+3 Terminology
+3.1 Storage water heater - An appliance incorporating a thermally insulated container in which water is heated by one or more electric heating elements and stored for later use.
+3.2 Rated capacity - The volume of water in litres that the inner container is declared by the manufacturer to hold, measured at ambient temperature.
+3.3 Rated voltage - The supply voltage declared by the manufacturer for the appliance.
+3.4 Thermal cut-out - A device which, during abnormal operation, limits the temperature of the appliance by automatically or manually interrupting the supply circuit.
+3.5 Working pressure - The maximum internal pressure declared by the manufacturer at which the inner container is designed to operate continuously.
+
+4 Requirements for Materials and Construction
+4.1 Inner container material
+4.1.1 The inner container shall be manufactured from corrosion resistant material, or from mild steel protected on all wetted surfaces by vitreous enamel, epoxy coating or an equivalent protective system.
+4.1.2 Where a sacrificial anode is provided for corrosion protection, the anode shall be accessible for inspection and replacement without cutting or destroying any part of the appliance, and the manufacturer shall declare the recommended inspection interval.
+4.1.3 Material certificates for the inner container and for the protective coating system shall be retained by the manufacturer and made available on request.
+4.2 Thermal insulation
+4.2.1 The space between the inner container and the outer body shall be filled with thermal insulation that is non-hygroscopic and free from chlorides in a concentration that could promote stress corrosion of the container.
+4.2.2 The insulation shall be retained in position so that it cannot settle, sag or migrate in a manner that leaves any part of the inner container uninsulated during the declared service life.
+4.3 Outer body
+4.3.1 The outer body shall be of metallic or non-metallic construction and shall not deform, craze or discolour to an extent that impairs safety when the appliance is operated continuously at the highest thermostat setting.
+4.3.2 All external edges accessible to the user shall be free from burrs and sharp edges capable of causing injury during normal installation, use and cleaning.
+4.4 Heating element
+4.4.1 The heating element shall be of the sheathed immersion type and shall be replaceable without destroying the inner container.
+4.4.2 The element sheath shall be compatible with the water quality range declared by the manufacturer and shall not be manufactured from bare copper in appliances declared for use with water having a chloride content above the manufacturer declared limit.
+4.5 Electrical connections and earthing
+4.5.1 A dedicated earthing terminal shall be provided, permanently marked with the earth symbol, and electrically bonded to all accessible metal parts.
+4.5.2 The earth continuity path between the earthing terminal and any accessible metal part shall have a resistance not exceeding 0.1 ohm when tested in accordance with DEMO-STD-003 Clause 5.
+4.5.3 Supply terminals shall be enclosed such that live parts are not accessible with a standard test finger after installation.
+
+5 Performance Requirements
+5.1 Water temperature control
+5.1.1 The appliance shall incorporate an adjustable thermostat which controls the stored water temperature. The maximum thermostat setting shall not permit the mean stored water temperature to exceed 75 degC.
+5.1.2 The thermostat differential shall not exceed 12 degC between cut-out and cut-in at the maximum setting.
+5.2 Thermal cut-out
+5.2.1 The appliance shall incorporate a thermal cut-out, independent of the thermostat, which interrupts the supply to the heating element if the stored water temperature exceeds 90 degC.
+5.2.2 The thermal cut-out shall be of the manually resettable type or shall require the use of a tool to reset. Automatically resetting cut-outs shall not be used as the sole protective device.
+5.3 Standing loss
+5.3.1 The standing heat loss, measured over 24 hours in accordance with Clause 6.3, shall not exceed the value declared by the manufacturer, and the declared value shall be printed on the rating label.
+5.4 Pressure integrity
+5.4.1 The inner container shall withstand a hydrostatic pressure of twice the declared working pressure, applied for 10 minutes, without leakage or permanent deformation.
+5.4.2 A pressure relief device shall be fitted or supplied with every appliance declared for connection to a pressurised supply, set to operate at not more than 1.5 times the declared working pressure.
+
+6 Tests
+6.1 General
+6.1.1 The tests specified in this clause are type tests and shall be carried out on samples representative of series production.
+6.1.2 Unless otherwise stated, tests shall be carried out at an ambient temperature of 27 plus or minus 2 degC using water at 27 plus or minus 2 degC.
+6.2 Temperature rise test
+6.2.1 The appliance shall be operated at 1.06 times rated voltage until thermal equilibrium is reached. Temperature rises of handles, knobs, external surfaces and internal insulation shall not exceed the limits given in DEMO-STD-002 Table 2.
+6.2.2 A temperature rise test report issued by a laboratory competent for the method of DEMO-STD-003 Clause 4 shall be retained as evidence of conformity.
+6.3 Standing loss test
+6.3.1 The appliance shall be heated to the maximum thermostat setting, then left connected with no water drawn off for 24 hours. The electrical energy consumed to maintain temperature shall be recorded as the standing loss in kilowatt-hours per 24 hours.
+6.4 Hydrostatic pressure test
+6.4.1 The inner container, complete with all fittings, shall be filled with water and subjected to twice the declared working pressure for 10 minutes. No leakage, rupture or permanent deformation shall occur.
+6.5 Insulation resistance and electric strength test
+6.5.1 Insulation resistance measured between live parts and accessible metal parts shall be not less than 2 megohms after the humidity treatment of DEMO-STD-003 Clause 6.
+6.5.2 The appliance shall withstand the electric strength test of DEMO-STD-003 Clause 7 without flashover or breakdown.
+6.6 Earth continuity test
+6.6.1 Earth continuity shall be verified in accordance with DEMO-STD-003 Clause 5 and the measured resistance recorded in the test report.
+
+7 Marking and Labelling
+7.1 Every appliance shall carry a durable and legible rating label bearing the manufacturer name or registered trade mark, the model designation, the rated voltage in volts, the rated power input in watts, the rated capacity in litres, the declared working pressure, the standing loss, the country of origin and the year of manufacture.
+7.2 The rating label shall remain legible after being rubbed for 15 seconds with a cloth soaked in water and for a further 15 seconds with a cloth soaked in petroleum spirit.
+7.3 The earthing terminal shall be marked with the earth symbol adjacent to the terminal and this marking shall not be placed on a removable part.
+7.4 Where the appliance is covered by a Quality Control Order, the applicable conformity marking shall be applied only under a valid licence issued by the certifying authority.
+
+8 Instructions and Documentation
+8.1 Every appliance shall be supplied with installation and user instructions in English and in Hindi, stating the electrical supply requirements, the minimum and maximum supply pressure, the requirement for a dedicated earthed circuit, and the recommended anode inspection interval.
+8.2 The manufacturer shall maintain a technical construction file containing the bill of materials, the material certificates of Clause 4.1.3, the type test reports of Clause 6 and a declaration of conformity.

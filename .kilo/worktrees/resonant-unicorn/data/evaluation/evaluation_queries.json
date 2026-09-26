@@ -1,0 +1,500 @@
+{
+  "note": "Ground truth for the demo corpus. Expected values were assigned by reading the documents in data/raw/standards, not by running the system - otherwise the evaluation would only measure the system against itself.",
+  "corpus": "demo",
+  "standard_discovery": [
+    {
+      "id": "SD-01",
+      "query": "We manufacture a 15 litre domestic electric storage water heater operating at 230 V.",
+      "expected_primary": "DEMO-STD-001",
+      "expected_supporting": [
+        "DEMO-STD-002",
+        "DEMO-STD-003",
+        "DEMO-STD-008"
+      ]
+    },
+    {
+      "id": "SD-02",
+      "query": "Wall mounted geyser for household bathrooms, 25 litre capacity, single phase.",
+      "expected_primary": "DEMO-STD-001",
+      "expected_supporting": [
+        "DEMO-STD-002"
+      ]
+    },
+    {
+      "id": "SD-03",
+      "query": "We make 5 litre aluminium domestic pressure cookers with a vent weight rated at 100 kPa.",
+      "expected_primary": "DEMO-STD-004",
+      "expected_supporting": [
+        "DEMO-STD-008"
+      ]
+    },
+    {
+      "id": "SD-04",
+      "query": "Stainless steel pressure cooker with a spring loaded safety valve and lid interlock for home kitchens.",
+      "expected_primary": "DEMO-STD-004",
+      "expected_supporting": []
+    },
+    {
+      "id": "SD-05",
+      "query": "Plastic rattles and soft toys for children under 18 months, sold in printed cartons.",
+      "expected_primary": "DEMO-STD-005",
+      "expected_supporting": [
+        "DEMO-STD-006",
+        "DEMO-STD-008"
+      ]
+    },
+    {
+      "id": "SD-06",
+      "query": "Painted wooden building blocks for toddlers with coloured lacquer coating.",
+      "expected_primary": "DEMO-STD-005",
+      "expected_supporting": [
+        "DEMO-STD-006"
+      ]
+    },
+    {
+      "id": "SD-07",
+      "query": "Full face ABS shell helmets for two wheeler riders with a clear visor, mass 1.4 kg.",
+      "expected_primary": "DEMO-STD-007",
+      "expected_supporting": [
+        "DEMO-STD-008"
+      ]
+    },
+    {
+      "id": "SD-08",
+      "query": "Open face crash helmet with expanded polystyrene liner and chin strap for scooter riders.",
+      "expected_primary": "DEMO-STD-007",
+      "expected_supporting": []
+    },
+    {
+      "id": "SD-09",
+      "query": "Electric kettle for household use rated 230 V 1500 W with a detachable base.",
+      "expected_primary": "DEMO-STD-002",
+      "expected_supporting": [
+        "DEMO-STD-003"
+      ]
+    },
+    {
+      "id": "SD-10",
+      "query": "Immersion water heating appliance with a thermostat and thermal cut-out for domestic bathrooms.",
+      "expected_primary": "DEMO-STD-001",
+      "expected_supporting": [
+        "DEMO-STD-002"
+      ]
+    },
+    {
+      "id": "SD-11",
+      "query": "We manufacture painted toys and test chemical migration of heavy metals such as lead and cadmium from the paint coating, per the toy safety chemical requirements.",
+      "expected_primary": "DEMO-STD-006",
+      "expected_supporting": [
+        "DEMO-STD-005"
+      ],
+      "note": "Fills the only standard never otherwise expected as a primary match."
+    }
+  ],
+  "clause_retrieval": [
+    {
+      "id": "CR-01",
+      "question": "What temperature rise test is required for a storage water heater?",
+      "standard_ids": [
+        "DEMO-STD-001"
+      ],
+      "expected_clauses": [
+        "6.2.1",
+        "6.2.2"
+      ]
+    },
+    {
+      "id": "CR-02",
+      "question": "What must be printed on the rating label of a water heater?",
+      "standard_ids": [
+        "DEMO-STD-001"
+      ],
+      "expected_clauses": [
+        "7.1"
+      ]
+    },
+    {
+      "id": "CR-03",
+      "question": "What is the maximum stored water temperature allowed?",
+      "standard_ids": [
+        "DEMO-STD-001"
+      ],
+      "expected_clauses": [
+        "5.1.1"
+      ]
+    },
+    {
+      "id": "CR-04",
+      "question": "What hydrostatic pressure must the inner container withstand?",
+      "standard_ids": [
+        "DEMO-STD-001"
+      ],
+      "expected_clauses": [
+        "5.4.1",
+        "6.4.1"
+      ]
+    },
+    {
+      "id": "CR-05",
+      "question": "What is the earth continuity resistance limit?",
+      "standard_ids": [
+        "DEMO-STD-002"
+      ],
+      "expected_clauses": [
+        "4.3"
+      ]
+    },
+    {
+      "id": "CR-06",
+      "question": "What cross sectional area must a flexible supply cord have?",
+      "standard_ids": [
+        "DEMO-STD-002"
+      ],
+      "expected_clauses": [
+        "10.2"
+      ]
+    },
+    {
+      "id": "CR-07",
+      "question": "How long must a helmet be conditioned before testing?",
+      "standard_ids": [
+        "DEMO-STD-007"
+      ],
+      "expected_clauses": [
+        "6.1.1"
+      ]
+    },
+    {
+      "id": "CR-08",
+      "question": "What peak acceleration is allowed in the helmet impact test?",
+      "standard_ids": [
+        "DEMO-STD-007"
+      ],
+      "expected_clauses": [
+        "5.1.1"
+      ]
+    },
+    {
+      "id": "CR-09",
+      "question": "What is the small parts cylinder used for in toy testing?",
+      "standard_ids": [
+        "DEMO-STD-005"
+      ],
+      "expected_clauses": [
+        "3.1",
+        "4.1",
+        "4.4"
+      ]
+    },
+    {
+      "id": "CR-10",
+      "question": "What is the lead migration limit for toy coatings?",
+      "standard_ids": [
+        "DEMO-STD-006"
+      ],
+      "expected_clauses": [
+        "3.1"
+      ]
+    },
+    {
+      "id": "CR-11",
+      "question": "What burst pressure must a pressure cooker body withstand?",
+      "standard_ids": [
+        "DEMO-STD-004"
+      ],
+      "expected_clauses": [
+        "6.2.1"
+      ]
+    },
+    {
+      "id": "CR-12",
+      "question": "At what pressure must the secondary safety device operate?",
+      "standard_ids": [
+        "DEMO-STD-004"
+      ],
+      "expected_clauses": [
+        "5.2.2",
+        "6.3.1"
+      ]
+    },
+    {
+      "id": "CR-13",
+      "question": "How is marking durability verified?",
+      "standard_ids": [
+        "DEMO-STD-008"
+      ],
+      "expected_clauses": [
+        "3.2"
+      ]
+    },
+    {
+      "id": "CR-14",
+      "question": "In which languages must instructions be provided?",
+      "standard_ids": [
+        "DEMO-STD-008"
+      ],
+      "expected_clauses": [
+        "5.2"
+      ]
+    },
+    {
+      "id": "CR-15",
+      "question": "How is the humidity conditioning treatment carried out?",
+      "standard_ids": [
+        "DEMO-STD-003"
+      ],
+      "expected_clauses": [
+        "6.1"
+      ]
+    }
+  ],
+  "consumer_lookup": [
+    {
+      "id": "CL-01",
+      "query": "DEMO-STD-001",
+      "expected_standard": "DEMO-STD-001",
+      "expect_found": true
+    },
+    {
+      "id": "CL-02",
+      "query": "demo std 4",
+      "expected_standard": "DEMO-STD-004",
+      "expect_found": true
+    },
+    {
+      "id": "CL-03",
+      "query": "DEMO-STD-7",
+      "expected_standard": "DEMO-STD-007",
+      "expect_found": true
+    },
+    {
+      "id": "CL-04",
+      "query": "IS 99999",
+      "expected_standard": null,
+      "expect_found": false
+    },
+    {
+      "id": "CL-05",
+      "query": "IS 302",
+      "expected_standard": null,
+      "expect_found": false
+    }
+  ],
+  "regulatory": [
+    {
+      "id": "RG-01",
+      "standard_id": "DEMO-STD-001",
+      "expected_status": "MANDATORY"
+    },
+    {
+      "id": "RG-02",
+      "standard_id": "DEMO-STD-004",
+      "expected_status": "MANDATORY"
+    },
+    {
+      "id": "RG-03",
+      "standard_id": "DEMO-STD-005",
+      "expected_status": "MANDATORY"
+    },
+    {
+      "id": "RG-04",
+      "standard_id": "DEMO-STD-007",
+      "expected_status": "UPCOMING",
+      "note": "A later amendment order is notified but not yet in force."
+    },
+    {
+      "id": "RG-05",
+      "standard_id": "DEMO-STD-002",
+      "expected_status": "UNABLE_TO_VERIFY"
+    },
+    {
+      "id": "RG-06",
+      "standard_id": "DEMO-STD-003",
+      "expected_status": "UNABLE_TO_VERIFY"
+    },
+    {
+      "id": "RG-07",
+      "standard_id": "DEMO-STD-006",
+      "expected_status": "UNABLE_TO_VERIFY"
+    },
+    {
+      "id": "RG-08",
+      "standard_id": "DEMO-STD-008",
+      "expected_status": "UNABLE_TO_VERIFY"
+    }
+  ],
+  "consumer_description_search": [
+    {
+      "id": "CDS-01",
+      "query": "pressure cooker",
+      "expected_top_suggestion": "DEMO-STD-004",
+      "note": "No code typed - ranked against title/keyword/covered-area text (Priority 11)."
+    },
+    {
+      "id": "CDS-02",
+      "query": "bike helmet",
+      "expected_top_suggestion": "DEMO-STD-007"
+    },
+    {
+      "id": "CDS-03",
+      "query": "toy with small parts for children",
+      "expected_top_suggestion": "DEMO-STD-005"
+    }
+  ],
+  "gap_analysis": [
+    {
+      "id": "GA-01",
+      "description": "We manufacture a 15 litre domestic electric storage water heater operating at 230 V.",
+      "evidence": [],
+      "expected_statuses": {
+        "D1-R11": "TEST_REQUIRED"
+      },
+      "note": "No evidence supplied - the temperature-rise test requirement must not be assumed satisfied."
+    },
+    {
+      "id": "GA-02",
+      "description": "We manufacture a 15 litre domestic electric storage water heater operating at 230 V.",
+      "evidence": [
+        {
+          "evidence_type": "test_report",
+          "name": "Temperature rise test report"
+        }
+      ],
+      "expected_statuses": {
+        "D1-R11": "SUPPORTED"
+      },
+      "note": "Declared evidence of the right kind and matching subject must move the requirement to SUPPORTED."
+    }
+  ],
+  "amendment_impact": [
+    {
+      "id": "AI-01",
+      "standard_id": "DEMO-STD-001",
+      "amendment_number": "Amendment No. 1",
+      "expected_affected_requirements": [
+        "D1-R06"
+      ]
+    },
+    {
+      "id": "AI-02",
+      "standard_id": "DEMO-STD-005",
+      "amendment_number": "Amendment No. 2",
+      "expected_affected_requirements": [
+        "D5-R05"
+      ]
+    },
+    {
+      "id": "AI-03",
+      "standard_id": "DEMO-STD-004",
+      "amendment_number": "Amendment No. 1",
+      "expected_affected_requirements": [],
+      "note": "The amended clause maps to no structured requirement - the platform must report that honestly rather than guessing one."
+    }
+  ],
+  "verified_note": "Ground truth for the verified BIS corpus in data/raw/verified_bis_2026_09_03. Expected values were read from the official source documents themselves (BIS Product Manuals and Gazette Quality Control Orders), not from the system's output. These documents are official supporting/regulatory material - none of them is the full text of an Indian Standard.",
+  "verified_discovery": [
+    {
+      "id": "VD-01",
+      "query": "We manufacture a 15 litre domestic stationary storage electric water heater operating at 230 V.",
+      "expected_document": "IS-2082-2018-PM",
+      "within_top": 3,
+      "note": "BIS Product Manual for IS 2082:2018, the standard named in the 2025 water-heating QCO."
+    },
+    {
+      "id": "VD-02",
+      "query": "We make 5 litre aluminium domestic pressure cookers with a vent weight rated at 100 kPa.",
+      "expected_document": "IS-2347-2023-PM",
+      "within_top": 3,
+      "note": "BIS Product Manual PM/IS 2347/9/February 2025."
+    },
+    {
+      "id": "VD-03",
+      "query": "We manufacture full face ABS shell helmets for two wheeler riders with a clear visor.",
+      "expected_document": "IS-4151-2015-PM",
+      "within_top": 3,
+      "note": "BIS Product Manual PM/IS 4151/3/December 2024."
+    }
+  ],
+  "verified_regulatory": [
+    {
+      "id": "VR-01",
+      "standard_id": "IS-2082-2018-PM",
+      "expected_status": "MANDATORY",
+      "expected_notification": "S.O. 355(E)",
+      "note": "Electrical Appliances for domestic water heating (QC) Order, 2025; table names IS 2082:2018."
+    },
+    {
+      "id": "VR-02",
+      "standard_id": "IS-2347-2023-PM",
+      "expected_status": "MANDATORY",
+      "expected_notification": "S.O. 294(E)",
+      "note": "Domestic Pressure Cooker (QC) Order, 2020. Its table names IS 2347:2017; version transition recorded."
+    },
+    {
+      "id": "VR-03",
+      "standard_id": "IS-4151-2015-PM",
+      "expected_status": "MANDATORY",
+      "expected_notification": "S.O. 4252(E)",
+      "note": "Helmet for riders of Two Wheeler Motor Vehicles (QC) Order, 2020."
+    },
+    {
+      "id": "VR-04",
+      "standard_id": "QCO-TRANSITION-FACILITATION-2026",
+      "expected_status": "UNABLE_TO_VERIFY",
+      "expected_notification": "",
+      "note": "The Transition Facilitation Order is itself a regulatory document, not a standard with a QCO. Absence of a record must report UNABLE_TO_VERIFY, never VOLUNTARY."
+    }
+  ],
+  "verified_consumer_lookup": [
+    {
+      "id": "VC-01",
+      "query": "IS 2082",
+      "expect_found": true,
+      "expected_standard": "IS-2082-2018-PM"
+    },
+    {
+      "id": "VC-02",
+      "query": "IS 4151",
+      "expect_found": true,
+      "expected_standard": "IS-4151-2015-PM"
+    },
+    {
+      "id": "VC-03",
+      "query": "IS 2347",
+      "expect_found": true,
+      "expected_standard": "IS-2347-2023-PM"
+    }
+  ],
+  "verified_document_typing": [
+    {
+      "id": "VT-01",
+      "standard_id": "IS-2082-2018-PM",
+      "expected_document_type": "product_manual"
+    },
+    {
+      "id": "VT-02",
+      "standard_id": "IS-2347-2023-PM",
+      "expected_document_type": "product_manual"
+    },
+    {
+      "id": "VT-03",
+      "standard_id": "IS-4151-2015-PM",
+      "expected_document_type": "product_manual"
+    },
+    {
+      "id": "VT-04",
+      "standard_id": "QCO-HELMET-2020",
+      "expected_document_type": "qco"
+    },
+    {
+      "id": "VT-05",
+      "standard_id": "QCO-WATER-HEATING-2025",
+      "expected_document_type": "qco"
+    },
+    {
+      "id": "VT-06",
+      "standard_id": "QCO-TRANSITION-FACILITATION-2026",
+      "expected_document_type": "regulatory"
+    }
+  ]
+}

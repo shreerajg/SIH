@@ -1,0 +1,95 @@
+{
+  "standard_id": "DEMO-STD-006",
+  "note": "Chemical migration requirements for toy materials.",
+  "requirements": [
+    {
+      "requirement_code": "D6-R01",
+      "clause": "3.1",
+      "category": "safety",
+      "requirement_text": "Migration from Category III (scraped-off coating) material shall not exceed the element limits of Clause 3.1, including lead 23 mg/kg and cadmium 17 mg/kg.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "migration",
+        "heavy metal",
+        "lead",
+        "cadmium",
+        "element migration"
+      ]
+    },
+    {
+      "requirement_code": "D6-R02",
+      "clause": "3.3",
+      "category": "testing",
+      "requirement_text": "Where a toy contains several materials, each material shall be assessed separately against the limit for its category.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "per material",
+        "each material",
+        "material category",
+        "migration",
+        "element migration"
+      ]
+    },
+    {
+      "requirement_code": "D6-R03",
+      "clause": "5.1",
+      "category": "testing",
+      "requirement_text": "Migration testing shall use 0.07 mol/l hydrochloric acid at 37 degC for two hours followed by one hour standing.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "hydrochloric",
+        "extraction",
+        "digestion",
+        "37 degc",
+        "migration",
+        "element migration"
+      ]
+    },
+    {
+      "requirement_code": "D6-R04",
+      "clause": "6.1",
+      "category": "documentation",
+      "requirement_text": "The test report shall state material category, test portion mass, analytical technique, limit of quantification and measured migration for each element.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "test report content",
+        "limit of quantification",
+        "icp",
+        "migration",
+        "element migration"
+      ]
+    },
+    {
+      "requirement_code": "D6-R05",
+      "clause": "7.1",
+      "category": "documentation",
+      "requirement_text": "A supplier declaration identifying pigments, stabilisers and plasticisers shall be obtained for every material used in the toy.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": [
+        "supplier declaration",
+        "pigment",
+        "plasticiser",
+        "raw material declaration"
+      ]
+    },
+    {
+      "requirement_code": "D6-R06",
+      "clause": "7.2",
+      "category": "documentation",
+      "requirement_text": "A fresh migration test shall be carried out whenever a material or colour is changed before series production.",
+      "evidence_type": "document",
+      "severity": "minor",
+      "match_keywords": [
+        "change control",
+        "colour change",
+        "retest",
+        "change control record"
+      ]
+    }
+  ]
+}

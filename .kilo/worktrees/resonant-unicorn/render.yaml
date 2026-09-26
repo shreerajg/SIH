@@ -1,0 +1,36 @@
+# Render blueprint for the SIH26107 backend.
+#   1. Create a MySQL instance (Render, Aiven, Railway or PlanetScale).
+#   2. Set DATABASE_URL to mysql+pymysql://USER:PASSWORD@HOST:PORT/DATABASE
+#   3. Deploy this blueprint, then run the demo setup once from the shell:
+#        python scripts/setup_demo.py
+services:
+  - type: web
+    name: sih26107-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false          # set in the dashboard; never commit a connection string
+      - key: DB_FALLBACK_SQLITE
+        value: "false"       # fail loudly in production instead of silently degrading
+      - key: CHROMA_PATH
+        value: /app/storage/chroma
+      - key: FRONTEND_URL
+        sync: false          # the deployed frontend origin, e.g. https://your-app.vercel.app
+      - key: CORS_ORIGINS
+        sync: false
+      - key: LLM_PROVIDER
+        value: auto
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+    disk:
+      name: sih26107-storage
+      mountPath: /app/storage
+      sizeGB: 2

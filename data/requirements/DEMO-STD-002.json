@@ -1,0 +1,108 @@
+{
+  "standard_id": "DEMO-STD-002",
+  "note": "Horizontal electrical-safety requirements. These apply in addition to any product specific standard for an electrical appliance.",
+  "requirements": [
+    {
+      "requirement_code": "D2-R01",
+      "clause": "2.1",
+      "category": "safety",
+      "requirement_text": "The appliance shall be declared as Class I (protective earthing) or Class II (double or reinforced insulation).",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": ["class i", "class ii", "protection class", "insulation class"],
+      "check_rule": {"attribute": "protection_class", "operator": "in", "value": ["I", "II", "class i", "class ii", "1", "2"]}
+    },
+    {
+      "requirement_code": "D2-R02",
+      "clause": "3.2",
+      "category": "testing",
+      "requirement_text": "The standard test finger applied with 10 N to every opening shall not touch any live part.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["test finger", "access to live parts", "ip2x", "accessibility test"]
+    },
+    {
+      "requirement_code": "D2-R03",
+      "clause": "4.3",
+      "category": "testing",
+      "requirement_text": "Resistance between the earthing terminal and any accessible metal part shall not exceed 0.1 ohm at 25 A for one minute.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["earth continuity", "earth bonding", "earth resistance"],
+      "check_rule": {"attribute": "earth_continuity_ohm", "operator": "lte", "value": 0.1, "unit": "ohm"}
+    },
+    {
+      "requirement_code": "D2-R04",
+      "clause": "5.1",
+      "category": "construction",
+      "requirement_text": "Creepage distances and clearances shall be adequate for the working voltage and pollution degree and not less than Table 1 values.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": ["creepage", "clearance", "insulation coordination", "pcb layout"]
+    },
+    {
+      "requirement_code": "D2-R05",
+      "clause": "5.2",
+      "category": "testing",
+      "requirement_text": "Basic insulation shall withstand 1250 V a.c. for one minute; reinforced insulation shall withstand 3750 V a.c. for one minute.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["electric strength", "dielectric strength", "hipot", "high voltage"]
+    },
+    {
+      "requirement_code": "D2-R06",
+      "clause": "6.2",
+      "category": "testing",
+      "requirement_text": "Temperature rises in normal operation shall not exceed the Table 2 limits for handles, enclosures, cords and internal wiring.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["temperature rise", "table 2", "thermal test", "heating test"]
+    },
+    {
+      "requirement_code": "D2-R07",
+      "clause": "7.2",
+      "category": "testing",
+      "requirement_text": "Abnormal operation tests with the thermostat short circuited and cooling obstructed shall not produce flame, molten metal, ignition, or accessible live parts.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": ["abnormal operation", "fault condition", "thermostat short", "single fault"]
+    },
+    {
+      "requirement_code": "D2-R08",
+      "clause": "8.2",
+      "category": "testing",
+      "requirement_text": "Three blows of 0.5 J impact energy applied to weak points of the enclosure shall not cause damage that impairs safety.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": ["impact test", "mechanical strength", "0.5 j", "impact hammer"]
+    },
+    {
+      "requirement_code": "D2-R09",
+      "clause": "10.2",
+      "category": "construction",
+      "requirement_text": "Flexible cord cross-section shall be at least 0.75 sq mm above 6 A up to 10 A, and at least 1.0 sq mm above 10 A up to 16 A.",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": ["supply cord", "flexible cord", "cable size", "conductor cross section"],
+      "check_rule": {"attribute": "supply_cord_csa_mm2", "operator": "gte", "value": 0.75, "unit": "sq mm"}
+    },
+    {
+      "requirement_code": "D2-R10",
+      "clause": "10.3",
+      "category": "testing",
+      "requirement_text": "Cord anchorages shall relieve strain and twisting; displacement shall not exceed 2 mm after 25 pulls.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": ["cord anchorage", "strain relief", "pull test"]
+    },
+    {
+      "requirement_code": "D2-R11",
+      "clause": "11.1",
+      "category": "marking",
+      "requirement_text": "The appliance shall be marked with rated voltage, rated power or current, manufacturer identification, model reference, and the double insulation symbol for Class II appliances.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": ["rating label", "marking", "nameplate", "rating plate"]
+    }
+  ]
+}

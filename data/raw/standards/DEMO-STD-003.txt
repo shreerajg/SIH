@@ -1,0 +1,55 @@
+Standard-Id: DEMO-STD-003
+IS-Number: DEMO-STD-003
+Title: Electrical Appliances - Standard Test Methods for Temperature Rise, Insulation Resistance, Electric Strength and Earth Continuity
+Year: 2023
+Version: 2023 (Demo Corpus Rev. 1)
+Category: test-method
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: test method, temperature rise, insulation resistance, electric strength, earth continuity, humidity conditioning, thermocouple, megohm, dielectric, type test, laboratory, test report
+Covered-Areas: Test methods, Laboratory conditions, Instrumentation, Reporting
+Plain-Summary: A demonstration test-methods standard. It does not say what an appliance must achieve; it says how the measurement must be carried out and what a valid test report must contain. Product standards reference it.
+
+1 Scope
+1.1 This standard prescribes the laboratory methods to be used when measuring temperature rise, insulation resistance, electric strength and earth continuity of electrical appliances for household and similar use.
+1.2 This standard does not specify pass or fail limits. Limits are given in the relevant product standard or in DEMO-STD-002.
+1.3 This is a demonstration document authored for the SIH26107 prototype and is not an official Indian Standard.
+
+2 General Test Conditions
+2.1 Unless the product standard specifies otherwise, tests shall be carried out in a draught free location at an ambient temperature of 27 plus or minus 2 degC and a relative humidity between 45 and 75 percent.
+2.2 The appliance shall be supplied at the most unfavourable voltage within the range 0.94 to 1.06 times rated voltage unless the product standard specifies a fixed test voltage.
+2.3 Measuring instruments shall have a valid calibration traceable to a national metrology institute, and the calibration certificate reference shall be recorded in the test report.
+
+3 Instrumentation
+3.1 Temperature shall be measured with fine wire thermocouples of wire diameter not exceeding 0.3 mm, or by the resistance method for windings.
+3.2 Thermocouples shall be attached so that they have minimum effect on the temperature of the part under test, and shall be positioned at the hottest accessible point of the part.
+3.3 Insulation resistance shall be measured with a d.c. voltage of 500 V applied for one minute.
+
+4 Temperature Rise Test Method
+4.1 The appliance shall be installed as in normal use, in a test corner consisting of two walls at right angles, a floor and, where appropriate, a ceiling, all of matt black painted plywood 20 mm thick.
+4.2 The appliance shall be operated under the conditions specified by the product standard until thermal equilibrium is established. Thermal equilibrium is considered established when three successive readings taken at intervals of not less than 5 minutes differ by less than 2 K.
+4.3 Temperature rise is the difference between the measured temperature of the part and the ambient temperature recorded at the same instant.
+4.4 The test report shall record the supply voltage, the ambient temperature, the position of each thermocouple, the equilibrium temperature of each measured part and the calculated temperature rise.
+
+5 Earth Continuity Test Method
+5.1 A current of not less than 25 A, derived from a source of not more than 12 V at the frequency of the supply, shall be passed between the earthing terminal and each accessible metal part in turn for a period of one minute.
+5.2 The voltage drop between the earthing terminal and the accessible metal part shall be measured and the resistance calculated from the current and voltage drop.
+5.3 The resistance of the supply cord shall not be included in the calculated value. The measured value shall be recorded in the test report.
+
+6 Humidity Conditioning
+6.1 Before the insulation resistance and electric strength tests, the appliance shall be kept for 48 hours in a humidity cabinet containing air with a relative humidity of 93 plus or minus 3 percent, at a temperature maintained within 1 K of any convenient value between 20 degC and 30 degC.
+6.2 Cord entry openings shall be left open and removable parts shall be removed and subjected to the humidity treatment with the main part.
+6.3 The insulation resistance and electric strength tests shall be carried out in the humidity cabinet, or in the room in which the appliance was brought to the prescribed temperature, immediately after reassembly.
+
+7 Electric Strength Test Method
+7.1 The insulation under test shall be subjected for one minute to a substantially sinusoidal voltage having a frequency of 50 Hz or 60 Hz, at the value specified by the product standard.
+7.2 The high voltage transformer used for the test shall be capable of maintaining the specified test voltage when the output terminals are short circuited through a current of 200 mA.
+7.3 The trip current of the overcurrent relay shall be set to 100 mA. No flashover or breakdown shall occur during the test.
+7.4 Glow discharge without a drop in voltage shall be disregarded.
+
+8 Test Report Contents
+8.1 Every test report issued under this standard shall state the name and address of the testing laboratory, the identification of the appliance including model and serial number, the date of test, the test method clause applied, the measured results and the name of the responsible signatory.
+8.2 A test report that omits the ambient conditions, the supply voltage or the calibration traceability of the instruments shall not be accepted as evidence of conformity.
+8.3 Test reports shall be retained by the manufacturer for a period of not less than the declared service life of the product or seven years, whichever is greater.

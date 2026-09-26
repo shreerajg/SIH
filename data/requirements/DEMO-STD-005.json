@@ -1,0 +1,184 @@
+{
+  "standard_id": "DEMO-STD-005",
+  "note": "Structured mechanical and physical safety requirements for toys.",
+  "requirements": [
+    {
+      "requirement_code": "D5-R01",
+      "clause": "4.1",
+      "category": "safety",
+      "requirement_text": "Toys intended for children under 36 months, and their removable components, shall not be small parts as defined by the small parts cylinder.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "small parts",
+        "small parts cylinder",
+        "choking"
+      ],
+      "applies_when": {
+        "attribute": "age_group_min_months",
+        "operator": "lt",
+        "value": 36
+      }
+    },
+    {
+      "requirement_code": "D5-R02",
+      "clause": "4.3",
+      "category": "marking",
+      "requirement_text": "Toys for children of 36 months and above containing small parts shall carry the choking hazard warning.",
+      "evidence_type": "marking_artwork",
+      "severity": "critical",
+      "match_keywords": [
+        "choking warning",
+        "warning label",
+        "not suitable for children under 36 months",
+        "choking hazard",
+        "choking"
+      ]
+    },
+    {
+      "requirement_code": "D5-R03",
+      "clause": "5.1",
+      "category": "safety",
+      "requirement_text": "The toy shall not have accessible sharp edges presenting an unreasonable risk of injury in normal use or reasonably foreseeable abuse.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "sharp edge",
+        "edge test",
+        "burr"
+      ]
+    },
+    {
+      "requirement_code": "D5-R04",
+      "clause": "5.2",
+      "category": "safety",
+      "requirement_text": "The toy shall not have accessible sharp points presenting an unreasonable risk of injury in normal use or reasonably foreseeable abuse.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "sharp point",
+        "point test",
+        "spike"
+      ]
+    },
+    {
+      "requirement_code": "D5-R05",
+      "clause": "6.1",
+      "category": "safety",
+      "requirement_text": "Cords and elastics on toys for children under 18 months shall not exceed 220 mm in length under 25 N tension.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": [
+        "cord length",
+        "string",
+        "elastic",
+        "strangulation"
+      ],
+      "applies_when": {
+        "attribute": "age_group_min_months",
+        "operator": "lt",
+        "value": 18
+      },
+      "check_rule": {
+        "attribute": "cord_length_mm",
+        "operator": "lte",
+        "value": 220,
+        "unit": "mm"
+      }
+    },
+    {
+      "requirement_code": "D5-R06",
+      "clause": "8.1.1",
+      "category": "testing",
+      "requirement_text": "Toys up to 4.5 kg for children under 36 months shall be dropped 10 times from 850 mm onto the specified surface.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "drop test",
+        "impact test",
+        "use and abuse"
+      ]
+    },
+    {
+      "requirement_code": "D5-R07",
+      "clause": "8.2.1",
+      "category": "testing",
+      "requirement_text": "A torque of 0.34 Nm shall be applied to accessible components in both directions without liberating a small part.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "torque test",
+        "twist test"
+      ]
+    },
+    {
+      "requirement_code": "D5-R08",
+      "clause": "8.3.1",
+      "category": "testing",
+      "requirement_text": "A tensile force of 70 N shall be applied to accessible components without liberating a small part.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "tension test",
+        "pull test",
+        "70 n"
+      ]
+    },
+    {
+      "requirement_code": "D5-R09",
+      "clause": "8.4.1",
+      "category": "testing",
+      "requirement_text": "A compressive force of 110 N applied through a 30 mm disc for 10 seconds shall not create a hazard.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "compression test",
+        "110 n"
+      ]
+    },
+    {
+      "requirement_code": "D5-R10",
+      "clause": "9.1",
+      "category": "marking",
+      "requirement_text": "The toy or its packaging shall carry manufacturer or importer name and address, model or batch identification and the declared age grading.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "packaging",
+        "label",
+        "age grading",
+        "marking"
+      ]
+    },
+    {
+      "requirement_code": "D5-R11",
+      "clause": "9.4",
+      "category": "marking",
+      "requirement_text": "Warnings shall be legible, indelible and visible to the purchaser at the point of sale.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "warning legibility",
+        "point of sale",
+        "indelible",
+        "warning artwork",
+        "marking artwork",
+        "label artwork"
+      ]
+    },
+    {
+      "requirement_code": "D5-R12",
+      "clause": "10.1",
+      "category": "documentation",
+      "requirement_text": "A technical file containing drawings, bill of materials, age grading rationale, mechanical test reports and chemical migration reports shall be maintained.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": [
+        "technical file",
+        "documentation",
+        "bill of materials",
+        "construction file"
+      ]
+    }
+  ]
+}

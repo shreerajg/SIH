@@ -1,0 +1,879 @@
+{
+  "generated_at": "2026-09-16T20:35:24",
+  "corpus": "demo",
+  "environment": {
+    "embedding_backend": "sentence-transformers:all-MiniLM-L6-v2",
+    "vector_backend": "mongodb",
+    "llm": {
+      "available": false,
+      "mode": "Retrieval-only",
+      "provider": "none",
+      "model": null,
+      "fallback_mode": true,
+      "supported_providers": [
+        "anthropic",
+        "gemini",
+        "openai"
+      ],
+      "last_error": null,
+      "note": "Retrieval-only: no LLM key is configured. Clause text is quoted verbatim instead of paraphrased. Search, clause retrieval, regulatory lookup and gap analysis are unaffected - the model was never the source of those answers."
+    }
+  },
+  "standard_discovery": {
+    "cases": 11,
+    "recall_at_1": 0.9091,
+    "recall_at_3": 1.0,
+    "mrr": 0.9545,
+    "supporting_standard_recall": 0.8519,
+    "details": [
+      {
+        "id": "SD-01",
+        "expected": "DEMO-STD-001",
+        "ranked": [
+          "DEMO-STD-001",
+          "DEMO-STD-002",
+          "DEMO-STD-003",
+          "DEMO-STD-004"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-02",
+        "expected": "DEMO-STD-001",
+        "ranked": [
+          "DEMO-STD-001",
+          "DEMO-STD-002",
+          "DEMO-STD-003",
+          "DEMO-STD-004"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-03",
+        "expected": "DEMO-STD-004",
+        "ranked": [
+          "DEMO-STD-004",
+          "DEMO-STD-001",
+          "DEMO-STD-002"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-04",
+        "expected": "DEMO-STD-004",
+        "ranked": [
+          "DEMO-STD-004",
+          "DEMO-STD-002",
+          "DEMO-STD-008",
+          "DEMO-STD-001",
+          "DEMO-STD-005"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-05",
+        "expected": "DEMO-STD-005",
+        "ranked": [
+          "DEMO-STD-005",
+          "DEMO-STD-006",
+          "DEMO-STD-008",
+          "DEMO-STD-002",
+          "DEMO-STD-003"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-06",
+        "expected": "DEMO-STD-005",
+        "ranked": [
+          "DEMO-STD-006",
+          "DEMO-STD-005",
+          "DEMO-STD-008",
+          "DEMO-STD-004",
+          "DEMO-STD-002"
+        ],
+        "hit_at_1": false,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-07",
+        "expected": "DEMO-STD-007",
+        "ranked": [
+          "DEMO-STD-007",
+          "DEMO-STD-008",
+          "DEMO-STD-005",
+          "DEMO-STD-006",
+          "DEMO-STD-004"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-08",
+        "expected": "DEMO-STD-007",
+        "ranked": [
+          "DEMO-STD-007",
+          "DEMO-STD-008",
+          "DEMO-STD-005",
+          "DEMO-STD-006",
+          "DEMO-STD-002"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-09",
+        "expected": "DEMO-STD-002",
+        "ranked": [
+          "DEMO-STD-002",
+          "DEMO-STD-001",
+          "DEMO-STD-003",
+          "DEMO-STD-004"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-10",
+        "expected": "DEMO-STD-001",
+        "ranked": [
+          "DEMO-STD-001",
+          "DEMO-STD-003",
+          "DEMO-STD-002",
+          "DEMO-STD-004"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      },
+      {
+        "id": "SD-11",
+        "expected": "DEMO-STD-006",
+        "ranked": [
+          "DEMO-STD-006",
+          "DEMO-STD-005",
+          "DEMO-STD-008",
+          "DEMO-STD-002",
+          "DEMO-STD-003"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true
+      }
+    ]
+  },
+  "clause_retrieval": {
+    "cases": 15,
+    "k": 5,
+    "recall_at_5": 0.9778,
+    "mrr": 0.9556,
+    "details": [
+      {
+        "id": "CR-01",
+        "expected": [
+          "6.2.1",
+          "6.2.2"
+        ],
+        "retrieved": [
+          "6.2.1",
+          "6.2.2",
+          "2.2",
+          "6.1.2",
+          "6.3.1"
+        ],
+        "found": [
+          "6.2.1",
+          "6.2.2"
+        ]
+      },
+      {
+        "id": "CR-02",
+        "expected": [
+          "7.1"
+        ],
+        "retrieved": [
+          "7.1",
+          "7.2",
+          "2.3",
+          "7.4",
+          "5.3.1"
+        ],
+        "found": [
+          "7.1"
+        ]
+      },
+      {
+        "id": "CR-03",
+        "expected": [
+          "5.1.1"
+        ],
+        "retrieved": [
+          "5.1.1",
+          "5.1.2",
+          "6.2.1",
+          "6.1.2",
+          "5.2.1"
+        ],
+        "found": [
+          "5.1.1"
+        ]
+      },
+      {
+        "id": "CR-04",
+        "expected": [
+          "5.4.1",
+          "6.4.1"
+        ],
+        "retrieved": [
+          "5.4.1",
+          "6.4.1",
+          "3.5",
+          "4.1.1",
+          "4.2.1"
+        ],
+        "found": [
+          "5.4.1",
+          "6.4.1"
+        ]
+      },
+      {
+        "id": "CR-05",
+        "expected": [
+          "4.3"
+        ],
+        "retrieved": [
+          "4.3",
+          "6.3",
+          "5.3",
+          "10.4",
+          "4.2"
+        ],
+        "found": [
+          "4.3"
+        ]
+      },
+      {
+        "id": "CR-06",
+        "expected": [
+          "10.2"
+        ],
+        "retrieved": [
+          "10.2",
+          "10.3",
+          "10.4",
+          "10",
+          "10.1"
+        ],
+        "found": [
+          "10.2"
+        ]
+      },
+      {
+        "id": "CR-07",
+        "expected": [
+          "6.1.1"
+        ],
+        "retrieved": [
+          "6.1.1",
+          "6.6",
+          "7.2",
+          "5.3.1",
+          "6.3.1"
+        ],
+        "found": [
+          "6.1.1"
+        ]
+      },
+      {
+        "id": "CR-08",
+        "expected": [
+          "5.1.1"
+        ],
+        "retrieved": [
+          "5.1.1",
+          "6.2.1",
+          "6.2.2",
+          "6.3.1",
+          "5.3.1"
+        ],
+        "found": [
+          "5.1.1"
+        ]
+      },
+      {
+        "id": "CR-09",
+        "expected": [
+          "3.1",
+          "4.1",
+          "4.4"
+        ],
+        "retrieved": [
+          "3.1",
+          "4.4",
+          "8.1.2",
+          "4.2",
+          "4.3"
+        ],
+        "found": [
+          "3.1",
+          "4.4"
+        ]
+      },
+      {
+        "id": "CR-10",
+        "expected": [
+          "3.1"
+        ],
+        "retrieved": [
+          "3.1",
+          "1.1",
+          "3.3",
+          "5.3",
+          "4.1"
+        ],
+        "found": [
+          "3.1"
+        ]
+      },
+      {
+        "id": "CR-11",
+        "expected": [
+          "6.2.1"
+        ],
+        "retrieved": [
+          "6.2.1",
+          "6.5.1",
+          "6.2.2",
+          "4.2.1",
+          "5.4.1"
+        ],
+        "found": [
+          "6.2.1"
+        ]
+      },
+      {
+        "id": "CR-12",
+        "expected": [
+          "5.2.2",
+          "6.3.1"
+        ],
+        "retrieved": [
+          "5.2.2",
+          "6.3.1",
+          "5.2.3",
+          "5.2.1",
+          "3.2"
+        ],
+        "found": [
+          "5.2.2",
+          "6.3.1"
+        ]
+      },
+      {
+        "id": "CR-13",
+        "expected": [
+          "3.2"
+        ],
+        "retrieved": [
+          "3.2",
+          "3.4",
+          "3.3",
+          "3.1",
+          "7.2"
+        ],
+        "found": [
+          "3.2"
+        ]
+      },
+      {
+        "id": "CR-14",
+        "expected": [
+          "5.2"
+        ],
+        "retrieved": [
+          "5.2",
+          "1.3",
+          "5.1",
+          "5.3",
+          "7"
+        ],
+        "found": [
+          "5.2"
+        ]
+      },
+      {
+        "id": "CR-15",
+        "expected": [
+          "6.1"
+        ],
+        "retrieved": [
+          "6.2",
+          "6.3",
+          "6.1",
+          "2.1",
+          "3.2"
+        ],
+        "found": [
+          "6.1"
+        ]
+      }
+    ]
+  },
+  "consumer_lookup": {
+    "cases": 5,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "CL-01",
+        "query": "DEMO-STD-001",
+        "expected": "DEMO-STD-001",
+        "actual": "DEMO-STD-001",
+        "correct": true
+      },
+      {
+        "id": "CL-02",
+        "query": "demo std 4",
+        "expected": "DEMO-STD-004",
+        "actual": "DEMO-STD-004",
+        "correct": true
+      },
+      {
+        "id": "CL-03",
+        "query": "DEMO-STD-7",
+        "expected": "DEMO-STD-007",
+        "actual": "DEMO-STD-007",
+        "correct": true
+      },
+      {
+        "id": "CL-04",
+        "query": "IS 99999",
+        "expected": null,
+        "actual": null,
+        "correct": true
+      },
+      {
+        "id": "CL-05",
+        "query": "IS 302",
+        "expected": null,
+        "actual": null,
+        "correct": true
+      }
+    ]
+  },
+  "consumer_description_search": {
+    "cases": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "CDS-01",
+        "query": "pressure cooker",
+        "expected": "DEMO-STD-004",
+        "actual": "DEMO-STD-004",
+        "correct": true
+      },
+      {
+        "id": "CDS-02",
+        "query": "bike helmet",
+        "expected": "DEMO-STD-007",
+        "actual": "DEMO-STD-007",
+        "correct": true
+      },
+      {
+        "id": "CDS-03",
+        "query": "toy with small parts for children",
+        "expected": "DEMO-STD-005",
+        "actual": "DEMO-STD-005",
+        "correct": true
+      }
+    ]
+  },
+  "regulatory": {
+    "cases": 8,
+    "accuracy": 1.0,
+    "absence_reported_as_voluntary": 0,
+    "details": [
+      {
+        "id": "RG-01",
+        "standard_id": "DEMO-STD-001",
+        "expected": "MANDATORY",
+        "actual": "MANDATORY",
+        "correct": true
+      },
+      {
+        "id": "RG-02",
+        "standard_id": "DEMO-STD-004",
+        "expected": "MANDATORY",
+        "actual": "MANDATORY",
+        "correct": true
+      },
+      {
+        "id": "RG-03",
+        "standard_id": "DEMO-STD-005",
+        "expected": "MANDATORY",
+        "actual": "MANDATORY",
+        "correct": true
+      },
+      {
+        "id": "RG-04",
+        "standard_id": "DEMO-STD-007",
+        "expected": "UPCOMING",
+        "actual": "UPCOMING",
+        "correct": true
+      },
+      {
+        "id": "RG-05",
+        "standard_id": "DEMO-STD-002",
+        "expected": "UNABLE_TO_VERIFY",
+        "actual": "UNABLE_TO_VERIFY",
+        "correct": true
+      },
+      {
+        "id": "RG-06",
+        "standard_id": "DEMO-STD-003",
+        "expected": "UNABLE_TO_VERIFY",
+        "actual": "UNABLE_TO_VERIFY",
+        "correct": true
+      },
+      {
+        "id": "RG-07",
+        "standard_id": "DEMO-STD-006",
+        "expected": "UNABLE_TO_VERIFY",
+        "actual": "UNABLE_TO_VERIFY",
+        "correct": true
+      },
+      {
+        "id": "RG-08",
+        "standard_id": "DEMO-STD-008",
+        "expected": "UNABLE_TO_VERIFY",
+        "actual": "UNABLE_TO_VERIFY",
+        "correct": true
+      }
+    ]
+  },
+  "gap_analysis": {
+    "cases": 2,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "GA-01",
+        "mismatches": {},
+        "correct": true
+      },
+      {
+        "id": "GA-02",
+        "mismatches": {},
+        "correct": true
+      }
+    ]
+  },
+  "amendment_impact": {
+    "cases": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "AI-01",
+        "standard_id": "DEMO-STD-001",
+        "expected": [
+          "D1-R06"
+        ],
+        "actual": [
+          "D1-R06"
+        ],
+        "correct": true
+      },
+      {
+        "id": "AI-02",
+        "standard_id": "DEMO-STD-005",
+        "expected": [
+          "D5-R05"
+        ],
+        "actual": [
+          "D5-R05"
+        ],
+        "correct": true
+      },
+      {
+        "id": "AI-03",
+        "standard_id": "DEMO-STD-004",
+        "expected": [],
+        "actual": [],
+        "correct": true
+      }
+    ]
+  },
+  "grounding": {
+    "cases": 15,
+    "total_displayed_claims": 60,
+    "citation_validity": 1.0,
+    "unsupported_claim_rate": 0.0,
+    "answerable_rate": 1.0,
+    "details": [
+      {
+        "id": "CR-01",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-02",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-03",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-04",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-05",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-06",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-07",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-08",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-09",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-10",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-11",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-12",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-13",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-14",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      },
+      {
+        "id": "CR-15",
+        "answerable": true,
+        "claims": 4,
+        "claims_with_invalid_citation": 0,
+        "rejected_by_shield": 0
+      }
+    ]
+  },
+  "verified_discovery": {
+    "cases": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "VD-01",
+        "expected": "IS-2082-2018-PM",
+        "within_top": 3,
+        "ranked": [
+          "DEMO-STD-001",
+          "IS-2082-2018-PM",
+          "IS-302-P2S21-2024-PM"
+        ],
+        "correct": true
+      },
+      {
+        "id": "VD-02",
+        "expected": "IS-2347-2023-PM",
+        "within_top": 3,
+        "ranked": [
+          "DEMO-STD-004",
+          "IS-2347-2023-PM",
+          "QCO-PRESSURE-COOKER-2020"
+        ],
+        "correct": true
+      },
+      {
+        "id": "VD-03",
+        "expected": "IS-4151-2015-PM",
+        "within_top": 3,
+        "ranked": [
+          "DEMO-STD-007",
+          "IS-4151-2015-PM",
+          "QCO-HELMET-2020"
+        ],
+        "correct": true
+      }
+    ]
+  },
+  "verified_regulatory": {
+    "cases": 4,
+    "accuracy": 1.0,
+    "absence_reported_as_voluntary": 0,
+    "details": [
+      {
+        "id": "VR-01",
+        "standard_id": "IS-2082-2018-PM",
+        "expected": "MANDATORY",
+        "actual": "MANDATORY",
+        "expected_notification": "S.O. 355(E)",
+        "actual_notification": "S.O. 355(E)",
+        "correct": true
+      },
+      {
+        "id": "VR-02",
+        "standard_id": "IS-2347-2023-PM",
+        "expected": "MANDATORY",
+        "actual": "MANDATORY",
+        "expected_notification": "S.O. 294(E)",
+        "actual_notification": "S.O. 294(E)",
+        "correct": true
+      },
+      {
+        "id": "VR-03",
+        "standard_id": "IS-4151-2015-PM",
+        "expected": "MANDATORY",
+        "actual": "MANDATORY",
+        "expected_notification": "S.O. 4252(E)",
+        "actual_notification": "S.O. 4252(E)",
+        "correct": true
+      },
+      {
+        "id": "VR-04",
+        "standard_id": "QCO-TRANSITION-FACILITATION-2026",
+        "expected": "UNABLE_TO_VERIFY",
+        "actual": "UNABLE_TO_VERIFY",
+        "expected_notification": "",
+        "actual_notification": "",
+        "correct": true
+      }
+    ]
+  },
+  "verified_consumer_lookup": {
+    "cases": 3,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "VC-01",
+        "query": "IS 2082",
+        "expected": "IS-2082-2018-PM",
+        "actual": "IS-2082-2018-PM",
+        "correct": true
+      },
+      {
+        "id": "VC-02",
+        "query": "IS 4151",
+        "expected": "IS-4151-2015-PM",
+        "actual": "IS-4151-2015-PM",
+        "correct": true
+      },
+      {
+        "id": "VC-03",
+        "query": "IS 2347",
+        "expected": "IS-2347-2023-PM",
+        "actual": "IS-2347-2023-PM",
+        "correct": true
+      }
+    ]
+  },
+  "verified_document_typing": {
+    "cases": 6,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "id": "VT-01",
+        "standard_id": "IS-2082-2018-PM",
+        "expected": "product_manual",
+        "actual": "product_manual",
+        "correct": true
+      },
+      {
+        "id": "VT-02",
+        "standard_id": "IS-2347-2023-PM",
+        "expected": "product_manual",
+        "actual": "product_manual",
+        "correct": true
+      },
+      {
+        "id": "VT-03",
+        "standard_id": "IS-4151-2015-PM",
+        "expected": "product_manual",
+        "actual": "product_manual",
+        "correct": true
+      },
+      {
+        "id": "VT-04",
+        "standard_id": "QCO-HELMET-2020",
+        "expected": "qco",
+        "actual": "qco",
+        "correct": true
+      },
+      {
+        "id": "VT-05",
+        "standard_id": "QCO-WATER-HEATING-2025",
+        "expected": "qco",
+        "actual": "qco",
+        "correct": true
+      },
+      {
+        "id": "VT-06",
+        "standard_id": "QCO-TRANSITION-FACILITATION-2026",
+        "expected": "regulatory",
+        "actual": "regulatory",
+        "correct": true
+      }
+    ]
+  },
+  "duration_seconds": 61.72
+}

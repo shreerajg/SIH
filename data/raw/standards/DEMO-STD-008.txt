@@ -1,0 +1,51 @@
+Standard-Id: DEMO-STD-008
+IS-Number: DEMO-STD-008
+Title: Consumer Products - General Requirements for Marking, Labelling and Instructions
+Year: 2022
+Version: 2022 (Demo Corpus Rev. 1)
+Category: horizontal
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: marking, labelling, label, instructions, manual, rating plate, durability of marking, warning, language, country of origin, batch number, traceability, consumer information, packaging
+Covered-Areas: Marking content, Marking durability, Warnings, Instructions and language, Traceability
+Plain-Summary: A demonstration horizontal standard about what information must appear on a consumer product and how permanently it must be applied. Product standards such as the water heater, pressure cooker, toy and helmet standards all call up its requirements.
+
+1 Scope
+1.1 This standard specifies general requirements for the marking, labelling, warning notices and accompanying instructions of consumer products supplied to the domestic market.
+1.2 This standard is intended to be called up by product specific standards. Where a product specific standard states a different requirement, that requirement takes precedence.
+1.3 This is a demonstration document authored for the SIH26107 prototype and is not an official Indian Standard.
+
+2 Mandatory Marking Content
+2.1 Every consumer product shall be marked with the name and address of the manufacturer or of the importer, or with a registered trade mark by which either can be identified.
+2.2 Every consumer product shall be marked with a model designation and with a batch, lot or serial identification that permits the production batch to be traced.
+2.3 Every consumer product shall be marked with the country of origin.
+2.4 Every consumer product shall be marked with the month and year of manufacture, or with a date code whose key is disclosed to the certifying authority on request.
+2.5 Products having electrical, thermal or pressure ratings shall be marked with those ratings in SI units, using the symbols V, W, A, Hz, L, kPa and degC as applicable.
+
+3 Durability of Marking
+3.1 Markings required by this standard or by a product specific standard shall be durable and legible for the declared service life of the product under normal conditions of use and cleaning.
+3.2 Compliance is checked by rubbing the marking for 15 seconds with a cloth soaked in water and then for a further 15 seconds with a cloth soaked in petroleum spirit. After the test the marking shall remain legible and any label shall show no curling of its edges.
+3.3 Required markings shall not be applied to screws, washers, removable name plates or any part that can be detached without the aid of a tool.
+3.4 Markings applied by adhesive label shall additionally satisfy an adhesion test in which a peel force is applied to one corner of the label for 10 seconds without the label detaching.
+
+4 Warnings
+4.1 Where a product presents a hazard that cannot be removed by design, a warning shall be provided which identifies the hazard, the consequence of ignoring it and the action the user must take.
+4.2 Warnings shall be presented in a manner that contrasts with the surrounding text or graphics, and shall use a character height of not less than 3 mm on the product and not less than 5 mm on the packaging.
+4.3 Warnings that are relevant to the purchase decision, including age grading and choking hazard warnings, shall be visible on the packaging at the point of sale without opening the packaging.
+
+5 Instructions
+5.1 Instructions for installation, use and maintenance shall be supplied with every product for which incorrect installation, use or maintenance could give rise to a hazard.
+5.2 Instructions shall be provided in English and in Hindi at minimum, and may additionally be provided in other languages.
+5.3 Instructions shall state the intended use of the product, any use that is expressly not intended, the maintenance actions required of the user and their intervals, and the details of the after sales contact point.
+5.4 Where the product contains user replaceable safety critical parts, the instructions shall state the reference of each such part and the replacement interval.
+
+6 Conformity Marking
+6.1 A conformity mark denoting compliance with a standard shall be applied only where a valid licence or certificate has been granted by the certifying authority for the specific product, factory and standard concerned.
+6.2 A conformity mark shall be accompanied by the licence number and by the reference of the standard to which conformity is claimed.
+6.3 The application of a conformity mark to a product for which no valid licence exists is a misrepresentation and shall not be done under any circumstance.
+
+7 Documentation Retained by the Manufacturer
+7.1 The manufacturer shall retain artwork of every marking and label used, identified by revision and date of first use.
+7.2 The manufacturer shall retain the marking durability test record required by Clause 3.2 for each label construction used.

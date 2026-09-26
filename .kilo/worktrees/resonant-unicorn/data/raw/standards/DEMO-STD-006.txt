@@ -1,0 +1,48 @@
+Standard-Id: DEMO-STD-006
+IS-Number: DEMO-STD-006
+Title: Safety of Toys - Part 2 Migration of Certain Elements
+Year: 2023
+Version: 2023 (Demo Corpus Rev. 1)
+Category: toys
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: toy, toys, chemical safety, migration, heavy metals, lead, cadmium, chromium, mercury, barium, antimony, arsenic, selenium, paint, coating, plastic, textile, phthalate, children
+Covered-Areas: Chemical safety, Element migration limits, Sampling, Analytical methods, Documentation
+Plain-Summary: A demonstration toy standard about chemicals rather than physical shape. It limits how much of certain toxic elements may leach out of a toy's paint, plastic or fabric if a child sucks or swallows part of it, and describes how a laboratory must test for that.
+
+1 Scope
+1.1 This standard specifies maximum acceptable levels for the migration of the elements antimony, arsenic, barium, cadmium, chromium, lead, mercury and selenium from toy materials and from parts of toys.
+1.2 This standard applies to all accessible parts of toys and to accessible toy materials, whether or not they are intended to be placed in the mouth.
+1.3 This standard does not apply to packaging materials unless the packaging forms part of the play value of the toy.
+1.4 This is a demonstration document authored for the SIH26107 prototype and is not an official Indian Standard.
+
+2 Categories of Toy Material
+2.1 Category I - Dry, brittle, powder-like or pliable material.
+2.2 Category II - Liquid or sticky material.
+2.3 Category III - Scraped-off material, including surface coatings, paints, varnishes, lacquers, printing inks, polymers and similar coatings.
+
+3 Migration Limits
+3.1 The migration of elements from Category III material shall not exceed the following limits in milligrams per kilogram: antimony 560, arsenic 47, barium 18750, cadmium 17, chromium III 460, chromium VI 0.053, lead 23, mercury 94, selenium 460.
+3.2 The migration of elements from Category I material shall not exceed one quarter of the values stated for Category III, and from Category II material shall not exceed one sixteenth of those values.
+3.3 Where a toy contains several materials, each material shall be assessed separately against the limit for its category.
+
+4 Sampling
+4.1 A sample of each accessible material shall be taken from a toy representative of series production. Where the accessible surface coating cannot be separated in sufficient quantity, coatings from several identical toys may be combined.
+4.2 The minimum test portion shall be 100 mg of scraped-off coating or 100 mg of the base material.
+4.3 Where the available quantity of material is less than 10 mg the test need not be carried out, and this shall be recorded in the test report.
+
+5 Analytical Method
+5.1 The test portion shall be treated with 0.07 mol per litre hydrochloric acid solution at 37 plus or minus 2 degC for two hours, followed by one hour standing without agitation, to simulate the conditions of the digestive tract.
+5.2 The extract shall be separated by filtration or centrifugation and analysed by inductively coupled plasma mass spectrometry, inductively coupled plasma optical emission spectrometry or atomic absorption spectrometry.
+5.3 The analytical method shall have a limit of quantification not exceeding one fifth of the migration limit for the element concerned.
+5.4 Results shall be corrected for the analytical recovery determined on a spiked sample and the correction factor shall be stated in the test report.
+
+6 Test Report
+6.1 The test report shall state the identification of the toy, the material category assigned to each test portion, the mass of each test portion, the analytical technique used, the limit of quantification for each element, the measured migration in milligrams per kilogram and the comparison against the limits of Clause 3.
+6.2 A migration test report shall be retained by the manufacturer for each distinct material and colour combination used in the toy.
+
+7 Documentation
+7.1 The manufacturer shall obtain from each supplier a declaration identifying the pigments, stabilisers and plasticisers used in every material supplied for the toy.
+7.2 Where a material or colour is changed, a fresh migration test shall be carried out for the changed material before it is used in series production.

@@ -1,0 +1,78 @@
+Standard-Id: DEMO-STD-007
+IS-Number: DEMO-STD-007
+Title: Protective Helmets for Riders of Two Wheeled Motor Vehicles - Specification
+Year: 2024
+Version: 2024 (Demo Corpus Rev. 1)
+Category: personal-protective-equipment
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: helmet, protective helmet, two wheeler, motorcycle, scooter, rider, shell, liner, retention system, chin strap, visor, impact absorption, penetration, field of vision, ppe, head protection
+Covered-Areas: Impact protection, Retention system, Field of vision, Materials, Marking and labelling, Type testing
+Plain-Summary: A demonstration specification for motorcycle helmets. It covers how much impact the shell and liner must absorb, how strong the chin strap must be, how much the rider must be able to see, and what must be marked inside the helmet.
+
+1 Scope
+1.1 This standard specifies requirements for protective helmets intended for the riders and pillion riders of two wheeled motor vehicles.
+1.2 This standard covers full face helmets, open face helmets and half coverage helmets, in the size range corresponding to head circumferences from 500 mm to 660 mm.
+1.3 This standard does not cover helmets for bicycle use, for motor sport competition, or for industrial head protection.
+1.4 This is a demonstration document authored for the SIH26107 prototype and is not an official Indian Standard.
+
+2 References
+2.1 DEMO-STD-008 Consumer Products - General Requirements for Marking, Labelling and Instructions.
+
+3 Terminology
+3.1 Shell - The hard outer part of the helmet which distributes impact force and resists penetration.
+3.2 Protective padding - The energy absorbing liner fitted inside the shell.
+3.3 Retention system - The complete assembly by which the helmet is held in position on the head, including the chin strap and its fastening device.
+3.4 Mass of helmet - The mass of the complete helmet including the retention system and any visor, excluding accessories.
+
+4 Construction and Materials
+4.1 Shell
+4.1.1 The shell shall be manufactured from thermoplastic or thermoset composite material which does not degrade under exposure to ultraviolet radiation, temperature variation, or contact with petrol, oil and cleaning agents encountered in normal use.
+4.1.2 The external surface of the shell shall be smooth and free from projections exceeding 5 mm, other than projections which detach when subjected to a lateral force.
+4.2 Protective padding
+4.2.1 The protective padding shall be of expanded polystyrene or an equivalent energy absorbing material, of uniform density, and shall be retained within the shell so that it cannot be displaced during use.
+4.2.2 The manufacturer shall declare the density and thickness of the protective padding and shall hold a material certificate for each batch.
+4.3 Comfort padding
+4.3.1 Comfort padding in contact with the wearer shall be of material which does not cause skin irritation and shall be removable for cleaning where the design permits.
+4.4 Mass
+4.4.1 The mass of a full face helmet shall not exceed 1.5 kg and the mass of an open face or half coverage helmet shall not exceed 1.2 kg.
+
+5 Performance Requirements
+5.1 Impact absorption
+5.1.1 When tested in accordance with Clause 6.2, the peak acceleration transmitted to the headform shall not exceed 300 g, and the acceleration shall not exceed 150 g for a cumulative duration of more than 5 milliseconds.
+5.2 Penetration resistance
+5.2.1 When tested in accordance with Clause 6.3, the striker shall not contact the surface of the headform.
+5.3 Retention system strength
+5.3.1 When tested in accordance with Clause 6.4, the dynamic displacement of the retention system shall not exceed 35 mm and the residual displacement shall not exceed 25 mm. The retention system shall not fail.
+5.4 Roll off resistance
+5.4.1 When tested in accordance with Clause 6.5, the helmet shall not roll off the headform.
+5.5 Field of vision
+5.5.1 The helmet shall provide a horizontal peripheral field of vision of not less than 105 degrees on each side of the mid sagittal plane, an upward field of vision of not less than 7 degrees and a downward field of vision of not less than 45 degrees.
+5.6 Visor
+5.6.1 Where a visor is fitted, the luminous transmittance of the visor shall be not less than 80 percent for a visor intended for use at night, and the visor shall not shatter into sharp fragments when impacted.
+
+6 Test Methods
+6.1 Conditioning
+6.1.1 Before testing, helmets shall be conditioned for not less than 4 hours at one of the following: ambient 25 plus or minus 5 degC, high temperature 50 plus or minus 2 degC, low temperature minus 10 plus or minus 2 degC, or water immersion at 25 plus or minus 5 degC.
+6.2 Impact absorption test
+6.2.1 The helmet shall be mounted on the appropriate headform and dropped in guided free fall onto a flat anvil at an impact velocity of 7.5 metres per second, and onto a kerbstone anvil at an impact velocity of 7.0 metres per second. Acceleration of the headform shall be recorded.
+6.2.2 Impacts shall be applied at not fewer than four sites on each of four helmets, one for each conditioning state.
+6.3 Penetration test
+6.3.1 A striker of mass 3.0 kg with a conical point of included angle 60 degrees shall be dropped from a height of 2 metres onto the helmet mounted on a headform fitted with a contact indicator.
+6.4 Retention system test
+6.4.1 A load of 10 kg shall be applied to the fastened retention system as a preload, followed by a dynamic load produced by a guided mass of 10 kg falling through 750 mm. Dynamic and residual displacement shall be measured.
+6.5 Roll off test
+6.5.1 The helmet shall be fitted to the headform and a dynamic load applied to the rear of the helmet in a direction tending to roll the helmet forwards off the head, and then repeated in the reverse direction.
+6.6 A type test report covering Clauses 6.2 to 6.5 for all four conditioning states, issued by a laboratory competent for these methods, shall be retained by the manufacturer as evidence of conformity.
+
+7 Marking and Labelling
+7.1 Every helmet shall carry a permanent label, affixed inside the helmet and visible when the comfort padding is in place, bearing the manufacturer name or registered trade mark, the model designation, the size or size range, the month and year of manufacture and the mass of the helmet.
+7.2 The label shall carry the instruction that the helmet is designed to absorb energy by partial destruction and must be replaced after any significant impact even where no damage is visible.
+7.3 The label shall carry a warning against the application of paint, solvents, adhesives or self adhesive labels to the shell.
+7.4 Where the product is covered by a Quality Control Order, conformity marking shall be applied only under a valid licence issued by the certifying authority.
+
+8 Instructions and Documentation
+8.1 Every helmet shall be supplied with instructions in English and in Hindi covering correct fitting, correct fastening of the retention system, cleaning, storage and the replacement policy of Clause 7.2.
+8.2 The manufacturer shall maintain a technical file containing the shell and padding material certificates, the type test reports of Clause 6.6 and the declaration of conformity.

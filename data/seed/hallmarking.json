@@ -1,0 +1,273 @@
+{
+  "note": "Structured BIS hallmarking knowledge. Every factual record here was transcribed from an official BIS document that is ingested into this corpus, and carries clause_keywords so its citation is resolved live against that document rather than stored as quoted text. Nothing in this file is written from general knowledge: if a value is not in the ingested sources it is absent, and the API reports UNABLE_TO_VERIFY for it.",
+  "scheme": {
+    "id": "BIS-HALLMARKING",
+    "name": "BIS Hallmarking Scheme",
+    "operated_by": "Bureau of Indian Standards",
+    "summary": "Hallmarking is the accurate determination and official recording of the proportionate content of precious metal in precious metal articles. Hallmarks are official marks used in India as a guarantee of purity or fineness.",
+    "materials": ["gold", "silver"],
+    "legal_basis": "BIS (Hallmarking) Regulations, 2018",
+    "primary_document_id": "BIS-HM-BRIEF",
+    "source_url": "https://www.bis.gov.in/hallmarking-overview/?lang=en",
+    "clause_keywords": [
+      "accurate determination and official recording",
+      "guarantee of purity or fineness"
+    ],
+    "standards_clause_keywords": ["IS 1417", "IS 2112", "IS 15820"]
+  },
+
+  "purity_grades": [
+    {
+      "id": "GOLD-22K",
+      "material": "gold",
+      "carat": "22K",
+      "fineness": "916",
+      "permitted_marking": "22K916",
+      "mandatory_order_covered": true,
+      "clause_keywords": ["22K916"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "GOLD-18K",
+      "material": "gold",
+      "carat": "18K",
+      "fineness": "750",
+      "permitted_marking": "18K750",
+      "mandatory_order_covered": true,
+      "clause_keywords": ["18K750"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "GOLD-14K",
+      "material": "gold",
+      "carat": "14K",
+      "fineness": "585",
+      "permitted_marking": "14K585",
+      "mandatory_order_covered": true,
+      "clause_keywords": ["14K585"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "GOLD-20K",
+      "material": "gold",
+      "carat": "20K",
+      "fineness": null,
+      "permitted_marking": null,
+      "mandatory_order_covered": false,
+      "note": "Added to IS 1417 by amendment. The mandatory hallmarking order covers 14, 18 and 22 carat.",
+      "clause_keywords": ["additional grades of 20 carat"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "GOLD-23K",
+      "material": "gold",
+      "carat": "23K",
+      "fineness": null,
+      "permitted_marking": null,
+      "mandatory_order_covered": false,
+      "note": "Added to IS 1417 by amendment. The mandatory hallmarking order covers 14, 18 and 22 carat.",
+      "clause_keywords": ["23 carat"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "GOLD-24K",
+      "material": "gold",
+      "carat": "24K",
+      "fineness": null,
+      "permitted_marking": null,
+      "mandatory_order_covered": false,
+      "note": "Added to IS 1417 by amendment. The mandatory hallmarking order covers 14, 18 and 22 carat.",
+      "clause_keywords": ["24 carats"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "SILVER-990", "material": "silver", "carat": null, "fineness": "990",
+      "permitted_marking": "990", "mandatory_order_covered": false,
+      "clause_keywords": ["990,970,925,900,835,800"], "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "SILVER-970", "material": "silver", "carat": null, "fineness": "970",
+      "permitted_marking": "970", "mandatory_order_covered": false,
+      "clause_keywords": ["990,970,925,900,835,800"], "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "SILVER-925", "material": "silver", "carat": null, "fineness": "925",
+      "permitted_marking": "925", "mandatory_order_covered": false,
+      "clause_keywords": ["990,970,925,900,835,800"], "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "SILVER-900", "material": "silver", "carat": null, "fineness": "900",
+      "permitted_marking": "900", "mandatory_order_covered": false,
+      "clause_keywords": ["990,970,925,900,835,800"], "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "SILVER-835", "material": "silver", "carat": null, "fineness": "835",
+      "permitted_marking": "835", "mandatory_order_covered": false,
+      "clause_keywords": ["990,970,925,900,835,800"], "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "SILVER-800", "material": "silver", "carat": null, "fineness": "800",
+      "permitted_marking": "800", "mandatory_order_covered": false,
+      "clause_keywords": ["990,970,925,900,835,800"], "source_document_id": "BIS-HM-BRIEF"
+    }
+  ],
+
+  "hallmark_components": [
+    {
+      "id": "BIS-MARK",
+      "order": 1,
+      "name": "BIS Mark",
+      "description": "The BIS logo, applied by the recognised Assaying & Hallmarking Centre.",
+      "applies_to": ["gold", "silver"],
+      "clause_keywords": ["BIS Mark"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "PURITY-MARK",
+      "order": 2,
+      "name": "Purity / fineness mark",
+      "description": "Purity in carat and fineness for gold (for example 22K916, 18K750, 14K585); for silver, the fineness alone.",
+      "applies_to": ["gold", "silver"],
+      "clause_keywords": ["Purity in carat and fineness"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "HUID",
+      "order": 3,
+      "name": "Six-digit alphanumeric HUID",
+      "description": "A unique six-digit alphanumeric code generated from the BIS server for each jewellery article and laser-marked by the Assaying & Hallmarking Centre, alongside the BIS logo and the purity mark. In force for gold jewellery/artefacts from 1 July 2021.",
+      "applies_to": ["gold"],
+      "clause_keywords": ["six digit alpha numerical code", "Six digit alphanumeric code"],
+      "source_document_id": "BIS-HM-BRIEF"
+    }
+  ],
+
+  "consumer_checks": [
+    {
+      "id": "CHECK-MARKS",
+      "order": 1,
+      "text": "Look for the three marks that hallmarked gold jewellery carries since 1 July 2021: the BIS mark, the purity/fineness mark, and the six-digit alphanumeric HUID.",
+      "clause_keywords": ["three marks"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "CHECK-PURITY",
+      "order": 2,
+      "text": "Check that the purity mark is one BIS permits for that metal - for gold, markings such as 22K916, 18K750 or 14K585.",
+      "clause_keywords": ["22K916"],
+      "source_document_id": "BIS-HM-BRIEF"
+    },
+    {
+      "id": "CHECK-TESTING",
+      "order": 3,
+      "text": "A consumer can have jewellery tested at a BIS recognised Assaying & Hallmarking Centre.",
+      "clause_keywords": ["Check testing of Hallmarked/Unhallmarked articles by Consumer", "get its jewellery/sample tested"],
+      "source_document_id": "BIS-HM-CONSUMER-PROTECTION"
+    },
+    {
+      "id": "CHECK-COMPENSATION",
+      "order": 4,
+      "text": "If a hallmarked article is found short of the marked purity, BIS Rules provide for compensation to the buyer.",
+      "clause_keywords": ["two times the amount", "compensation"],
+      "source_document_id": "BIS-HM-FAQ-CONSUMER"
+    },
+    {
+      "id": "CHECK-COMPLAINT",
+      "order": 5,
+      "text": "Complaints can be registered with BIS, including through the BIS CARE mobile app and the online complaint portal.",
+      "clause_keywords": ["BIS CARE", "complaint"],
+      "source_document_id": "BIS-HM-FAQ-CONSUMER"
+    }
+  ],
+
+  "process_stages": [
+    {
+      "id": "HM-APPLICABILITY",
+      "order": 1,
+      "title": "Confirm hallmarking applies to you",
+      "actor": "jeweller",
+      "summary": "Mandatory hallmarking applies to gold jewellery and artefacts in the districts and carats named by the order.",
+      "what_you_do": [
+        "Check whether your district is covered by the mandatory hallmarking order.",
+        "Check the carats covered - the order names 14, 18 and 22 carat gold."
+      ],
+      "clause_keywords": ["mandatory hallmarking order is applicable", "Quality control order for mandatory hallmarking"],
+      "prefer_document_ids": ["BIS-HM-BRIEF", "BIS-HM-MANDATORY-ORDER-2020"]
+    },
+    {
+      "id": "HM-REGISTRATION",
+      "order": 2,
+      "title": "Register as a BIS jeweller",
+      "actor": "jeweller",
+      "summary": "A jeweller who wants to sell hallmarked jewellery must obtain registration from BIS. The process is online.",
+      "what_you_do": [
+        "Apply online for jeweller registration.",
+        "Complete the application on the BIS / NSWS portal."
+      ],
+      "clause_keywords": ["has to obtain a registration from BIS", "registration of jeweler"],
+      "prefer_document_ids": ["BIS-HM-BRIEF", "BIS-HM-JEWELLER-REGISTRATION"]
+    },
+    {
+      "id": "HM-SUBMIT",
+      "order": 3,
+      "title": "Submit articles to a recognised A&H Centre",
+      "actor": "jeweller",
+      "summary": "The registered jeweller submits jewellery for hallmarking to a BIS recognised Assaying & Hallmarking Centre.",
+      "what_you_do": [
+        "Choose a BIS recognised Assaying & Hallmarking Centre.",
+        "Submit the hallmarking request; the centre records the inward receipt and weighment."
+      ],
+      "clause_keywords": ["submits the jewellery for hallmarking", "recognized Assaying & Hallmarking"],
+      "prefer_document_ids": ["BIS-HM-BRIEF"]
+    },
+    {
+      "id": "HM-ASSAY",
+      "order": 4,
+      "title": "Assaying and testing",
+      "actor": "ahc",
+      "summary": "The centre tests the article against the relevant Indian Standard.",
+      "what_you_do": [
+        "The centre carries out the testing steps recorded in the BIS workflow, which include XRF, sampling and fire assay."
+      ],
+      "clause_keywords": ["XRF, Sampling, Fireassay", "jewellery is tested"],
+      "prefer_document_ids": ["BIS-HM-BRIEF", "BIS-HM-AHC-GUIDELINES"]
+    },
+    {
+      "id": "HM-MARK",
+      "order": 5,
+      "title": "Hallmarking and HUID",
+      "actor": "ahc",
+      "summary": "A unique six-digit alphanumeric code is generated from the BIS server for each article and laser-marked with the BIS logo and purity mark.",
+      "what_you_do": [
+        "The centre applies the hallmark to articles meeting the requirement of the standard.",
+        "The HUID is laser-marked alongside the BIS logo and purity mark."
+      ],
+      "clause_keywords": ["laser marked by the assaying and hallmarking centre", "unique six digit alpha numerical code"],
+      "prefer_document_ids": ["BIS-HM-BRIEF"]
+    },
+    {
+      "id": "HM-SURVEILLANCE",
+      "order": 6,
+      "title": "Ongoing obligations and surveillance",
+      "actor": "both",
+      "summary": "After registration BIS periodically visits sales outlets, draws samples of hallmarked articles and has them tested.",
+      "what_you_do": [
+        "Keep selling only hallmarked articles that meet the marked purity.",
+        "Expect periodic market surveillance and audit of the centre."
+      ],
+      "clause_keywords": ["periodically visit the sales outlet", "surveillance audit"],
+      "prefer_document_ids": ["BIS-HM-BRIEF", "BIS-HM-JEWELLER-GUIDELINES"]
+    }
+  ],
+
+  "huid": {
+    "length": 6,
+    "character_set": "alphanumeric",
+    "description": "A unique six-digit alphanumeric code generated from the BIS server for each hallmarked article and laser-marked on it by the Assaying & Hallmarking Centre.",
+    "in_force_from": "1 July 2021",
+    "clause_keywords": ["unique six digit alpha numerical code", "Six digit alphanumeric code"],
+    "source_document_id": "BIS-HM-BRIEF",
+    "verification_note": "This platform does not hold, and is not connected to, the BIS HUID verification service. It can explain what a HUID is and where BIS publishes verification, but it cannot confirm that any particular HUID is genuine.",
+    "official_verification_url": "https://www.bis.gov.in/hallmarking-overview/?lang=en"
+  }
+}

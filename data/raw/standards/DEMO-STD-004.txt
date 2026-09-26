@@ -1,0 +1,76 @@
+Standard-Id: DEMO-STD-004
+IS-Number: DEMO-STD-004
+Title: Domestic Pressure Cookers - Specification
+Year: 2024
+Version: 2024 (Demo Corpus Rev. 1)
+Category: kitchenware
+Source-Type: demo
+Source-URL:
+Verified: false
+Mock: true
+Keywords: pressure cooker, cooker, domestic, kitchen, aluminium, stainless steel, gasket, safety valve, vent weight, operating pressure, lid, interlock, cookware, kitchenware, burst pressure
+Covered-Areas: Pressure safety, Material requirements, Mechanical strength, Gasket and sealing, Marking and labelling, Type testing
+Plain-Summary: A demonstration specification for household pressure cookers. It covers the metal the body is made from, the safety devices that release excess pressure, how strong the vessel must be, and what must be marked on the cooker.
+
+1 Scope
+1.1 This standard specifies requirements for the material, construction, performance, safety devices, marking and testing of pressure cookers of aluminium or stainless steel intended for domestic cooking on a household heat source.
+1.2 This standard covers cookers having a nominal capacity from 1.5 litres to 22 litres and a declared operating pressure not exceeding 100 kPa gauge.
+1.3 This standard does not cover pressure cookers intended for commercial catering, autoclaves, or electrically heated multi-cookers with integral heating elements.
+1.4 This is a demonstration document authored for the SIH26107 prototype and is not an official Indian Standard.
+
+2 References
+2.1 DEMO-STD-008 Consumer Products - General Requirements for Marking, Labelling and Instructions.
+
+3 Terminology
+3.1 Operating pressure - The gauge pressure at which the cooker is designed to operate continuously, controlled by the vent weight or the regulating valve.
+3.2 Safety device - A device that releases pressure automatically when the pressure in the vessel exceeds a predetermined value higher than the operating pressure.
+3.3 Nominal capacity - The total internal volume of the body up to the brim, expressed in litres.
+3.4 Useful capacity - Two thirds of the nominal capacity, being the maximum recommended fill level.
+
+4 Material Requirements
+4.1 Body and lid material
+4.1.1 The body and lid shall be manufactured from wrought aluminium of not less than 99.0 percent purity, from a declared aluminium alloy, or from austenitic stainless steel of a declared grade.
+4.1.2 The manufacturer shall hold a material test certificate for each batch of sheet or circle used for the body, stating the chemical composition and the mechanical properties.
+4.1.3 Materials in contact with food shall not impart any odour, taste, colour or toxicity to the food, and shall comply with the applicable food contact material requirements.
+4.2 Thickness
+4.2.1 The thickness of the body wall shall not be less than 2.0 mm for aluminium cookers of nominal capacity up to 5 litres and not less than 2.5 mm for larger capacities, measured after forming.
+4.2.2 The thickness of the base shall not be less than 3.0 mm for aluminium cookers, measured at the thinnest point.
+4.3 Gasket
+4.3.1 The sealing gasket shall be manufactured from food grade elastomer that retains its sealing property after 500 cooking cycles, and shall be replaceable by the user without tools.
+
+5 Construction and Safety Devices
+5.1 Primary safety device
+5.1.1 Every pressure cooker shall be fitted with a primary pressure regulating device, being a vent weight or a spring loaded regulating valve, which maintains the pressure in the vessel at the declared operating pressure.
+5.2 Secondary safety device
+5.2.1 Every pressure cooker shall additionally be fitted with an independent safety device, such as a fusible safety plug or a spring loaded safety valve, which releases pressure if the primary device becomes blocked.
+5.2.2 The secondary safety device shall begin to release at a pressure not exceeding 1.6 times the declared operating pressure and shall be capable of discharging the full steam generation rate without the vessel pressure exceeding 2.0 times the declared operating pressure.
+5.2.3 The secondary safety device shall not be capable of being rendered inoperative by the user during normal cleaning and reassembly.
+5.3 Lid interlock
+5.3.1 The cooker shall incorporate a device which prevents the lid from being opened while the internal pressure exceeds 4 kPa gauge, and which prevents pressure from building up if the lid is not correctly closed.
+5.4 Handles
+5.4.1 Handles shall be securely attached and shall withstand, without loosening or permanent deformation, a static load of three times the mass of the cooker filled to useful capacity with water, applied for 15 minutes.
+5.4.2 Handle material shall be of low thermal conductivity such that the temperature rise of the gripping surface does not exceed 35 K above ambient during the boiling test of Clause 6.4.
+
+6 Tests
+6.1 General
+6.1.1 The tests of this clause are type tests to be performed on samples representative of series production.
+6.2 Hydrostatic burst test
+6.2.1 The assembled cooker body, with the safety devices blanked off, shall be subjected to increasing hydrostatic pressure. The body shall not rupture at a pressure below five times the declared operating pressure.
+6.2.2 A burst test report from a laboratory competent for this method shall be retained as evidence of conformity.
+6.3 Safety device functional test
+6.3.1 With the primary regulating device blanked off, the cooker shall be heated. The secondary safety device shall operate before the internal pressure reaches 1.6 times the declared operating pressure. The operating pressure of the secondary device shall be recorded.
+6.4 Boiling and handle temperature test
+6.4.1 The cooker shall be filled to useful capacity with water and heated on a declared heat source until steady venting is established, and maintained for 30 minutes. Handle gripping surface temperatures shall be recorded.
+6.5 Gasket endurance test
+6.5.1 The cooker shall be subjected to 500 pressurisation and depressurisation cycles. After the cycles the cooker shall reach and maintain the declared operating pressure without leakage past the gasket.
+6.6 Handle load test
+6.6.1 Handles shall be tested in accordance with Clause 5.4.1 and the result recorded.
+
+7 Marking and Labelling
+7.1 Each pressure cooker shall be permanently marked with the manufacturer name or registered trade mark, the model designation, the nominal capacity in litres, the declared operating pressure in kilopascals, the material of construction and the year of manufacture.
+7.2 The marking shall be applied to the body of the cooker in a position that remains visible after the lid is fitted, and shall not be applied only to a removable label.
+7.3 Where the product is covered by a Quality Control Order, conformity marking shall be applied only under a valid licence issued by the certifying authority.
+
+8 Instructions
+8.1 Every cooker shall be supplied with printed instructions in English and in Hindi covering the maximum fill level, the correct use of the safety devices, cleaning of the vent, the gasket replacement interval and a warning not to open the lid while under pressure.
+8.2 The instructions shall state the reference of the replacement gasket and of the replacement safety device.

@@ -1,0 +1,193 @@
+{
+  "manifest_version": "SIH26107-verified-corpus-v2-2026-09-03",
+  "generated_on": "2026-09-03",
+  "safety_policy": {
+    "auto_merge_into_existing_manifest": false,
+    "auto_modify_database": false,
+    "mark_ingestion_verified_before_download_validation": false,
+    "treat_product_manual_as_full_indian_standard": false,
+    "treat_qco_as_full_indian_standard": false,
+    "regulatory_status_requires_current_index_reconciliation": true
+  },
+  "notes": [
+    "This pack intentionally contains official BIS Product Manuals, QCOs/amendments and current BIS regulatory index references, not copied full paid Indian Standards.",
+    "The download script stages and validates files before promoting them into data/raw/verified_bis_2026_09_03.",
+    "The 2026 Transition Facilitation (Quality Control) Order is included because it affects Toys and Electrical Appliances for domestic water heating; it must not be interpreted as a blanket cancellation or postponement of the underlying QCOs.",
+    "For Domestic Pressure Cooker, the original 2020 QCO names IS 2347:2017, while the current BIS standard record identifies IS 2347:2023 as the revised standard and Mandatory Certification. The QCO itself states that the latest BIS-notified version/amendments apply. Claude must preserve this version transition explicitly."
+  ],
+  "sources": [
+    {
+      "scenario": "stationary_storage_water_heater",
+      "document_type": "product_manual",
+      "standard": "IS 2082:2018",
+      "title": "Stationary Storage Type Electric Water Heaters - Product Manual (PM/IS 2082/6/September 2024)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2024/09/2082-PM_V6_-approved.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "water_heater/IS_2082_2018_Product_Manual_Sep_2024.pdf"
+    },
+    {
+      "scenario": "stationary_storage_water_heater",
+      "document_type": "product_manual",
+      "standard": "IS 302 (Part 2/Sec 21):2024 / IEC 60335-2-21:2022",
+      "title": "Stationary Storage Type Electric Water Heaters Safety - Product Manual (September 2024)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2024/09/302-2-21-PM_-approved.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "water_heater/IS_302_Part2_Sec21_2024_Product_Manual_Sep_2024.pdf"
+    },
+    {
+      "scenario": "stationary_storage_water_heater",
+      "document_type": "qco",
+      "standard": "IS 302 (Part 2/Sec 21):2018; IS 302 (Part 2/Sec 35):2017; IS 368:2014; IS 2082:2018; IS 17150:2019",
+      "title": "Electrical Appliances for domestic water heating (Quality Control) Order, 2025",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2025/01/Electrical-Appliances-for-domestic-water-heating-QCO-2025.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "water_heater/Domestic_Water_Heating_QCO_2025.pdf"
+    },
+    {
+      "scenario": "domestic_pressure_cooker",
+      "document_type": "product_manual",
+      "standard": "IS 2347:2023",
+      "title": "Domestic Pressure Cooker - Product Manual (PM/IS 2347/9/February 2025)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "pressure_cooker/IS_2347_2023_Product_Manual_Feb_2025.pdf"
+    },
+    {
+      "scenario": "domestic_pressure_cooker",
+      "document_type": "qco",
+      "standard": "IS 2347:2017 (QCO text; latest BIS-notified version/amendments apply)",
+      "title": "Domestic Pressure Cooker (Quality Control) Order, 2020 - S.O. 294(E)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/01/Pressure_cooker_QCO.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "pressure_cooker/Domestic_Pressure_Cooker_QCO_2020.pdf"
+    },
+    {
+      "scenario": "domestic_pressure_cooker",
+      "document_type": "qco_amendment",
+      "title": "Domestic Pressure Cooker (Quality Control) (Amendment) Order, 2020 - S.O. 2019(E)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/07/Extension-Order-Pressure-Cooker.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "pressure_cooker/Domestic_Pressure_Cooker_QCO_Amendment_2020.pdf"
+    },
+    {
+      "scenario": "two_wheeler_helmet",
+      "document_type": "product_manual",
+      "standard": "IS 4151:2015",
+      "title": "Protective Helmet for Two Wheeler Riders - Product Manual (December 2024)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2024/12/PM_IS_4151_-Dec-24.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "helmet/IS_4151_2015_Product_Manual_Dec_2024.pdf"
+    },
+    {
+      "scenario": "two_wheeler_helmet",
+      "document_type": "qco",
+      "standard": "IS 4151:2015",
+      "title": "Helmet for riders of Two Wheeler Motor Vehicles (Quality Control) Order, 2020 - S.O. 4252(E)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "helmet/Helmet_Two_Wheeler_QCO_2020.pdf"
+    },
+    {
+      "scenario": "toys_optional",
+      "document_type": "product_manual",
+      "standard": "IS 9873 (Parts 1,2,3,4,7,9) and IS 15644",
+      "title": "Safety of Toys - Current BIS Product Manual listing (November 2023 document)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2023/11/PM-9873-Nov-2023.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "toys/Safety_of_Toys_Product_Manual_Nov_2023.pdf"
+    },
+    {
+      "scenario": "toys_optional",
+      "document_type": "qco",
+      "title": "Toys (Quality Control) Order, 2020 - S.O. 853(E)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/03/Toy_QC_order.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "toys/Toys_QCO_2020.pdf"
+    },
+    {
+      "scenario": "toys_optional",
+      "document_type": "qco_amendment",
+      "title": "Toys (Quality Control) Amendment Order, 2020",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/09/Toys-Extension.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "toys/Toys_QCO_Amendment_2020.pdf"
+    },
+    {
+      "scenario": "toys_optional",
+      "document_type": "qco_amendment",
+      "title": "Toys (Quality Control) Second Amendment Order, 2020",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/12/Toys-Quality-Control-Second-Amendment-Order-2020.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "toys/Toys_QCO_Second_Amendment_2020.pdf"
+    },
+    {
+      "scenario": "toys_optional",
+      "document_type": "qco_amendment",
+      "title": "Toys (Quality Control) Amendment Order, 2024 - S.O. 4277(E)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2024/10/Toys-QCO-2024.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "toys/Toys_QCO_Amendment_2024.pdf"
+    },
+    {
+      "scenario": "cross_scenario_regulatory_current",
+      "document_type": "transition_facilitation_order",
+      "title": "Transition Facilitation (Quality Control) Order, 2026 - S.O. 3417(E)",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2026/06/Notification-of-Transition-Facilitation-Quality-Control-Order-2026.pdf",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "application/pdf",
+      "ingestion_verified": false,
+      "local_target": "regulatory/Transition_Facilitation_QCO_2026.pdf"
+    },
+    {
+      "scenario": "cross_scenario_regulatory_current",
+      "document_type": "current_regulatory_index",
+      "title": "BIS Scheme-I Products under Compulsory Certification",
+      "url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "official_domain": "www.bis.gov.in",
+      "web_verified_on": "2026-09-03",
+      "content_type_expected": "text/html",
+      "ingestion_verified": false,
+      "local_target": "regulatory/BIS_Current_Scheme_I_Compulsory_Certification.html"
+    }
+  ]
+}

@@ -1,0 +1,715 @@
+{
+  "manifest_version": "1.1",
+  "generated_for": "SIH26107 - AI-Powered BIS Standards Intelligence & Pre-Compliance Platform",
+  "dataset_status": "demo",
+  "statement": "This prototype ships with a SYNTHETIC demonstration corpus. No document in this manifest is an official Indian Standard, and no identifier here is a real IS number. Demonstration identifiers deliberately use the DEMO-STD-nnn form so that they can never be mistaken for an official standard. Every record carries is_verified=false and is_mock=true, and the user interface labels the dataset as 'Demo Dataset' wherever it is shown.",
+  "how_to_add_official_data": [
+    "Obtain the standard document from an official source (for example bis.gov.in) in accordance with its licence terms.",
+    "Place the PDF in data/raw/standards/.",
+    "Add a matching entry to this manifest with source_type 'official', the retrieval URL and the retrieval date, and verified true.",
+    "Run: python scripts/ingest_documents.py --input ../data/raw/standards",
+    "The parser, chunker, hybrid retriever and Evidence Shield operate identically on official documents - no code change is required."
+  ],
+  "documents": [
+    {
+      "document_id": "DEMO-STD-001",
+      "title": "Domestic Electric Storage Water Heaters - Specification",
+      "is_number": "DEMO-STD-001",
+      "standard_id": "DEMO-STD-001",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-001.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-002",
+      "title": "Safety of Household and Similar Electrical Appliances - General Requirements",
+      "is_number": "DEMO-STD-002",
+      "standard_id": "DEMO-STD-002",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-002.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-003",
+      "title": "Electrical Appliances - Standard Test Methods",
+      "is_number": "DEMO-STD-003",
+      "standard_id": "DEMO-STD-003",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-003.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-004",
+      "title": "Domestic Pressure Cookers - Specification",
+      "is_number": "DEMO-STD-004",
+      "standard_id": "DEMO-STD-004",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-004.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-005",
+      "title": "Safety of Toys - Part 1 Mechanical and Physical Properties",
+      "is_number": "DEMO-STD-005",
+      "standard_id": "DEMO-STD-005",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-005.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-006",
+      "title": "Safety of Toys - Part 2 Migration of Certain Elements",
+      "is_number": "DEMO-STD-006",
+      "standard_id": "DEMO-STD-006",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-006.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-007",
+      "title": "Protective Helmets for Riders of Two Wheeled Motor Vehicles - Specification",
+      "is_number": "DEMO-STD-007",
+      "standard_id": "DEMO-STD-007",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-007.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "document_id": "DEMO-STD-008",
+      "title": "Consumer Products - General Requirements for Marking, Labelling and Instructions",
+      "is_number": "DEMO-STD-008",
+      "standard_id": "DEMO-STD-008",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/standards/DEMO-STD-008.txt",
+      "notes": "Synthetic demonstration document authored for this prototype"
+    },
+    {
+      "standard_id": "*",
+      "title": "Demonstration Quality Control Order records",
+      "document_type": "regulatory",
+      "file": "data/seed/regulatory.json",
+      "source_type": "demo",
+      "source_title": "Synthetic records authored for this prototype",
+      "source_url": null,
+      "retrieved_on": null,
+      "authored_on": "2026-09-02",
+      "verified": false,
+      "is_mock": true,
+      "document_id": "regulatory",
+      "is_demo": true,
+      "is_verified": false,
+      "local_path": "data/seed/regulatory.json",
+      "retrieved_at": null
+    },
+    {
+      "standard_id": "*",
+      "title": "Demonstration amendment records",
+      "document_type": "amendment",
+      "file": "data/seed/amendments.json",
+      "source_type": "demo",
+      "source_title": "Synthetic records authored for this prototype",
+      "source_url": null,
+      "retrieved_on": null,
+      "authored_on": "2026-09-02",
+      "verified": false,
+      "is_mock": true,
+      "document_id": "amendments",
+      "is_demo": true,
+      "is_verified": false,
+      "local_path": "data/seed/amendments.json",
+      "retrieved_at": null
+    },
+    {
+      "document_id": "SAMPLE-PDF-001",
+      "title": "Sample PDF with a table (ingestion pipeline fixture)",
+      "is_number": "SAMPLE-PDF-001",
+      "standard_id": "SAMPLE-PDF-001",
+      "document_type": "standard",
+      "source_url": null,
+      "source_type": "demo",
+      "is_verified": false,
+      "is_demo": true,
+      "retrieved_at": null,
+      "local_path": "data/raw/samples/SAMPLE-PDF-001.pdf",
+      "notes": "Synthetic PDF used to prove PDF parsing and table extraction end to end. Not part of the answering corpus."
+    },
+    {
+      "document_id": "IS-2082-2018-PM",
+      "title": "Product Manual: Stationary Storage Type Electric Water Heaters (PM/IS 2082/6/September 2024)",
+      "is_number": "IS 2082:2018",
+      "standard_id": "IS-2082-2018-PM",
+      "document_type": "product_manual",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2024/09/2082-PM_V6_-approved.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/water_heater/IS_2082_2018_Product_Manual_Sep_2024.pdf",
+      "notes": "Official BIS Product Manual for IS 2082:2018. Supporting/certification document - NOT the full text of IS 2082:2018. References IS 302 (Part 2/Sec 21):2024 / IEC 60335-2-21:2022.",
+      "product_category": "electrical-appliance",
+      "keywords": [
+        "water heater",
+        "storage water heater",
+        "stationary storage",
+        "geyser",
+        "electric water heater",
+        "domestic",
+        "is 2082"
+      ],
+      "covered_areas": [
+        "Certification scope",
+        "Sampling guidelines",
+        "Test equipment",
+        "Scheme of inspection and testing",
+        "Marking"
+      ]
+    },
+    {
+      "document_id": "IS-302-P2S21-2024-PM",
+      "title": "Product Manual: Household Appliances Safety Part 2 Sec 21 Storage Water Heaters (September 2024)",
+      "is_number": "IS 302 (Part 2/Sec 21):2024",
+      "standard_id": "IS-302-P2S21-2024-PM",
+      "document_type": "product_manual",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2024/09/302-2-21-PM_-approved.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/water_heater/IS_302_Part2_Sec21_2024_Product_Manual_Sep_2024.pdf",
+      "notes": "Official BIS Product Manual for IS 302 (Part 2/Sec 21):2024 / IEC 60335-2-21:2022. NOTE the version transition: the Domestic Water Heating QCO 2025 table names the 2018 edition of IS 302 (Part 2/Sec 21), while this current manual covers the 2024 edition. Not the full standard text.",
+      "product_category": "electrical-appliance",
+      "keywords": [
+        "water heater",
+        "storage water heater",
+        "household appliance",
+        "electrical safety",
+        "electric shock",
+        "insulation",
+        "is 302",
+        "iec 60335"
+      ],
+      "covered_areas": [
+        "Certification scope",
+        "Sampling guidelines",
+        "Test equipment",
+        "Scheme of inspection and testing",
+        "Marking"
+      ]
+    },
+    {
+      "document_id": "QCO-WATER-HEATING-2025",
+      "title": "Electrical Appliances for domestic water heating (Quality Control) Order, 2025 - S.O. 355(E)",
+      "is_number": "",
+      "standard_id": "QCO-WATER-HEATING-2025",
+      "document_type": "qco",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/01/Electrical-Appliances-for-domestic-water-heating-QCO-2025.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/water_heater/Domestic_Water_Heating_QCO_2025.pdf",
+      "notes": "Gazette of India, notified 16 January 2025, published 21 January 2025. In supersession of the 2023 order. Table names IS 302 (Part 2/Sec 21):2018, IS 302 (Part 2/Sec 35):2017, IS 368:2014, IS 2082:2018 and IS 17150:2019. Implementation 1 March 2025 (general) and 1 September 2025 (micro and small).",
+      "product_category": "regulatory-order",
+      "keywords": [
+        "quality control order",
+        "qco",
+        "water heater",
+        "domestic water heating",
+        "mandatory certification",
+        "isi mark"
+      ],
+      "covered_areas": [
+        "Compulsory use of Standard Mark",
+        "Scope of goods covered",
+        "Implementation dates",
+        "Enforcement authority"
+      ]
+    },
+    {
+      "document_id": "IS-2347-2023-PM",
+      "title": "Product Manual: Domestic Pressure Cooker (PM/IS 2347/9/February 2025)",
+      "is_number": "IS 2347:2023",
+      "standard_id": "IS-2347-2023-PM",
+      "document_type": "product_manual",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/pressure_cooker/IS_2347_2023_Product_Manual_Feb_2025.pdf",
+      "notes": "Official BIS Product Manual for IS 2347:2023. NOT the full standard text. Version transition: the 2020 QCO names IS 2347:2017. This pack does not contain the 2024/2025 amendments to IS 2347:2023 that BIS metadata indicates exist, so amendment coverage for this standard is incomplete.",
+      "product_category": "kitchenware",
+      "keywords": [
+        "pressure cooker",
+        "cooker",
+        "domestic",
+        "kitchen",
+        "aluminium",
+        "stainless steel",
+        "gasket",
+        "is 2347"
+      ],
+      "covered_areas": [
+        "Certification scope",
+        "Grouping guidelines",
+        "Sampling guidelines",
+        "Test equipment",
+        "Scheme of inspection and testing",
+        "Marking"
+      ]
+    },
+    {
+      "document_id": "QCO-PRESSURE-COOKER-2020",
+      "title": "Domestic Pressure Cooker (Quality Control) Order, 2020 - S.O. 294(E)",
+      "is_number": "",
+      "standard_id": "QCO-PRESSURE-COOKER-2020",
+      "document_type": "qco",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2020/01/Pressure_cooker_QCO.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/pressure_cooker/Domestic_Pressure_Cooker_QCO_2020.pdf",
+      "notes": "Gazette of India, notified 21 January 2020, in force from 1 August 2020. Its table names IS 2347:2017; the order states the latest BIS-notified version and amendments apply, and the current Product Manual is for IS 2347:2023.",
+      "product_category": "regulatory-order",
+      "keywords": [
+        "quality control order",
+        "qco",
+        "pressure cooker",
+        "mandatory certification",
+        "isi mark"
+      ],
+      "covered_areas": [
+        "Compulsory use of Standard Mark",
+        "Scope of goods covered",
+        "Commencement",
+        "Enforcement authority"
+      ]
+    },
+    {
+      "document_id": "QCO-PRESSURE-COOKER-2020-AMD",
+      "title": "Domestic Pressure Cooker (Quality Control) (Amendment) Order, 2020 - S.O. 2019(E)",
+      "is_number": "",
+      "standard_id": "QCO-PRESSURE-COOKER-2020-AMD",
+      "document_type": "qco",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2020/07/Extension-Order-Pressure-Cooker.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/pressure_cooker/Domestic_Pressure_Cooker_QCO_Amendment_2020.pdf",
+      "notes": "Gazette of India, 23 June 2020. Amends the commencement of the 2020 QCO.",
+      "product_category": "regulatory-order",
+      "keywords": [
+        "quality control order",
+        "amendment",
+        "pressure cooker",
+        "commencement"
+      ],
+      "covered_areas": [
+        "Amendment to commencement date"
+      ]
+    },
+    {
+      "document_id": "IS-4151-2015-PM",
+      "title": "Product Manual: Protective Helmet for Two Wheeler Riders (PM/IS 4151/3/December 2024)",
+      "is_number": "IS 4151:2015",
+      "standard_id": "IS-4151-2015-PM",
+      "document_type": "product_manual",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2024/12/PM_IS_4151_-Dec-24.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/helmet/IS_4151_2015_Product_Manual_Dec_2024.pdf",
+      "notes": "Official BIS Product Manual for IS 4151:2015. NOT the full standard text. No version conflict: the 2020 Helmet QCO names the same edition.",
+      "product_category": "personal-protective-equipment",
+      "keywords": [
+        "helmet",
+        "protective helmet",
+        "two wheeler",
+        "motorcycle",
+        "scooter",
+        "rider",
+        "chin strap",
+        "retention system",
+        "visor",
+        "is 4151"
+      ],
+      "covered_areas": [
+        "Certification scope",
+        "Sampling guidelines",
+        "Test equipment",
+        "Scheme of inspection and testing",
+        "Marking"
+      ]
+    },
+    {
+      "document_id": "QCO-HELMET-2020",
+      "title": "Helmet for riders of Two Wheeler Motor Vehicles (Quality Control) Order, 2020 - S.O. 4252(E)",
+      "is_number": "",
+      "standard_id": "QCO-HELMET-2020",
+      "document_type": "qco",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/helmet/Helmet_Two_Wheeler_QCO_2020.pdf",
+      "notes": "Gazette of India, notified 26 November 2020, in force from 1 June 2021. Ministry of Road Transport and Highways. Table names IS 4151:2015.",
+      "product_category": "regulatory-order",
+      "keywords": [
+        "quality control order",
+        "qco",
+        "helmet",
+        "two wheeler",
+        "mandatory certification",
+        "isi mark"
+      ],
+      "covered_areas": [
+        "Compulsory use of Standard Mark",
+        "Scope of goods covered",
+        "Commencement",
+        "Enforcement authority"
+      ]
+    },
+    {
+      "document_id": "QCO-TRANSITION-FACILITATION-2026",
+      "title": "Transition Facilitation (Quality Control) Order, 2026 - S.O. 3417(E)",
+      "is_number": "",
+      "standard_id": "QCO-TRANSITION-FACILITATION-2026",
+      "document_type": "regulatory",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2026/06/Notification-of-Transition-Facilitation-Quality-Control-Order-2026.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/regulatory/Transition_Facilitation_QCO_2026.pdf",
+      "notes": "Gazette of India, 2026. A transition facilitation mechanism affecting the schedule that includes the Toys QCO 2020 and the domestic water heating QCO 2025. It must NOT be read as a blanket cancellation or postponement of those orders.",
+      "product_category": "regulatory-order",
+      "keywords": [
+        "transition facilitation",
+        "quality control order",
+        "toys",
+        "water heating",
+        "transition"
+      ],
+      "covered_areas": [
+        "Transition facilitation mechanism",
+        "Schedule of affected orders"
+      ]
+    },
+    {
+      "document_id": "BIS-SCHEME-I-INDEX",
+      "title": "BIS Scheme-I: Products under Compulsory Certification (current index page)",
+      "is_number": "",
+      "standard_id": "BIS-SCHEME-I-INDEX",
+      "document_type": "regulatory",
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-03",
+      "local_path": "data/raw/verified_bis_2026_09_03/regulatory/BIS_Current_Scheme_I_Compulsory_Certification.html",
+      "notes": "Provenance record only. This is a BIS web index page, not a clause-structured document; the ingestion parser accepts .pdf/.txt/.md, so it is registered as a source reference and is never parsed into clauses.",
+      "product_category": "regulatory-order",
+      "keywords": [
+        "scheme-i",
+        "compulsory certification",
+        "products under compulsory certification",
+        "bis index"
+      ],
+      "covered_areas": [
+        "Current index of products under compulsory certification"
+      ]
+    },
+    {
+      "document_id": "BIS-HM-BRIEF",
+      "standard_id": "BIS-HM-BRIEF",
+      "is_number": "",
+      "title": "BIS Brief on the Hallmarking Scheme",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2020/12/brief-on-Hallmarking.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-BRIEF.pdf",
+      "filename": "BIS-HM-BRIEF.pdf",
+      "sha256": "ec8c0256ed243f251307b8ee74ab01cc9463a87434fbeadc0d6ffefe813d79d7",
+      "product_category": "precious-metal",
+      "keywords": [
+        "hallmarking",
+        "gold",
+        "silver",
+        "huid",
+        "purity",
+        "fineness",
+        "assaying"
+      ],
+      "covered_areas": [
+        "Hallmarking scheme overview",
+        "Hallmark components",
+        "Purity and fineness grades",
+        "Assaying and hallmarking centres"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-REGULATIONS-2018",
+      "standard_id": "BIS-HM-REGULATIONS-2018",
+      "is_number": "",
+      "title": "BIS (Hallmarking) Regulations, 2018",
+      "document_type": "regulatory",
+      "source_url": "https://www.bis.gov.in/bs/BIS_Hallmarking_Regulations_2018_Gazette_notification.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-REGULATIONS-2018.pdf",
+      "filename": "BIS-HM-REGULATIONS-2018.pdf",
+      "sha256": "afad1553b755ee193d8c2a767ab20afbe5675019469ab330f74f284a8cfd9314",
+      "product_category": "precious-metal",
+      "keywords": [
+        "hallmarking",
+        "regulations",
+        "jeweller",
+        "assaying"
+      ],
+      "covered_areas": [
+        "Legal basis for hallmarking",
+        "Obligations of jewellers and centres"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-MANDATORY-ORDER-2020",
+      "standard_id": "BIS-HM-MANDATORY-ORDER-2020",
+      "is_number": "",
+      "title": "Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020",
+      "document_type": "qco",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2020/01/Mandatory-Hallmarking-Order-15.01.2020.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-MANDATORY-ORDER-2020.pdf",
+      "filename": "BIS-HM-MANDATORY-ORDER-2020.pdf",
+      "sha256": "1f38c9758aa65ce6a0c6ce1f98e8388bb1883ad4c3d65c11efbdd9b4189cc016",
+      "product_category": "precious-metal",
+      "keywords": [
+        "hallmarking",
+        "gold",
+        "mandatory",
+        "order"
+      ],
+      "covered_areas": [
+        "Mandatory hallmarking applicability"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-JEWELLER-REGISTRATION",
+      "standard_id": "BIS-HM-JEWELLER-REGISTRATION",
+      "is_number": "",
+      "title": "BIS Guide: Procedure to apply for Jeweller Registration",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2020/10/Guide_Jeweller_Registration_v1.1.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-JEWELLER-REGISTRATION.md",
+      "filename": "BIS-HM-JEWELLER-REGISTRATION.md",
+      "sha256": "a219302ac20972fd271f0a0fced76435a4461154c9785275d8da2bf27fe2ef34",
+      "product_category": "precious-metal",
+      "keywords": [
+        "jeweller registration",
+        "hallmarking",
+        "application"
+      ],
+      "covered_areas": [
+        "Jeweller registration procedure"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-JEWELLER-GUIDELINES",
+      "standard_id": "BIS-HM-JEWELLER-GUIDELINES",
+      "is_number": "",
+      "title": "BIS Guidelines for Jewellers",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2026/07/Guidelines-for-Jewellers.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-JEWELLER-GUIDELINES.pdf",
+      "filename": "BIS-HM-JEWELLER-GUIDELINES.pdf",
+      "sha256": "413890d7d28e575f5a57bd5997a6d21ea0c31de5c654425def795a4340d7ca20",
+      "product_category": "precious-metal",
+      "keywords": [
+        "jeweller",
+        "hallmarking",
+        "obligations"
+      ],
+      "covered_areas": [
+        "Obligations of a registered jeweller"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-AHC-GUIDELINES",
+      "standard_id": "BIS-HM-AHC-GUIDELINES",
+      "is_number": "",
+      "title": "BIS Guidelines for Assaying and Hallmarking Centres",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2019/09/Guidelines_AHC_30092019.pdf",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-AHC-GUIDELINES.pdf",
+      "filename": "BIS-HM-AHC-GUIDELINES.pdf",
+      "sha256": "4f0998c2181a02b4408db3d97e2b3f9454ac7a740daae1f4f7c46f30bc7b2bb9",
+      "product_category": "precious-metal",
+      "keywords": [
+        "assaying",
+        "hallmarking centre",
+        "recognition"
+      ],
+      "covered_areas": [
+        "A&H centre recognition and operation"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-FAQ-GENERAL",
+      "standard_id": "BIS-HM-FAQ-GENERAL",
+      "is_number": "",
+      "title": "BIS Hallmarking FAQ - General",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/hallmarking-overview/hallmarking-faqs/hallmarking-faq/?lang=en",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-FAQ-GENERAL.md",
+      "filename": "BIS-HM-FAQ-GENERAL.md",
+      "sha256": "db497800e0d2d6de9712cd822bccbd8870e548a18f02c9cf017218d62e2b531a",
+      "product_category": "precious-metal",
+      "keywords": [
+        "hallmarking",
+        "faq",
+        "purity",
+        "grades",
+        "standards"
+      ],
+      "covered_areas": [
+        "What hallmarking is",
+        "Indian Standards on hallmarking",
+        "Permitted grades"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-FAQ-CONSUMER",
+      "standard_id": "BIS-HM-FAQ-CONSUMER",
+      "is_number": "",
+      "title": "BIS Hallmarking FAQ - Consumers",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/hallmarking-overview/hallmarking-faqs/mandatory/?lang=en",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-FAQ-CONSUMER.md",
+      "filename": "BIS-HM-FAQ-CONSUMER.md",
+      "sha256": "b382e12aef258e703e0cf65115eeb806ee158acf0d7b8625d8e3c5b41c142dd0",
+      "product_category": "precious-metal",
+      "keywords": [
+        "hallmarking",
+        "consumer",
+        "complaint",
+        "compensation"
+      ],
+      "covered_areas": [
+        "Consumer rights",
+        "Complaint redressal",
+        "Compensation for purity shortfall"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    },
+    {
+      "document_id": "BIS-HM-CONSUMER-PROTECTION",
+      "standard_id": "BIS-HM-CONSUMER-PROTECTION",
+      "is_number": "",
+      "title": "BIS Hallmarking - Consumer Protection",
+      "document_type": "hallmarking",
+      "source_url": "https://www.bis.gov.in/hallmarking-overview/consumer-protection/?lang=en",
+      "source_type": "official",
+      "is_verified": true,
+      "is_demo": false,
+      "retrieved_at": "2026-09-17",
+      "local_path": "data/raw/hallmarking/BIS-HM-CONSUMER-PROTECTION.md",
+      "filename": "BIS-HM-CONSUMER-PROTECTION.md",
+      "sha256": "255074ea0a5235cc3745d8917490af73d140a6f9fe6fcca9349b7f78ce2c861e",
+      "product_category": "precious-metal",
+      "keywords": [
+        "consumer protection",
+        "hallmarking",
+        "grievance"
+      ],
+      "covered_areas": [
+        "Consumer protection under the hallmarking scheme"
+      ],
+      "notes": "Official BIS hallmarking source, downloaded from bis.gov.in by scripts/fetch_hallmarking_sources.py. Not redistributed with this repository."
+    }
+  ],
+  "corpus_modes": {
+    "DEMO": "Answer only from the synthetic documents below.",
+    "VERIFIED": "Answer only from documents with is_verified=true. None are present yet.",
+    "MIXED": "Default. Both, with verified preferred and demo records labelled."
+  },
+  "updated_at": "2026-09-03T19:19:12"
+}

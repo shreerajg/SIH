@@ -1,0 +1,239 @@
+{
+  "standard_id": "DEMO-STD-004",
+  "note": "Structured requirements curated from the demo pressure cooker specification.",
+  "requirements": [
+    {
+      "requirement_code": "D4-R01",
+      "clause": "4.1.1",
+      "category": "material",
+      "requirement_text": "The body and lid shall be of wrought aluminium of not less than 99.0 percent purity, a declared aluminium alloy, or austenitic stainless steel of a declared grade.",
+      "evidence_type": "material_certificate",
+      "severity": "major",
+      "match_keywords": [
+        "aluminium",
+        "stainless steel",
+        "body material",
+        "material grade"
+      ],
+      "check_rule": {
+        "attribute": "body_material",
+        "operator": "not_empty"
+      }
+    },
+    {
+      "requirement_code": "D4-R02",
+      "clause": "4.1.2",
+      "category": "documentation",
+      "requirement_text": "A material test certificate stating chemical composition and mechanical properties shall be held for each batch of sheet or circle used for the body.",
+      "evidence_type": "material_certificate",
+      "severity": "major",
+      "match_keywords": [
+        "material certificate",
+        "mill certificate",
+        "batch certificate",
+        "composition"
+      ]
+    },
+    {
+      "requirement_code": "D4-R03",
+      "clause": "4.1.3",
+      "category": "safety",
+      "requirement_text": "Materials in contact with food shall not impart odour, taste, colour or toxicity and shall meet applicable food contact requirements.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "food contact",
+        "food grade",
+        "migration",
+        "toxicity"
+      ]
+    },
+    {
+      "requirement_code": "D4-R04",
+      "clause": "4.2.1",
+      "category": "construction",
+      "requirement_text": "Body wall thickness shall be at least 2.0 mm up to 5 litres nominal capacity and at least 2.5 mm above, measured after forming.",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": [
+        "wall thickness",
+        "body thickness",
+        "gauge"
+      ],
+      "check_rule": {
+        "attribute": "body_thickness_mm",
+        "operator": "gte",
+        "value": 2.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "requirement_code": "D4-R05",
+      "clause": "4.2.2",
+      "category": "construction",
+      "requirement_text": "Base thickness shall not be less than 3.0 mm for aluminium cookers, measured at the thinnest point.",
+      "evidence_type": "declared_value",
+      "severity": "major",
+      "match_keywords": [
+        "base thickness",
+        "bottom thickness"
+      ],
+      "check_rule": {
+        "attribute": "base_thickness_mm",
+        "operator": "gte",
+        "value": 3.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "requirement_code": "D4-R06",
+      "clause": "5.1.1",
+      "category": "safety",
+      "requirement_text": "A primary pressure regulating device (vent weight or spring loaded valve) shall maintain the declared operating pressure.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": [
+        "vent weight",
+        "regulating valve",
+        "pressure regulator",
+        "primary safety"
+      ],
+      "check_rule": {
+        "attribute": "primary_regulator_type",
+        "operator": "not_empty"
+      }
+    },
+    {
+      "requirement_code": "D4-R07",
+      "clause": "5.2.1",
+      "category": "safety",
+      "requirement_text": "An independent secondary safety device (fusible plug or spring loaded safety valve) shall release pressure if the primary device becomes blocked.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": [
+        "safety valve",
+        "fusible plug",
+        "secondary safety device",
+        "safety plug"
+      ],
+      "check_rule": {
+        "attribute": "secondary_safety_device_fitted",
+        "operator": "is_true"
+      }
+    },
+    {
+      "requirement_code": "D4-R08",
+      "clause": "5.3.1",
+      "category": "safety",
+      "requirement_text": "A lid interlock shall prevent opening while internal pressure exceeds 4 kPa and prevent pressure build-up if the lid is not correctly closed.",
+      "evidence_type": "declared_value",
+      "severity": "critical",
+      "match_keywords": [
+        "lid interlock",
+        "interlock",
+        "lid lock",
+        "opening device"
+      ],
+      "check_rule": {
+        "attribute": "lid_interlock_fitted",
+        "operator": "is_true"
+      }
+    },
+    {
+      "requirement_code": "D4-R09",
+      "clause": "6.2.1",
+      "category": "testing",
+      "requirement_text": "The body with safety devices blanked off shall not rupture below five times the declared operating pressure in the hydrostatic burst test.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "burst test",
+        "hydrostatic",
+        "pressure test",
+        "rupture"
+      ]
+    },
+    {
+      "requirement_code": "D4-R10",
+      "clause": "6.3.1",
+      "category": "testing",
+      "requirement_text": "With the primary device blanked off, the secondary safety device shall operate before 1.6 times the declared operating pressure is reached.",
+      "evidence_type": "test_report",
+      "severity": "critical",
+      "match_keywords": [
+        "safety device test",
+        "safety valve test",
+        "blocked vent",
+        "safety device functional"
+      ]
+    },
+    {
+      "requirement_code": "D4-R11",
+      "clause": "6.4.1",
+      "category": "testing",
+      "requirement_text": "During a 30 minute boiling test at useful capacity, handle gripping surface temperature rise shall not exceed 35 K above ambient.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "handle temperature",
+        "boiling test",
+        "temperature rise"
+      ]
+    },
+    {
+      "requirement_code": "D4-R12",
+      "clause": "6.5.1",
+      "category": "testing",
+      "requirement_text": "After 500 pressurisation cycles the cooker shall reach and hold the declared operating pressure without leakage past the gasket.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "gasket endurance",
+        "cycle test",
+        "500 cycles",
+        "durability"
+      ]
+    },
+    {
+      "requirement_code": "D4-R13",
+      "clause": "6.6.1",
+      "category": "testing",
+      "requirement_text": "Handles shall withstand a static load of three times the mass of the cooker filled to useful capacity for 15 minutes without loosening or deformation.",
+      "evidence_type": "test_report",
+      "severity": "major",
+      "match_keywords": [
+        "handle load",
+        "handle strength",
+        "static load"
+      ]
+    },
+    {
+      "requirement_code": "D4-R14",
+      "clause": "7.1",
+      "category": "marking",
+      "requirement_text": "Each cooker shall be permanently marked with manufacturer identification, model, nominal capacity in litres, declared operating pressure in kPa, material and year of manufacture.",
+      "evidence_type": "marking_artwork",
+      "severity": "major",
+      "match_keywords": [
+        "marking",
+        "label",
+        "engraving",
+        "nameplate"
+      ]
+    },
+    {
+      "requirement_code": "D4-R15",
+      "clause": "8.1",
+      "category": "documentation",
+      "requirement_text": "Printed instructions in English and Hindi shall cover maximum fill level, safety device use, vent cleaning, gasket replacement interval and the warning against opening under pressure.",
+      "evidence_type": "document",
+      "severity": "major",
+      "match_keywords": [
+        "instruction manual",
+        "user manual",
+        "hindi",
+        "instructions"
+      ]
+    }
+  ]
+}

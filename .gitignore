@@ -1,0 +1,58 @@
+# --- Secrets ---------------------------------------------------------------
+.env
+env
+*.env.local
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Runtime state ---------------------------------------------------------
+backend/storage/
+!backend/storage/.gitkeep
+# Uploaded manufacturer evidence never belongs in version control.
+backend/storage/uploads/
+*.db
+*.sqlite3
+
+# --- Build caches ----------------------------------------------------------
+*.tsbuildinfo
+
+# --- Node ------------------------------------------------------------------
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# --- Editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Data ------------------------------------------------------------------
+# Real BIS documents are not redistributed with this repository.
+data/raw/standards/*.pdf
+data/raw/qcos/*.pdf
+data/raw/amendments/*.pdf
+data/raw/product_manuals/*
+# Official BIS documents downloaded by the verified source pack. They are
+# fetched from bis.gov.in on demand and are not redistributed from this
+# repository; the manifest records where each one came from.
+data/raw/verified_bis_*/
+# Official BIS hallmarking documents, staged for ingestion by
+# scripts/prepare_hallmarking_corpus.py. Same rule: described by the manifest,
+# fetched on demand, never redistributed from this repository.
+data/raw/hallmarking/
+!data/raw/**/.gitkeep
