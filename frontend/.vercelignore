@@ -1,0 +1,9 @@
+# Files to ignore during Vercel deployment
+node_modules/
+.git/
+*.log
+.env.local
+.env.development
+src/**/*.test.ts
+src/**/*.test.tsx
+src/**/*.spec.ts

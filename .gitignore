@@ -7,6 +7,7 @@ frontend/.env
 frontend/.env.local
 frontend/.env.production
 frontend/.env.development
+DEPLOYMENT_CONFIG.md
 
 # --- Python ----------------------------------------------------------------
 __pycache__/
@@ -56,3 +57,7 @@ data/raw/verified_bis_*/
 # fetched on demand, never redistributed from this repository.
 data/raw/hallmarking/
 !data/raw/**/.gitkeep
+
+
+.kilo
+kilo
