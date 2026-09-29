@@ -361,6 +361,10 @@ export const translations = {
   as: { /* Assamese translations */ },
 } as const
 
-export function useTranslation(language: Language) {
-  return translations[language] || translations.en
+export type TranslationType = typeof translations.en
+
+export function useTranslation(language: Language): TranslationType {
+  // @ts-ignore - we fallback to english if language is partially implemented or missing
+  const trans = translations[language] as TranslationType | undefined
+  return trans || translations.en
 }
