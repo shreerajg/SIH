@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { api, apiError } from '@/lib/api'
 import { useLanguage, LANGUAGES } from '@/contexts/LanguageContext'
+import { useTranslation } from '@/lib/translations'
 import type { ChatSource } from '@/lib/types'
 import { AlertCircle, ExternalLink, Search, Shield, Sparkles } from 'lucide-react'
 
@@ -45,45 +46,12 @@ function AnswerText({ text }: { text: string }) {
   )
 }
 
-const PLACEHOLDERS: Record<string, string> = {
-  en: 'Ask about BIS standards, certification, testing...',
-  hi: 'BIS मानकों के बारे में पूछें...',
-  ta: 'BIS தரநிலைகள் பற்றி கேளுங்கள்...',
-  te: 'BIS ప్రమాణాల గురించి అడగండి...',
-  kn: 'BIS ಮಾನದಂಡಗಳ ಬಗ್ಗೆ ಕೇಳಿ...',
-  ml: 'BIS നിലവാരങ്ങളെക്കുറിച്ച് ചോദിക്കുക...',
-  bn: 'BIS মানদণ্ড সম্পর্কে জিজ্ঞাসা করুন...',
-  gu: 'BIS ધોરણો વિશે પૂછો...',
-  mr: 'BIS मानकांबद्दल विचारा...',
-  pa: 'BIS ਮਾਪਦੰਡਾਂ ਬਾਰੇ ਪੁੱਛੋ...',
-  or: 'BIS ମାନ ବିଷୟରେ ପଚାରନ୍ତୁ...',
-  as: 'BIS মানদণ্ডৰ বিষয়ে সোধক...',
-}
-
-const SEND_LABELS: Record<string, string> = {
-  en: 'Send', hi: 'भेजें', ta: 'அனுப்பு', te: 'పంపు',
-  kn: 'ಕಳುಹಿಸಿ', ml: 'അയയ്ക്കുക', bn: 'পাঠান', gu: 'મોકલો',
-  mr: 'पाठवा', pa: 'ਭੇਜੋ', or: 'ପଠାନ୍ତୁ', as: 'পঠাওক',
-}
-
-const SEARCHING_LABELS: Record<string, string> = {
-  en: 'Searching BIS sources...',
-  hi: 'BIS स्रोतों में खोज रहे हैं...',
-  ta: 'BIS ஆதாரங்களில் தேடுகிறோம்...',
-  te: 'BIS మూలాల్లో శోధిస్తోంది...',
-  kn: 'BIS ಮೂಲಗಳಲ್ಲಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ...',
-  ml: 'BIS ഉറവിടങ്ങളിൽ തിരയുന്നു...',
-  bn: 'BIS উৎসগুলিতে অনুসন্ধান করছি...',
-  gu: 'BIS સ્ત્રોતો શોધી રહ્યા છીએ...',
-  mr: 'BIS स्रोतांमध्ये शोधत आहे...',
-  pa: 'BIS ਸਰੋਤਾਂ ਵਿੱਚ ਖੋਜ ਕਰ ਰਹੇ ਹਾਂ...',
-}
-
 export function DynamicChat() {
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const { language } = useLanguage()
+  const t = useTranslation(language)
   const [conversationId] = useState(() => `chat-${Date.now()}`)
   const bottomRef = useRef<HTMLDivElement>(null)
 
@@ -144,9 +112,9 @@ export function DynamicChat() {
       {/* Header */}
       <div className="border-b bg-white px-6 py-4 shadow-sm">
         <div className="mx-auto max-w-3xl">
-          <h1 className="text-xl font-bold text-gray-900">BIS Knowledge Assistant</h1>
+          <h1 className="text-xl font-bold text-gray-900">{t.chat.title}</h1>
           <p className="text-sm text-gray-500">
-            Live retrieval from official BIS sources · Responding in{' '}
+            {t.chat.subtitle} · {t.chat.responding}{' '}
             <span className="font-medium text-indigo-600">{currentLang.nativeName}</span>
           </p>
         </div>
@@ -159,14 +127,14 @@ export function DynamicChat() {
             <div className="mt-12 text-center">
               <Sparkles className="mx-auto h-10 w-10 text-indigo-400" />
               <h2 className="mt-4 text-lg font-semibold text-gray-800">
-                Ask me anything about BIS standards
+                {t.chat.askAnything}
               </h2>
               <div className="mt-4 grid gap-2 sm:grid-cols-2">
                 {[
-                  'Standards for pressure cookers?',
-                  'BIS certification for electric irons?',
-                  'IS number for stainless steel pipes?',
-                  'How to apply for BIS licence?',
+                  t.chat.examples.pressureCookers,
+                  t.chat.examples.certification,
+                  t.chat.examples.isNumber,
+                  t.chat.examples.applyLicense,
                 ].map((q) => (
                   <button
                     key={q}
@@ -234,7 +202,7 @@ export function DynamicChat() {
               <div className="flex items-center gap-2 rounded-2xl border bg-white px-4 py-3 shadow-sm">
                 <Search className="h-4 w-4 animate-pulse text-indigo-500" />
                 <span className="text-sm text-gray-500">
-                  {SEARCHING_LABELS[language] || SEARCHING_LABELS['en']}
+                  {t.common.loading}
                 </span>
               </div>
             </div>
@@ -252,7 +220,7 @@ export function DynamicChat() {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder={PLACEHOLDERS[language] || PLACEHOLDERS['en']}
+              placeholder={t.chat.placeholder}
               className="flex-1 rounded-xl border border-gray-300 px-4 py-3 text-sm focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200"
               disabled={loading}
             />
@@ -261,12 +229,12 @@ export function DynamicChat() {
               disabled={loading || !input.trim()}
               className="rounded-xl bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-700 disabled:cursor-not-allowed disabled:opacity-40"
             >
-              {SEND_LABELS[language] || 'Send'}
+              {t.chat.sendButton}
             </button>
           </div>
           <p className="mt-2 flex items-center gap-1 text-xs text-gray-400">
             <AlertCircle className="h-3 w-3" />
-            Answers are sourced from official BIS documents. Verify critical decisions directly with BIS.
+            {t.chat.disclaimer}
           </p>
         </form>
       </div>

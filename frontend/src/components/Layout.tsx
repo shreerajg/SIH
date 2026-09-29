@@ -3,23 +3,27 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { api } from '@/lib/api'
 import { LanguageSelector } from '@/components/LanguageSelector'
+import { useLanguage } from '@/contexts/LanguageContext'
+import { useTranslation } from '@/lib/translations'
 import type { HealthResponse } from '@/lib/types'
-
-const NAV = [
-  { to: '/manufacturer', label: 'Manufacturer' },
-  { to: '/consumer', label: 'Consumer' },
-  { to: '/hallmarking', label: 'Hallmarking' },
-  { to: '/chat', label: 'Chat' },
-  { to: '/standards', label: 'Standards' },
-  { to: '/graph', label: 'Graph' },
-  { to: '/trust', label: 'Trust' },
-]
 
 export function Layout() {
   const [health, setHealth] = useState<HealthResponse | null>(null)
   const [offline, setOffline] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  const { language } = useLanguage()
+  const t = useTranslation(language)
+
+  const getNavItems = () => [
+    { to: '/manufacturer', label: t.nav.manufacturer },
+    { to: '/consumer', label: t.nav.consumer },
+    { to: '/hallmarking', label: t.nav.hallmarking },
+    { to: '/chat', label: t.nav.chat },
+    { to: '/standards', label: t.nav.standards },
+    { to: '/graph', label: t.nav.graph },
+    { to: '/trust', label: t.nav.trust },
+  ]
 
   useEffect(() => {
     api
@@ -44,7 +48,7 @@ export function Layout() {
           </Link>
 
           <nav className="ml-auto hidden items-center gap-1 md:flex">
-            {NAV.map((item) => (
+            {getNavItems().map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}
@@ -73,7 +77,7 @@ export function Layout() {
 
         {menuOpen && (
           <nav className="border-t border-ink-200 bg-white px-4 py-2 md:hidden">
-            {NAV.map((item) => (
+            {getNavItems().map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}

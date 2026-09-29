@@ -1,0 +1,26 @@
+# Lightweight requirements for Vercel (under 500MB limit)
+# Excludes heavy ML libraries - those features will be disabled in serverless
+
+# --- Web framework -------------------------------------------------------
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+
+# --- Database ------------------------------------------------------------
+pymongo==4.6.0
+dnspython==2.6.1
+
+# --- Retrieval (BM25 only - no sentence transformers) -------------------
+rank-bm25==0.2.2
+numpy>=1.26,<2  # Restricted version to reduce size
+
+# --- Document processing -------------------------------------------------
+PyMuPDF==1.24.9
+
+# --- LLM providers -------------------------------------------------------
+httpx==0.27.0
+
+# --- Serverless adapter --------------------------------------------------
+mangum==0.17.0
