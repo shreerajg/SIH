@@ -1,0 +1,4 @@
+Test Report No: TR-2026-0413
+Model: EWH-15D
+Temperature rise test carried out per Clause 6.2.1.
+Result: PASS

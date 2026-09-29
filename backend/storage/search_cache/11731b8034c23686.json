@@ -1,0 +1,95 @@
+{
+  "query": "standards for tape",
+  "language": "en",
+  "cached_at": 1789752663.654787,
+  "sources": [
+    {
+      "id": "S8",
+      "title": "BIS - Bureau of Indian Standards",
+      "url": "https://standards.bis.gov.in/website/standard-details",
+      "snippet": "Heat-activated adhesive coated polymeric tape - Specification : Part 1 for seam sealing on ppe suits. IS 17917:2022. Pressure sensitive adhesive films for ...",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 8
+    },
+    {
+      "id": "S9",
+      "title": "Product Specific Guidelines - - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/product-certification/product-specific-guidelines/?lang=en",
+      "snippet": "Product Manuals Scheme of Inspection and Testing Grouping Guidelines. Woven Metallic and Glass Fiber Tape Measures of Length 2.2 MB Pdf. Steel Tape Measures 2. ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 9
+    },
+    {
+      "id": "S4",
+      "title": "BIS QCO for the Legal Metrology-Material Measures of Length (Steel ...",
+      "url": "https://alephindia.in/bis-qco-for-the-legal-metrology-material-measures-of-length-steel-tape-measures.php",
+      "snippet": "Implementation Authority : Bureau of Indian Standards (Govt. of India). BIS CERTIFICATION FOR STEEL TAPE MEASURES AS PER IS 1269 (PART 2):1997 ...",
+      "domain": "alephindia.in",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 4
+    },
+    {
+      "id": "S16",
+      "title": "IS 4185: Adhesive Paper Tapes : Bureau of Indian Standards",
+      "url": "https://archive.org/details/gov.in.is.4185.1989",
+      "snippet": "IS 4185: Adhesive Paper Tapes ; Language: English ; Rights: Published under the auspices of the Right to Information Act 2005 ; Item Size: 3.9M.",
+      "domain": "archive.org",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 16
+    },
+    {
+      "id": "S10",
+      "title": "BIS Certification For Tape Measures – IS 1269 (Part 1)",
+      "url": "https://www.diligencecertification.com/bis-certification-for-tape-measures/?srsltid=AU7gw4Xu09WLfx45kqrsSp8dulCqDjHqpcVbAKqYjJilmZyRGkSyxMOp",
+      "snippet": "BIS Certification for Tape Measures ensures accuracy, durability, and legal compliance under IS 1269 for sale and use in the Indian market.",
+      "domain": "www.diligencecertification.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 10
+    },
+    {
+      "id": "S14",
+      "title": "BIS Certification for Pressure Sensitive Adhesive Insulating Tapes ...",
+      "url": "https://evtlindia.com/isi-mark/bis-certification-for-pressure-sensitive-adhesive-insulating-tapes-for-electrical-purposes-is-7809-part-3-sec1-1986",
+      "snippet": "Indian Standard IS 7809 (Part 3/Sec 1):1986 defines the requirements for Pressure Sensitive Adhesive Insulating Tapes used in electrical applications. It ...",
+      "domain": "evtlindia.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 14
+    },
+    {
+      "id": "S11",
+      "title": "IS 16948 : 2018: Medical Textiles — Permeable Nonwoven Surgical ...",
+      "url": "https://archive.org/details/gov.in.is.16948.2018",
+      "snippet": "IS 16948 : 2018: Medical Textiles — Permeable Nonwoven Surgical Adhesive Tape — Specification ; Name of Standards Organization: Bureau of Indian ...",
+      "domain": "archive.org",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 11
+    },
+    {
+      "id": "S15",
+      "title": "IS 7809 Part 3: Adhesive Tape Manual | PDF - Scribd",
+      "url": "https://www.scribd.com/document/594732209/Product-manual-7809-3-1",
+      "snippet": "The document provides guidance for BIS certification of pressure sensitive adhesive insulating tapes according to the relevant Indian standard.",
+      "domain": "www.scribd.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 15
+    }
+  ]
+}

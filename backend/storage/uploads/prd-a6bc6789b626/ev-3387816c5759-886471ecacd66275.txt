@@ -1,0 +1,6 @@
+
+Test Report No: TR-2026-0413
+Model: EWH-15D
+Tested by: National Test House, Mumbai
+Temperature rise test carried out in accordance with Clause 6.2.1.
+Result: PASS

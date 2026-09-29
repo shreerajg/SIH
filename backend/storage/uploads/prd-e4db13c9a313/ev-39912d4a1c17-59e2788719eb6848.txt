@@ -1,0 +1,3 @@
+Test Report No: TR-1
+Temperature rise test carried out per Clause 6.2.1.
+Result: PASS

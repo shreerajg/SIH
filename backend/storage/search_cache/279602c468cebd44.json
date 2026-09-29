@@ -1,0 +1,95 @@
+{
+  "query": "IS number for stainless steel pipes?",
+  "language": "en",
+  "cached_at": 1790718216.6019886,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "www.bis.gov.in Product Manual for Stainless Steel Tubes ...",
+      "url": "https://www.bis.gov.in/revised-pm-6913/",
+      "snippet": "TEST CERTIFICATE – For each consignment of BIS Certified material conforming to. IS 6913:2023 there shall be a test certificate which shall contain the Standard ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 1
+    },
+    {
+      "id": "S5",
+      "title": "IS 17876:2022 - Standard Details | BIS",
+      "url": "https://standards.bis.gov.in/website/standard-details",
+      "snippet": "IS 17876:2022 Stainless steel welded pipes and tubes for general service Mandatory Certification Department: Metallurgical Engineering Department(MTD)",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 5
+    },
+    {
+      "id": "S3",
+      "title": "PM/ IS 17875/ 1 Aug 2022",
+      "url": "https://www.bis.gov.in/pm-is-17875/",
+      "snippet": "IS 17875:2022 covers the requirements of Seamless Stainless Steel Pipes and Tubes for General Services.",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 3
+    },
+    {
+      "id": "S4",
+      "title": "List-of-Products-Under-Simplified-Procedure.pdf",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2021/04/List-of-Products-Under-Simplified-Procedure.pdf",
+      "snippet": "Tubes And Pipes 44 IS 15658 ・ 91 IS 3601 Steel Tubes For Mechanical And General Engineering Purposes. An Pipes 94 IS. Stainless Steel Tower Bolts ・ 15911 ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 4
+    },
+    {
+      "id": "S7",
+      "title": "IS 17875:2022 - Standard Details | BIS",
+      "url": "https://standards.bis.gov.in/website/standard-details",
+      "snippet": "17875:2022 (Stainless Steel seamless pipes and tubes for general service) +91-76-6908-9323",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 7
+    },
+    {
+      "id": "S8",
+      "title": "IS 6392:2020 - Standard Details | BIS",
+      "url": "https://standards.bis.gov.in/website/standard-details",
+      "snippet": "Martensitic stainless steel and alloy steel ... Licence Details of Standard Number IS 6392:2020 (Steel Pipes Flanges — Specification ( First Revision )) ...",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 8
+    },
+    {
+      "id": "S6",
+      "title": "Product Specific Guidelines",
+      "url": "https://www.bis.gov.in/product-certification/product-specific-guidelines/?lang=en",
+      "snippet": "df View Download 366 IS 4270:2001 Steel Tubes used for Water Wells … 803 IS 6913:2023 Stainless Steel Tubes for the Food, Beverage, Dairy and Pharmaceutical ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 6
+    },
+    {
+      "id": "S11",
+      "title": "PM/ 6913/ 1 Aug 2020",
+      "url": "https://www.bis.gov.in/pm_is_6913_28082020/?lang=as",
+      "snippet": "PRODUCT MANUAL FORSTAINLESS STEEL TUBES FOR THE FOOD AND BEVERAGE INDUSTRY ACCORDING TO IS 6913:1973. Title : Stainless Steel Tubes … number/ ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 11
+    }
+  ]
+}

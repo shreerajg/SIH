@@ -1,0 +1,82 @@
+﻿[
+    {
+        "scenario":  "water_heater",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2024/09/2082-PM_V6_-approved.pdf",
+        "target":  "water_heater\\IS_2082_2018_Product_Manual_Sep_2024.pdf",
+        "status":  "OK",
+        "bytes":  499062,
+        "sha256":  "87fed6a0cd536d709834fbc6bc0aeea1e0d52b9c634204fa37d54554de095388"
+    },
+    {
+        "scenario":  "water_heater",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2024/09/302-2-21-PM_-approved.pdf",
+        "target":  "water_heater\\IS_302_Part2_Sec21_2024_Product_Manual_Sep_2024.pdf",
+        "status":  "OK",
+        "bytes":  478378,
+        "sha256":  "483c9b6a4ca57da79a8d4df0a0fb9e13645ec84edbbcb8b8cc034121bd121105"
+    },
+    {
+        "scenario":  "water_heater",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2025/01/Electrical-Appliances-for-domestic-water-heating-QCO-2025.pdf",
+        "target":  "water_heater\\Domestic_Water_Heating_QCO_2025.pdf",
+        "status":  "OK",
+        "bytes":  627342,
+        "sha256":  "f18c60ad4f7442ad41f07d7f2eb5565be06e6b80137f37d034a9c04a659744be"
+    },
+    {
+        "scenario":  "pressure_cooker",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2025/02/PM-IS-2347.pdf",
+        "target":  "pressure_cooker\\IS_2347_2023_Product_Manual_Feb_2025.pdf",
+        "status":  "OK",
+        "bytes":  807013,
+        "sha256":  "b5fa69b785fa73b777038e9d02fdc6a590e3fa65d8d6f69fdd35bcf3a65f6480"
+    },
+    {
+        "scenario":  "pressure_cooker",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2020/01/Pressure_cooker_QCO.pdf",
+        "target":  "pressure_cooker\\Domestic_Pressure_Cooker_QCO_2020.pdf",
+        "status":  "OK",
+        "bytes":  959683,
+        "sha256":  "34bff75bfd99fbc7edfd32f061882890d60e0fb2ba53135fdd556f24dfb68b16"
+    },
+    {
+        "scenario":  "pressure_cooker",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2020/07/Extension-Order-Pressure-Cooker.pdf",
+        "target":  "pressure_cooker\\Domestic_Pressure_Cooker_QCO_Amendment_2020.pdf",
+        "status":  "OK",
+        "bytes":  644192,
+        "sha256":  "bed0838e46269d0f6c55aee7a9da8d9f8220a79ceaca16c995c15656a9b5f691"
+    },
+    {
+        "scenario":  "helmet",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2024/12/PM_IS_4151_-Dec-24.pdf",
+        "target":  "helmet\\IS_4151_2015_Product_Manual_Dec_2024.pdf",
+        "status":  "OK",
+        "bytes":  1110434,
+        "sha256":  "bd41710b83fae7a1e159f76cbfdcba6bd632ec220f2caf4ab77032a82a1501f6"
+    },
+    {
+        "scenario":  "helmet",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2020/12/Helmet-for-riders-of-Two-Wheeler-Motor-Vehicles-Quality-Control-Order-2020.pdf",
+        "target":  "helmet\\Helmet_Two_Wheeler_QCO_2020.pdf",
+        "status":  "OK",
+        "bytes":  1781361,
+        "sha256":  "8614946c78c257981c01496d644049dfabe4e66df11988bac635d6ca2375ce00"
+    },
+    {
+        "scenario":  "regulatory",
+        "url":  "https://www.bis.gov.in/wp-content/uploads/2026/06/Notification-of-Transition-Facilitation-Quality-Control-Order-2026.pdf",
+        "target":  "regulatory\\Transition_Facilitation_QCO_2026.pdf",
+        "status":  "OK",
+        "bytes":  783108,
+        "sha256":  "74747115815219db3f76e0a4efbed9316a531e9f73e2cf4a5af413657509c3ab"
+    },
+    {
+        "scenario":  "regulatory",
+        "url":  "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+        "target":  "regulatory\\BIS_Current_Scheme_I_Compulsory_Certification.html",
+        "status":  "OK",
+        "bytes":  1248752,
+        "sha256":  "1640a82f66f2c9f629f938468adfb4247819bcb885116db474ef6fd38d304314"
+    }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "document_id": "BIS-HM-BRIEF",
+    "url": "https://www.bis.gov.in/wp-content/uploads/2020/12/brief-on-Hallmarking.pdf",
+    "target": "BIS_Brief_on_Hallmarking.pdf",
+    "contributes": "Scheme overview, hallmark components, purity/fineness grades",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 127711,
+    "sha256": "ec8c0256ed243f251307b8ee74ab01cc9463a87434fbeadc0d6ffefe813d79d7",
+    "content_type": "application/pdf"
+  },
+  {
+    "document_id": "BIS-HM-REGULATIONS-2018",
+    "url": "https://www.bis.gov.in/bs/BIS_Hallmarking_Regulations_2018_Gazette_notification.pdf",
+    "target": "BIS_Hallmarking_Regulations_2018.pdf",
+    "contributes": "Legal basis, definitions, obligations of jewellers and A&H centres",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 2430021,
+    "sha256": "afad1553b755ee193d8c2a767ab20afbe5675019469ab330f74f284a8cfd9314",
+    "content_type": "application/pdf"
+  },
+  {
+    "document_id": "BIS-HM-MANDATORY-ORDER-2020",
+    "url": "https://www.bis.gov.in/wp-content/uploads/2020/01/Mandatory-Hallmarking-Order-15.01.2020.pdf",
+    "target": "BIS_Mandatory_Hallmarking_Order_2020.pdf",
+    "contributes": "Applicability - which articles must be hallmarked, and from when",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 477704,
+    "sha256": "1f38c9758aa65ce6a0c6ce1f98e8388bb1883ad4c3d65c11efbdd9b4189cc016",
+    "content_type": "application/pdf"
+  },
+  {
+    "document_id": "BIS-HM-JEWELLER-REGISTRATION",
+    "url": "https://www.bis.gov.in/wp-content/uploads/2020/10/Guide_Jeweller_Registration_v1.1.pdf",
+    "target": "BIS_Guide_Jeweller_Registration.pdf",
+    "contributes": "Jeweller registration procedure",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 2643258,
+    "sha256": "a219302ac20972fd271f0a0fced76435a4461154c9785275d8da2bf27fe2ef34",
+    "content_type": "application/pdf"
+  },
+  {
+    "document_id": "BIS-HM-JEWELLER-GUIDELINES",
+    "url": "https://www.bis.gov.in/wp-content/uploads/2026/07/Guidelines-for-Jewellers.pdf",
+    "target": "BIS_Guidelines_for_Jewellers.pdf",
+    "contributes": "Obligations of a registered jeweller",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 1981553,
+    "sha256": "413890d7d28e575f5a57bd5997a6d21ea0c31de5c654425def795a4340d7ca20",
+    "content_type": "application/pdf"
+  },
+  {
+    "document_id": "BIS-HM-AHC-GUIDELINES",
+    "url": "https://www.bis.gov.in/wp-content/uploads/2019/09/Guidelines_AHC_30092019.pdf",
+    "target": "BIS_Guidelines_AHC.pdf",
+    "contributes": "Assaying & Hallmarking Centre recognition and operation",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 632355,
+    "sha256": "4f0998c2181a02b4408db3d97e2b3f9454ac7a740daae1f4f7c46f30bc7b2bb9",
+    "content_type": "application/pdf"
+  },
+  {
+    "document_id": "BIS-HM-FAQ-GENERAL",
+    "url": "https://www.bis.gov.in/hallmarking-overview/hallmarking-faqs/hallmarking-faq/?lang=en",
+    "target": "BIS_Hallmarking_FAQ_General.html",
+    "contributes": "General hallmarking FAQ",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 428670,
+    "sha256": "db497800e0d2d6de9712cd822bccbd8870e548a18f02c9cf017218d62e2b531a",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "document_id": "BIS-HM-FAQ-CONSUMER",
+    "url": "https://www.bis.gov.in/hallmarking-overview/hallmarking-faqs/mandatory/?lang=en",
+    "target": "BIS_Hallmarking_FAQ_Consumer.html",
+    "contributes": "Consumer-facing FAQ on mandatory hallmarking",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 419995,
+    "sha256": "b382e12aef258e703e0cf65115eeb806ee158acf0d7b8625d8e3c5b41c142dd0",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "document_id": "BIS-HM-OVERVIEW",
+    "url": "https://www.bis.gov.in/hallmarking-overview/?lang=en",
+    "target": "BIS_Hallmarking_Overview.html",
+    "contributes": "Hallmarking overview page",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 425756,
+    "sha256": "f4eba7340292ed674710a8d999ed8d56926a9616bcdae4d374bdc51a32092b18",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "document_id": "BIS-HM-CONSUMER-PROTECTION",
+    "url": "https://www.bis.gov.in/hallmarking-overview/consumer-protection/?lang=en",
+    "target": "BIS_Hallmarking_Consumer_Protection.html",
+    "contributes": "Consumer protection / grievance route",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 420501,
+    "sha256": "255074ea0a5235cc3745d8917490af73d140a6f9fe6fcca9349b7f78ce2c861e",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "document_id": "BIS-HM-JEWELLERS-PAGE",
+    "url": "https://www.bis.gov.in/hallmarking-jewellers/?lang=en",
+    "target": "BIS_Hallmarking_Jewellers.html",
+    "contributes": "Jeweller-facing hallmarking page",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 445783,
+    "sha256": "bf6d227eee0d68b639473ad8326a2898aaa3a9bc422a2a5f9f2928f096d4b488",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "document_id": "BIS-HM-AHC-PAGE",
+    "url": "https://www.bis.gov.in/a-h-centre/?lang=en",
+    "target": "BIS_Hallmarking_AHC.html",
+    "contributes": "Assaying & Hallmarking Centre page",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 424334,
+    "sha256": "87d7770bcc5d227ee8082f07fbff8fe66ea171954e88ae0a17b7a4488552019c",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "document_id": "BIS-HM-AHC-DIRECTORY",
+    "url": "https://huid.manakonline.in/MANAK/AHCListForWebsite",
+    "target": "BIS_AHC_List.html",
+    "contributes": "Directory of recognised Assaying & Hallmarking Centres",
+    "retrieved_at": "2026-09-17",
+    "status": "OK",
+    "bytes": 1407854,
+    "sha256": "b5e168c26f5c123585a5133f6e48998c121ceda9edfbbd2f380b17f8a3e52f3b",
+    "content_type": "text/html;charset=UTF-8"
+  }
+]

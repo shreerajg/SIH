@@ -1,0 +1,95 @@
+{
+  "query": "standards for smartphone",
+  "language": "en",
+  "cached_at": 1789757224.7308865,
+  "sources": [
+    {
+      "id": "S5",
+      "title": "BIS - Bureau of Indian Standards",
+      "url": "https://standards.bis.gov.in/",
+      "snippet": "BIS certification signifies products meet safety and quality benchmarks, reducing the risk of harm or malfunction. Know More.",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 5
+    },
+    {
+      "id": "S6",
+      "title": "Products under Compulsory Certification - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/?lang=en",
+      "snippet": "BIS certification scheme is basically voluntary in nature. However, for a number of products compliance to Indian Standards is made compulsory by the ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 6
+    },
+    {
+      "id": "S16",
+      "title": "LIMS (Laboratory Information Management System) - BIS",
+      "url": "https://lims.bis.gov.in/home_lab_scope/6/?is_number__doc_no=&is_complete=true",
+      "snippet": "1, IS 16333 : Part 3 (2017), Mobile phone handsets: Part 3 indian language support for mobile phone handsets - Specific requirements (First Revision) ; 2, IS ...",
+      "domain": "lims.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 16
+    },
+    {
+      "id": "S3",
+      "title": "BIS Care App - - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/bis-apps/?lang=en",
+      "snippet": "The Bureau of Indian Standards (BIS) has launched a user-friendly mobile app for Android and iOS, enhancing consumer access and engagement ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 3
+    },
+    {
+      "id": "S8",
+      "title": "List of Major Consumer Products Notified for",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2025/03/temp_2131689472.pdf",
+      "snippet": "1. Electronics 1 Electronic Games (Video) IS 616 : 2017 Audio, Video and Similar and IT Goods. Electronic Apparatus - Safety. Requirements.",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 8
+    },
+    {
+      "id": "S14",
+      "title": "Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2023/01/LITD-Press-Release.pdf",
+      "snippet": "... Indian standards, has published Indian standard IS/IEC. 62680-1-3:2022 USB Type-C® Cable and Connector Specification. This Indian standard is adoption of ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 14
+    },
+    {
+      "id": "S15",
+      "title": "on Medical Devices - - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2021/06/BIS_June_july_2018.pdf",
+      "snippet": "A freshly published standard applies the principles of one of the world's most renowned quality standards, ISO. 9001, to the nuclear sector,.",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 15
+    },
+    {
+      "id": "S4",
+      "title": "We're BIS, The National Standards Body of India",
+      "url": "https://www.bis.gov.in/?lang=en",
+      "snippet": "We develop & publish Indian Standards, Implement Conformity Assessment Schemes, Recognise & run laboratories for Conformity Assessment, ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 4
+    }
+  ]
+}

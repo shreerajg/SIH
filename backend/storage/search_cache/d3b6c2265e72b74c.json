@@ -1,0 +1,95 @@
+{
+  "query": "standards for pipe",
+  "language": "hi",
+  "cached_at": 1789752837.8340914,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Part 2 Steel Pipe Fittings - - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/09/PM-IS-1239-Pt-2.pdf",
+      "snippet": "The steel to be used in production of steel tubes shall be manufactured as per Cl 6 of IS 1239. Pt.2:2011. General requirements relating to the supply of ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 1
+    },
+    {
+      "id": "S2",
+      "title": "IS 1879/ 1/ May 2020 BUREAU OF INDIAN STANDARDS ...",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2020/05/PM-IS-1879.pdf",
+      "snippet": "4. CONTROL UNIT – For the purpose of this scheme all the pipe fittings heat treated together in one annealing chamber shall be taken as a control unit.",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 2
+    },
+    {
+      "id": "S3",
+      "title": "उत्पाद मैन्युअल आई एस 12818:2010 के अनुसार बोर/नलकूपों",
+      "url": "https://www.bis.gov.in/is_12818-june2021/",
+      "snippet": "The document may also be used by prospective applicants desirous of obtaining BIS certification licence/certificate. Page 2. PM/ IS 12818/2/ June 2021. 2.",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 3
+    },
+    {
+      "id": "S8",
+      "title": "Standard Details | BIS - - Bureau of Indian Standards",
+      "url": "https://standards.bis.gov.in/website/standard-details",
+      "snippet": "IS 1239 (Part 2):2011. Reviewed In : 2026. Steel tubes, tubulars and other steel fittings - Specification: Part 2 steel pipe fittings (Fifth Revision).",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 8
+    },
+    {
+      "id": "S14",
+      "title": "BIS - Bureau of Indian Standards",
+      "url": "https://standards.bis.gov.in/",
+      "snippet": "BIS certification signifies products meet safety and quality benchmarks, reducing the risk of harm or malfunction.",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 14
+    },
+    {
+      "id": "S15",
+      "title": "BIS - Bureau of Indian Standards",
+      "url": "https://standards.bis.gov.in/website/standard-details",
+      "snippet": "Chlorinated Polyvinyl Chloride (CPVC) Pipes for Potable Hot and Cold Water Distribution Supplies - Specification. Voluntary Certification.",
+      "domain": "standards.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 15
+    },
+    {
+      "id": "S4",
+      "title": "www.bis.gov.in Product Manual for Stainless Steel Tubes for the ...",
+      "url": "https://www.bis.gov.in/revised-pm-6913/",
+      "snippet": "Licence is granted to use Standard Mark as per IS 6913:2023 with the following scope: 7. उत्पाद का नाम. Name of the product. Stainless Steel Tubes ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 4
+    },
+    {
+      "id": "S5",
+      "title": "Product Specific Guidelines - - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/product-certification/product-specific-guidelines/?lang=en",
+      "snippet": "Grouping Guidelines. CEMENT PRESSURE PIPES AND JOINTS. Steel Tubes used for Water Wells. Building Pipes and Pipe Fittings, Gutters and Gutter Fittings and ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 5
+    }
+  ]
+}

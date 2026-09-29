@@ -1,0 +1,95 @@
+{
+  "query": "IS number for stainless steel pipes?",
+  "language": "hi",
+  "cached_at": 1789755494.721222,
+  "sources": [
+    {
+      "id": "S1",
+      "title": "www.bis.gov.in Product Manual for Stainless Steel Tubes for the ...",
+      "url": "https://www.bis.gov.in/revised-pm-6913/",
+      "snippet": "TEST CERTIFICATE – For each consignment of BIS Certified material conforming to. IS 6913:2023 there shall be a test certificate which shall contain the Standard ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 1
+    },
+    {
+      "id": "S9",
+      "title": "IS 17875 : 2022: Stainless Steel seamless pipes and tubes for ...",
+      "url": "https://archive.org/details/gov.in.is.17875.2022",
+      "snippet": "IS 17875 : 2022: Stainless Steel seamless pipes and tubes for general service ; Name of Standards Organization: Bureau of Indian Standards (BIS)",
+      "domain": "archive.org",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 9
+    },
+    {
+      "id": "S10",
+      "title": "IS 17876 : 2022: Stainless steel welded pipes and tubes for general ...",
+      "url": "https://archive.org/details/gov.in.is.17876.2022",
+      "snippet": "IS 17876 : 2022: Stainless steel welded pipes and tubes for general service ; Name of Standards Organization: Bureau of Indian Standards (BIS)",
+      "domain": "archive.org",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 10
+    },
+    {
+      "id": "S2",
+      "title": "BIS Certificate for Stainless Steel Pipes and Tubes IS 6913,IS 17875 ...",
+      "url": "https://www.elitasrcs.com/blog/bis-certification-for-stainless-steel-pipes-and-tubes-under-is-6913-is-17875-and-is-17876",
+      "snippet": "BIS certification under IS 6913, IS 17875, and IS 17876 is essential for manufacturers of stainless steel pipes and tubes.",
+      "domain": "www.elitasrcs.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 2
+    },
+    {
+      "id": "S3",
+      "title": "BIS (ISI) Certification for Stainless Steel Pipes and Tubes in India",
+      "url": "https://www.certification-india.com/en/glossary/bis-isi-certification-for-stainless-steel-pipes-and-tubes-in-india/",
+      "snippet": "The standard IS 17875:2022 specifies technical requirements for seamless stainless steel pipes and tubes used in general service applications.",
+      "domain": "www.certification-india.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 3
+    },
+    {
+      "id": "S5",
+      "title": "ISI/BIS Certificate for Stainless Steel Seamless Pipes and Tubes IS ...",
+      "url": "https://www.elitasrcs.com/products/isi-mark-certification-for-stainless-steel-seamless-pipes-and-tubes-for-general-services-is-17875",
+      "snippet": "BIS Certification for. Stainless Steel Seamless Pipes and Tubes for General Services IS 17875. BIS Certificate for Stainless Steel Seamless Pipes and Tubes in ...",
+      "domain": "www.elitasrcs.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 5
+    },
+    {
+      "id": "S8",
+      "title": "BIS ISI Certification Guide for Stainless Steel Seamless Pipes & Tubes",
+      "url": "https://www.bl-india.com/blogs/isi-bis-certification/all-about-isi-mark-license-for-stainless-steel-seamless-pipes-and-tubes",
+      "snippet": "According to this order, the specified SS products have to abide by IS 17875:2022. The date of implementation for this Order is 1st August 2025,",
+      "domain": "www.bl-india.com",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 8
+    },
+    {
+      "id": "S4",
+      "title": "New Indian Standard for Stainless steel pipes & tubes - Aleph INDIA",
+      "url": "https://alephindia.in/stainless-steel-pipes-and-tubes-indian-standard-bis.php",
+      "snippet": "Stainless Steel Seamless Pipes and Tubes for General Services - Specification IS 17875 : 2022 Click Here to Read Stainless Steel Welded Pipes and Tubes. ...",
+      "domain": "alephindia.in",
+      "official": false,
+      "trust_level": "unknown",
+      "relevance_score": 0.8,
+      "position": 4
+    }
+  ]
+}

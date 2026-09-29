@@ -1,0 +1,7 @@
+Test Report No: TR-2026-0413
+Model: EWH-15D
+Tested by: National Test House, Mumbai
+Date: 2026-04-13
+Temperature rise test carried out per Clause 6.2.1.
+Rated voltage: 230 V
+Result: PASS

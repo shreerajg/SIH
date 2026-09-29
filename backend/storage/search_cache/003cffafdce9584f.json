@@ -1,0 +1,95 @@
+{
+  "query": "प्रेशर कुकर के लिए मानक?",
+  "language": "hi",
+  "cached_at": 1790716122.9485035,
+  "sources": [
+    {
+      "id": "S5",
+      "title": "हम कौन है - Bureau of Indian Standards",
+      "url": "https://www.bis.gov.in/who-we-are-bnbol/?lang=hi",
+      "snippet": "BNBL, BIS की एकमात्र प्रयोगशाला है जहाँ घरेलू प्रेशर कुकर के हैंडल (IS 2347 के अनुसार) ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 5
+    },
+    {
+      "id": "S2",
+      "title": "स्कीम-1 (आईएसआई मुहर स्कीम)",
+      "url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=hi",
+      "snippet": "प्रेशर कुकर के लिए रबर गैस्केट्स. 544. IS 7466 :1994. प्रेशर कुकर के लिए रबर गैस्केट्स. 112. प्रेशर ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 2
+    },
+    {
+      "id": "S6",
+      "title": "BIS Implements QCOs to Ensure Quality Products",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2022/09/BIS_Implements_QCOs.pdf",
+      "snippet": "Bureau of Indian Standards (BIS) is committed to quality of products and services. ... घरेलू प्रेशर कुकर, वाहनों के टायर, ट्यूब ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 6
+    },
+    {
+      "id": "S3",
+      "title": "मानकों के माध्यम से विज्ञान सीखना",
+      "url": "https://www.bis.gov.in/learning-science-via-standards/?lang=hi",
+      "snippet": "... मानक मंच मानक गीत राजभाषा हिन्दी बीआईएस पुस्तकालय मासिक बीआईएस ... प्रेशर कुकर · रियर व्यू ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 3
+    },
+    {
+      "id": "S1",
+      "title": "भारतीय मानक ब्यूरो",
+      "url": "http://www.bis.org.in/other/BBis&KichenCare.pdf",
+      "snippet": "... लिए भारतीय मानक IS : 7466 प्रेशर कुकर के लिए गॉस्केट निर्धारित. है। इस मानक में आवश्यक ...",
+      "domain": "www.bis.org.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 1
+    },
+    {
+      "id": "S4",
+      "title": "Product Manuals (Clarification on its provisions)",
+      "url": "https://www.bis.gov.in/product-certification/product-specific-information-2/product-manuals-copy/?lang=hi",
+      "snippet": "PRESSURE upto 147.1 kN/m2 (1500 gf/cm2), 2.7 MB, पीडीएफ, देखे · डाउनलोड. 146, आई एस 2347 2017, घरेलू प्रेशर कुकर, 975 KB ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 4
+    },
+    {
+      "id": "S7",
+      "title": "मानक पथप्रदर्शक",
+      "url": "http://www.bis.gov.in/wp-content/uploads/2022/02/Annual_report_for_final_approval_on_12-1-2022.pdf",
+      "snippet": "मानक यह सुनिश्चित करते हैं कि सभी को समान अवसर मिले और ये वस्तुओं की स्वीकार्यता. के ...",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 7
+    },
+    {
+      "id": "S8",
+      "title": "भारत",
+      "url": "https://www.bis.gov.in/wp-content/uploads/2023/10/Annual-Book-2023-Final-2-Languages-CST_Path-Scroll_compressed.pdf",
+      "snippet": "बीआईएस भारत का राष्ट्रीय मानक निकाय है, जिसकी. स्थापना बीआईएस अधिनियम 2016 के अंतर्गत की.",
+      "domain": "www.bis.gov.in",
+      "official": true,
+      "trust_level": "official",
+      "relevance_score": 0.8,
+      "position": 8
+    }
+  ]
+}
