@@ -126,25 +126,25 @@ def chat_message(
         understanding = temp_service._understand_query(payload.message)
 
         if temp_service.llm.available:
-            generated = temp_service._generate_grounded_answer(
+            generated = temp_service._call_gemini(
                 payload.message, cached_sources, payload.language
             )
             if generated:
                 result = {
-                    "answer": generated.answer,
+                    "answer": generated,
                     "sources": [temp_service._source_to_dict(s) for s in cached_sources],
                     "intent": understanding.intent.value,
                     "answerable": True,
-                    "confidence": generated.confidence,
+                    "confidence": "High",
                     "llm_used": True,
                 }
             else:
                 result = temp_service._extractive_response(
-                    payload.message, cached_sources, understanding
+                    payload.message, cached_sources, understanding, payload.language
                 )
         else:
             result = temp_service._extractive_response(
-                payload.message, cached_sources, understanding
+                payload.message, cached_sources, understanding, payload.language
             )
     else:
         # Full retrieval pipeline
